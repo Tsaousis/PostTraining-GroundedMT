@@ -1,0 +1,61 @@
+lang	dir	base	arm	delta	ci_lo	ci_hi	sig
+arapaho	ek	12.2	sft4b	-3.5	-5.7	-1.5	*
+arapaho	ke	12.7	sft4b	+3.2	+1.5	+4.8	*
+chokwe	ek	9.5	sft4b	+9.1	+7.2	+11.1	*
+chokwe	ke	17.0	sft4b	+11.3	+8.7	+14.0	*
+chuvash	ek	5.8	sft4b	+0.8	-0.5	+1.9	
+chuvash	ke	19.9	sft4b	+9.5	+7.0	+11.9	*
+dinka	ek	4.6	sft4b	+4.3	+2.8	+5.6	*
+dinka	ke	10.0	sft4b	+16.7	+14.8	+18.4	*
+dogri	ek	17.2	sft4b	-16.8	-19.0	-14.4	*
+dogri	ke	35.1	sft4b	+5.9	+2.4	+9.4	*
+gitksan	ek	7.7	sft4b	-0.6	-3.0	+1.6	
+gitksan	ke	11.6	sft4b	+10.3	+7.3	+12.6	*
+guarani	ek	10.3	sft4b	+0.7	-1.2	+3.2	
+guarani	ke	24.2	sft4b	+8.0	+5.6	+10.4	*
+kabuverdianu	ek	28.2	sft4b	-8.9	-11.4	-5.8	*
+kabuverdianu	ke	47.8	sft4b	-9.4	-11.9	-5.9	*
+kachin	ek	8.4	sft4b	+6.1	+4.3	+7.9	*
+kachin	ke	14.4	sft4b	+10.7	+8.9	+12.4	*
+kalamang	ek	20.2	sft4b	+2.8	-1.1	+6.9	
+kalamang	ke	22.2	sft4b	+0.1	-5.1	+5.3	
+latgalian	ek	22.0	sft4b	+4.0	+2.2	+6.0	*
+latgalian	ke	35.5	sft4b	-1.9	-4.0	+0.2	
+minangkabau	ek	20.1	sft4b	+3.8	+0.6	+7.2	*
+minangkabau	ke	41.1	sft4b	-3.4	-6.0	-0.5	*
+natugu	ek	5.2	sft4b	+3.0	+1.4	+4.7	*
+natugu	ke	15.3	sft4b	+3.5	+0.9	+6.0	*
+waray	ek	23.1	sft4b	+8.0	+3.5	+12.2	*
+waray	ke	55.3	sft4b	+15.6	+10.1	+21.0	*
+wolof	ek	6.6	sft4b	+5.3	+3.3	+7.6	*
+wolof	ke	17.8	sft4b	+11.0	+8.6	+13.5	*
+arapaho	ek	12.2	grpo4b-base	+8.0	+5.9	+9.8	*
+arapaho	ke	12.7	grpo4b-base	+7.1	+5.4	+8.7	*
+chokwe	ek	9.5	grpo4b-base	+12.4	+11.1	+13.6	*
+chokwe	ke	17.0	grpo4b-base	+13.5	+11.3	+15.7	*
+chuvash	ek	5.8	grpo4b-base	+12.7	+11.2	+14.1	*
+chuvash	ke	19.9	grpo4b-base	+10.7	+8.6	+13.1	*
+dinka	ek	4.6	grpo4b-base	+14.4	+12.7	+16.0	*
+dinka	ke	10.0	grpo4b-base	+17.9	+16.3	+20.0	*
+dogri	ek	17.2	grpo4b-base	-4.7	-7.7	-1.5	*
+dogri	ke	35.1	grpo4b-base	+5.4	+2.0	+8.4	*
+gitksan	ek	7.7	grpo4b-base	+9.0	+7.2	+10.6	*
+gitksan	ke	11.6	grpo4b-base	+13.9	+11.2	+16.0	*
+guarani	ek	10.3	grpo4b-base	+13.5	+12.1	+15.0	*
+guarani	ke	24.2	grpo4b-base	+11.2	+8.7	+13.7	*
+kabuverdianu	ek	28.2	grpo4b-base	+2.0	-0.1	+4.6	
+kabuverdianu	ke	47.8	grpo4b-base	+2.5	+0.2	+5.3	*
+kachin	ek	8.4	grpo4b-base	+16.2	+14.5	+17.7	*
+kachin	ke	14.4	grpo4b-base	+11.4	+9.9	+12.8	*
+kalamang	ek	20.2	grpo4b-base	+8.2	+4.9	+12.2	*
+kalamang	ke	22.2	grpo4b-base	+7.3	+3.1	+11.7	*
+latgalian	ek	22.0	grpo4b-base	+5.8	+4.0	+7.6	*
+latgalian	ke	35.5	grpo4b-base	+3.5	+1.3	+5.7	*
+minangkabau	ek	20.1	grpo4b-base	+13.7	+10.3	+16.8	*
+minangkabau	ke	41.1	grpo4b-base	+3.8	+1.9	+5.6	*
+natugu	ek	5.2	grpo4b-base	+6.8	+5.5	+8.2	*
+natugu	ke	15.3	grpo4b-base	+8.8	+6.3	+11.3	*
+waray	ek	23.1	grpo4b-base	+17.9	+14.3	+22.1	*
+waray	ke	55.3	grpo4b-base	-0.5	-2.9	+1.9	
+wolof	ek	6.6	grpo4b-base	+15.0	+13.4	+16.6	*
+wolof	ke	17.8	grpo4b-base	+14.5	+12.0	+16.7	*

@@ -1,0 +1,3232 @@
+{
+  "CoT_full_art_eng_test_dictionary_only": {
+    "n": 1400,
+    "chrf": 59.48289681524251,
+    "exact_match": 0.2042857142857143,
+    "accuracy": 20.571428571428573,
+    "by_phenomenon": {
+      "1.nA": {
+        "n": 8,
+        "chrf": 85.18344635179135,
+        "accuracy": 62.5
+      },
+      "1.nB": {
+        "n": 44,
+        "chrf": 93.98272284894409,
+        "accuracy": 84.0909090909091
+      },
+      "1.nC": {
+        "n": 48,
+        "chrf": 87.60660231641644,
+        "accuracy": 72.91666666666667
+      },
+      "2f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "2f.nA.adjA.adjOB": {
+        "n": 4,
+        "chrf": 78.04423672799949,
+        "accuracy": 75.0
+      },
+      "2f.nA.adjA.adjOC": {
+        "n": 4,
+        "chrf": 76.17041198501873,
+        "accuracy": 75.0
+      },
+      "2f.nA.adjB.adjOB": {
+        "n": 6,
+        "chrf": 58.18887290668577,
+        "accuracy": 33.333333333333336
+      },
+      "2f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 54.562823190206615,
+        "accuracy": 50.0
+      },
+      "2f.nA.adjC.adjOA": {
+        "n": 4,
+        "chrf": 69.43925764319725,
+        "accuracy": 50.0
+      },
+      "2f.nA.adjC.adjOB": {
+        "n": 6,
+        "chrf": 84.44086315986333,
+        "accuracy": 66.66666666666667
+      },
+      "2f.nA.adjC.adjOC": {
+        "n": 6,
+        "chrf": 81.85748987021802,
+        "accuracy": 83.33333333333333
+      },
+      "2f.nC.adjA.adjOA": {
+        "n": 6,
+        "chrf": 94.74557451122425,
+        "accuracy": 66.66666666666667
+      },
+      "2f.nC.adjB.adjOB": {
+        "n": 10,
+        "chrf": 77.57455846671674,
+        "accuracy": 60.0
+      },
+      "2f.nC.adjB.adjOC": {
+        "n": 16,
+        "chrf": 79.82079397221592,
+        "accuracy": 68.75
+      },
+      "2f.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 81.76193349914296,
+        "accuracy": 50.0
+      },
+      "2f.nC.adjC.adjOB": {
+        "n": 16,
+        "chrf": 88.77001927166401,
+        "accuracy": 87.5
+      },
+      "2f.nC.adjC.adjOC": {
+        "n": 14,
+        "chrf": 77.07128171035826,
+        "accuracy": 64.28571428571429
+      },
+      "2m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 31.15048519303558,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "2m.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 88.51417616693561,
+        "accuracy": 50.0
+      },
+      "2m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "2m.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "2m.nB.adjA.adjOA": {
+        "n": 4,
+        "chrf": 98.7615776665094,
+        "accuracy": 75.0
+      },
+      "2m.nB.adjA.adjOB": {
+        "n": 6,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "2m.nB.adjC.adjOA": {
+        "n": 8,
+        "chrf": 98.65321557485436,
+        "accuracy": 87.5
+      },
+      "2m.nB.adjC.adjOB": {
+        "n": 12,
+        "chrf": 95.41011030989878,
+        "accuracy": 91.66666666666667
+      },
+      "2m.nB.adjC.adjOC": {
+        "n": 6,
+        "chrf": 84.31230339279155,
+        "accuracy": 83.33333333333333
+      },
+      "2m.nC.adjA.adjOA": {
+        "n": 8,
+        "chrf": 99.41714733695271,
+        "accuracy": 87.5
+      },
+      "2m.nC.adjA.adjOB": {
+        "n": 10,
+        "chrf": 88.92458339939444,
+        "accuracy": 80.0
+      },
+      "2m.nC.adjA.adjOC": {
+        "n": 10,
+        "chrf": 93.33356499728855,
+        "accuracy": 80.0
+      },
+      "2m.nC.adjC.adjOA": {
+        "n": 10,
+        "chrf": 74.0651063614802,
+        "accuracy": 70.0
+      },
+      "2m.nC.adjC.adjOB": {
+        "n": 8,
+        "chrf": 90.78255755415303,
+        "accuracy": 75.0
+      },
+      "2m.nC.adjC.adjOC": {
+        "n": 8,
+        "chrf": 86.92325983697263,
+        "accuracy": 62.5
+      },
+      "3.vA.eA": {
+        "n": 32,
+        "chrf": 34.09779227915913,
+        "accuracy": 3.125
+      },
+      "3.vA.eC": {
+        "n": 4,
+        "chrf": 36.94378709909136,
+        "accuracy": 0.0
+      },
+      "3.vC.eA": {
+        "n": 32,
+        "chrf": 37.49426902508526,
+        "accuracy": 3.125
+      },
+      "3.vC.eC": {
+        "n": 32,
+        "chrf": 31.979334155025676,
+        "accuracy": 3.125
+      },
+      "4.vA.eA.nA": {
+        "n": 2,
+        "chrf": 39.61618517193693,
+        "accuracy": 0.0
+      },
+      "4.vA.eA.nB": {
+        "n": 10,
+        "chrf": 51.403592215943306,
+        "accuracy": 0.0
+      },
+      "4.vA.eA.nC": {
+        "n": 10,
+        "chrf": 47.51838066749534,
+        "accuracy": 0.0
+      },
+      "4.vA.eC.nB": {
+        "n": 14,
+        "chrf": 64.83487265462333,
+        "accuracy": 0.0
+      },
+      "4.vA.eC.nC": {
+        "n": 10,
+        "chrf": 49.103169400629426,
+        "accuracy": 0.0
+      },
+      "4.vC.eA.nA": {
+        "n": 2,
+        "chrf": 72.79352228604316,
+        "accuracy": 0.0
+      },
+      "4.vC.eA.nB": {
+        "n": 14,
+        "chrf": 66.32977939444872,
+        "accuracy": 7.142857142857143
+      },
+      "4.vC.eA.nC": {
+        "n": 12,
+        "chrf": 52.29771380881621,
+        "accuracy": 0.0
+      },
+      "4.vC.eC.nA": {
+        "n": 2,
+        "chrf": 33.43516948315402,
+        "accuracy": 0.0
+      },
+      "4.vC.eC.nB": {
+        "n": 12,
+        "chrf": 55.841260523563925,
+        "accuracy": 8.333333333333334
+      },
+      "4.vC.eC.nC": {
+        "n": 12,
+        "chrf": 63.50209213710126,
+        "accuracy": 16.666666666666668
+      },
+      "5f.vA.eA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 72.11321441425056,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 41.5061600836348,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 63.8570703075291,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 42.23221418030465,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 38.32928068155351,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 59.95601678564472,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 54.47557321788581,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 38.93408337952075,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 43.67914005341189,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 78.89190648987525,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 65.9430121162735,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 78.42890865398016,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 33.99542074721855,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 87.79098168505789,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 77.60680048768367,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 71.01128575346478,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 78.54553426742709,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 61.07559660799057,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 75.04010482570087,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 38.40933816536683,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 34.76059159989863,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 40.959744587866304,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 82.91403106607748,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 7.117390502472501,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 63.92376223649623,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 70.47643262342766,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 65.95647269617186,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 68.98728706936195,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjC.adjOC": {
+        "n": 4,
+        "chrf": 75.07132491040844,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 71.14247042871546,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 68.5622021051571,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 79.48475188232145,
+        "accuracy": 50.0
+      },
+      "5f.vC.eC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 38.441777071249525,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 42.83690905749155,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 49.10185646576366,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 34.78714239009472,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 28.806534309630287,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjC.adjOB": {
+        "n": 6,
+        "chrf": 68.42189151181987,
+        "accuracy": 33.333333333333336
+      },
+      "5f.vC.eC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 34.08269894437164,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 71.1622839906864,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 49.56749705220357,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nB.adjC.adjOB": {
+        "n": 8,
+        "chrf": 68.3345631379944,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 25.628699690619644,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 63.89957341893414,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOA": {
+        "n": 6,
+        "chrf": 36.15492861644776,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 31.985642679642435,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 77.59371885431531,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 82.3908147335247,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjA.adjOB": {
+        "n": 4,
+        "chrf": 50.778772696804175,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjC.adjOA": {
+        "n": 4,
+        "chrf": 53.02788277696478,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 82.14797183010964,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 46.337374183187755,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 72.1896484873128,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOC": {
+        "n": 8,
+        "chrf": 77.49414966373337,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 64.69413438158776,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 70.11487463928084,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 87.72684083898625,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 46.02293511276635,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 79.00121471089206,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 72.85835379799016,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 71.90903237728591,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 74.57699507828615,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 65.61140618797722,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 58.14361871798755,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 28.95054119352477,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 36.9668765778488,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 38.4680666726383,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 59.31685563308166,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 71.26018678809687,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 65.08761578109,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 52.925884804529666,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOC": {
+        "n": 4,
+        "chrf": 82.34370516586772,
+        "accuracy": 25.0
+      },
+      "5m.vC.eC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 54.83489561401596,
+        "accuracy": 0.0
+      },
+      "6f.vA.eA.peA.nC": {
+        "n": 4,
+        "chrf": 57.3820619589345,
+        "accuracy": 25.0
+      },
+      "6f.vA.eA.peC.nA": {
+        "n": 2,
+        "chrf": 76.90290158037786,
+        "accuracy": 50.0
+      },
+      "6f.vA.eA.peC.nC": {
+        "n": 2,
+        "chrf": 59.85864307364171,
+        "accuracy": 0.0
+      },
+      "6f.vA.eC.peA.nA": {
+        "n": 2,
+        "chrf": 40.868482844107945,
+        "accuracy": 0.0
+      },
+      "6f.vA.eC.peA.nC": {
+        "n": 4,
+        "chrf": 56.762671429272466,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peA.nA": {
+        "n": 2,
+        "chrf": 63.2925502887437,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peA.nC": {
+        "n": 2,
+        "chrf": 78.05635676233815,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peC.nA": {
+        "n": 2,
+        "chrf": 50.89928057553957,
+        "accuracy": 50.0
+      },
+      "6f.vC.eA.peC.nC": {
+        "n": 2,
+        "chrf": 63.196210905705314,
+        "accuracy": 0.0
+      },
+      "6f.vC.eC.peA.nC": {
+        "n": 4,
+        "chrf": 61.521844689815666,
+        "accuracy": 25.0
+      },
+      "6m.vA.eA.peA.nB": {
+        "n": 8,
+        "chrf": 60.69908810605244,
+        "accuracy": 37.5
+      },
+      "6m.vA.eA.peA.nC": {
+        "n": 8,
+        "chrf": 76.0391493864271,
+        "accuracy": 37.5
+      },
+      "6m.vA.eA.peC.nA": {
+        "n": 2,
+        "chrf": 29.217777248163575,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peC.nB": {
+        "n": 6,
+        "chrf": 64.08998150840608,
+        "accuracy": 16.666666666666668
+      },
+      "6m.vA.eA.peC.nC": {
+        "n": 6,
+        "chrf": 39.15526737556748,
+        "accuracy": 0.0
+      },
+      "6m.vA.eC.peA.nA": {
+        "n": 2,
+        "chrf": 12.424340514037617,
+        "accuracy": 0.0
+      },
+      "6m.vA.eC.peA.nB": {
+        "n": 10,
+        "chrf": 65.44448952106018,
+        "accuracy": 10.0
+      },
+      "6m.vA.eC.peA.nC": {
+        "n": 4,
+        "chrf": 54.44308407147519,
+        "accuracy": 25.0
+      },
+      "6m.vC.eA.peA.nA": {
+        "n": 2,
+        "chrf": 89.26389271088038,
+        "accuracy": 0.0
+      },
+      "6m.vC.eA.peA.nC": {
+        "n": 6,
+        "chrf": 66.74450715456283,
+        "accuracy": 16.666666666666668
+      },
+      "6m.vC.eA.peC.nB": {
+        "n": 4,
+        "chrf": 65.9834564149675,
+        "accuracy": 25.0
+      },
+      "6m.vC.eA.peC.nC": {
+        "n": 6,
+        "chrf": 50.366986160958405,
+        "accuracy": 0.0
+      },
+      "6m.vC.eC.peA.nB": {
+        "n": 6,
+        "chrf": 66.31217027097574,
+        "accuracy": 0.0
+      },
+      "6m.vC.eC.peA.nC": {
+        "n": 4,
+        "chrf": 74.34171816851897,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 75.17639423705887,
+        "accuracy": 50.0
+      },
+      "7f.vA.eA.peA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 67.08073730807254,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 31.867932946489205,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 100.0,
+        "accuracy": 100.0
+      },
+      "7f.vA.eA.peA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 87.64197558431115,
+        "accuracy": 50.0
+      },
+      "7f.vA.eA.peA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 55.950047314252075,
+        "accuracy": 25.0
+      },
+      "7f.vA.eA.peA.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 43.124201148648496,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 73.6972818862734,
+        "accuracy": 50.0
+      },
+      "7f.vA.eA.peA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 77.87494074577354,
+        "accuracy": 50.0
+      },
+      "7f.vA.eA.peC.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 50.91610196891468,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 39.183999714850685,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 60.49199240176286,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 40.89955987706469,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 65.63833838975879,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 41.64720236806774,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 81.26367664385202,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 82.65693346603717,
+        "accuracy": 50.0
+      },
+      "7f.vA.eC.peA.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 69.16673351959514,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 35.79675896117715,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nC.adjB.adjOB": {
+        "n": 6,
+        "chrf": 77.9519423598287,
+        "accuracy": 33.333333333333336
+      },
+      "7f.vA.eC.peA.f.nC.adjC.adjOB": {
+        "n": 6,
+        "chrf": 58.27370705712531,
+        "accuracy": 16.666666666666668
+      },
+      "7f.vC.eA.peA.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 88.63938683641152,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 82.19156948505494,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 87.47636979399019,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peA.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 85.04404572125665,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 84.35496400189739,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peA.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 73.3248642170704,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 89.19225508114155,
+        "accuracy": 50.0
+      },
+      "7f.vC.eA.peC.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 79.0925918371384,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 37.18782701567381,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 69.07290855003691,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 58.606598570579365,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 36.48966089764153,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 77.89899687375217,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 72.50025647309951,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 69.16705811278267,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 8.508416104871436,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 48.604564318671414,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 81.91148886560961,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 82.21659843346086,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 89.07646176812915,
+        "accuracy": 50.0
+      },
+      "7m.vA.eA.peA.m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 82.33528533534286,
+        "accuracy": 50.0
+      },
+      "7m.vA.eA.peA.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 75.86444862615022,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjA.adjOB": {
+        "n": 4,
+        "chrf": 70.46167083018186,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 90.27308474896125,
+        "accuracy": 50.0
+      },
+      "7m.vA.eA.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 38.164186324328305,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 82.77970055258832,
+        "accuracy": 50.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 66.10789293892982,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOC": {
+        "n": 10,
+        "chrf": 61.352741163230114,
+        "accuracy": 40.0
+      },
+      "7m.vA.eA.peA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 62.51973860003661,
+        "accuracy": 25.0
+      },
+      "7m.vA.eA.peA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 81.47600829027337,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 52.65576296216234,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 78.95650192519585,
+        "accuracy": 50.0
+      },
+      "7m.vA.eA.peC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 80.49385976192369,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 62.94076577953404,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 7.718270793890195,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 71.60910498440191,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjA.adjOB": {
+        "n": 6,
+        "chrf": 44.69914718128474,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 76.61173376906902,
+        "accuracy": 50.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOB": {
+        "n": 4,
+        "chrf": 51.06303332257516,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 82.1618718325926,
+        "accuracy": 50.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 52.79471544715447,
+        "accuracy": 50.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 24.057426882552676,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOC": {
+        "n": 8,
+        "chrf": 61.22134208776482,
+        "accuracy": 12.5
+      },
+      "7m.vA.eC.peA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 51.386497383389994,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 87.59929746436434,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 43.18907733130236,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peA.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 44.78521223251476,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 43.40503039013758,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 44.74443607592264,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nC.adjA.adjOB": {
+        "n": 2,
+        "chrf": 57.96906188741396,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 88.37537834336044,
+        "accuracy": 50.0
+      },
+      "7m.vC.eA.peC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 61.97611398353507,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 39.74368211424792,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 63.33847454390252,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 47.632602048864584,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nA": {
+        "n": 13,
+        "chrf": 29.329036344672996,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nB": {
+        "n": 7,
+        "chrf": 36.058773471471866,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nC": {
+        "n": 9,
+        "chrf": 34.324240995284676,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nA": {
+        "n": 8,
+        "chrf": 39.78507265509092,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nB": {
+        "n": 7,
+        "chrf": 36.84019533879901,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nC": {
+        "n": 4,
+        "chrf": 41.19452233436798,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nA": {
+        "n": 2,
+        "chrf": 11.246009979385272,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nB": {
+        "n": 2,
+        "chrf": 55.04557622918077,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nC": {
+        "n": 3,
+        "chrf": 41.40493870499468,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nA": {
+        "n": 3,
+        "chrf": 37.49362626984787,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nB": {
+        "n": 1,
+        "chrf": 73.54484040204028,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nC": {
+        "n": 2,
+        "chrf": 56.648899575029475,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nA": {
+        "n": 8,
+        "chrf": 35.56677505162544,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nB": {
+        "n": 4,
+        "chrf": 50.373254829333625,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nC": {
+        "n": 6,
+        "chrf": 64.32927820170494,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nA": {
+        "n": 8,
+        "chrf": 44.77578839835582,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nB": {
+        "n": 3,
+        "chrf": 28.38217412556568,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nC": {
+        "n": 10,
+        "chrf": 43.93350019852153,
+        "accuracy": 0.0
+      },
+      "8g.nA_vGEN_nA": {
+        "n": 13,
+        "chrf": 47.0293496498727,
+        "accuracy": 0.0
+      },
+      "8g.nA_vGEN_nB": {
+        "n": 12,
+        "chrf": 45.607982900745526,
+        "accuracy": 8.333333333333334
+      },
+      "8g.nA_vGEN_nC": {
+        "n": 14,
+        "chrf": 44.996376853686094,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nA": {
+        "n": 10,
+        "chrf": 54.92765682899906,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nB": {
+        "n": 3,
+        "chrf": 24.383990029845634,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nC": {
+        "n": 13,
+        "chrf": 48.83706085605759,
+        "accuracy": 0.0
+      },
+      "8g.nC_vGEN_nA": {
+        "n": 19,
+        "chrf": 48.05490152445948,
+        "accuracy": 5.2631578947368425
+      },
+      "8g.nC_vGEN_nB": {
+        "n": 6,
+        "chrf": 39.16550621851789,
+        "accuracy": 0.0
+      },
+      "8g.nC_vGEN_nC": {
+        "n": 10,
+        "chrf": 50.57250542645793,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 0.07916297945778154,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vA_nB_adjC": {
+        "n": 1,
+        "chrf": 14.7615328756905,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vC_nC_adjC": {
+        "n": 1,
+        "chrf": 50.018449336171486,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nA_adjC": {
+        "n": 4,
+        "chrf": 58.369177498185465,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nB_adjC": {
+        "n": 6,
+        "chrf": 34.49205370737571,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nC_adjC": {
+        "n": 6,
+        "chrf": 30.210724257904864,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nA_adjA": {
+        "n": 1,
+        "chrf": 38.096632142173874,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nA_adjC": {
+        "n": 3,
+        "chrf": 53.167375283961874,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nB_adjC": {
+        "n": 5,
+        "chrf": 30.693060495334674,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nC_adjA": {
+        "n": 1,
+        "chrf": 11.8234490074872,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nC_adjC": {
+        "n": 2,
+        "chrf": 28.923221347957984,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 39.94180289287484,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vC_nA_adjC": {
+        "n": 2,
+        "chrf": 35.697665155865046,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vC_nC_adjC": {
+        "n": 1,
+        "chrf": 53.36509879758927,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nA_adjA": {
+        "n": 1,
+        "chrf": 68.27598594424737,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nA_adjC": {
+        "n": 4,
+        "chrf": 46.33122877252276,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nB_adjC": {
+        "n": 3,
+        "chrf": 42.832988173287255,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nC_adjA": {
+        "n": 1,
+        "chrf": 21.887084163563184,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nC_adjC": {
+        "n": 2,
+        "chrf": 27.340590185740915,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nA_adjA": {
+        "n": 2,
+        "chrf": 35.48623519876549,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nA_adjC": {
+        "n": 6,
+        "chrf": 27.048913100495724,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nB_adjC": {
+        "n": 2,
+        "chrf": 63.78123799578262,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nC_adjC": {
+        "n": 7,
+        "chrf": 44.86914712882713,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 52.862502311388525,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vA_nB_adjC": {
+        "n": 1,
+        "chrf": 59.12086817635534,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vC_nB_adjC": {
+        "n": 1,
+        "chrf": 44.81019995137693,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nA_adjA": {
+        "n": 1,
+        "chrf": 61.004097371191314,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nA_adjC": {
+        "n": 6,
+        "chrf": 48.302655739388015,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nB_adjC": {
+        "n": 4,
+        "chrf": 37.58894230405448,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nC_adjC": {
+        "n": 7,
+        "chrf": 40.95983049124875,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nA_adjA": {
+        "n": 1,
+        "chrf": 65.05919515834591,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nA_adjC": {
+        "n": 3,
+        "chrf": 57.23794013609893,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nB_adjC": {
+        "n": 7,
+        "chrf": 57.170115373206826,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nC_adjA": {
+        "n": 1,
+        "chrf": 2.637040523770807,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nC_adjC": {
+        "n": 4,
+        "chrf": 55.64560458811183,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nA_adjC": {
+        "n": 1,
+        "chrf": 47.384193776136165,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nB_adjC": {
+        "n": 3,
+        "chrf": 49.533562716581756,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nC_adjC": {
+        "n": 3,
+        "chrf": 32.93627103892423,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nA_adjC": {
+        "n": 10,
+        "chrf": 35.35348429589761,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nB_adjA": {
+        "n": 2,
+        "chrf": 31.70999037703586,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nB_adjC": {
+        "n": 6,
+        "chrf": 53.941612390836056,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nC_adjA": {
+        "n": 2,
+        "chrf": 46.31129735994162,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nC_adjC": {
+        "n": 6,
+        "chrf": 55.09660222613231,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjA_vGEN_nA_adjC": {
+        "n": 1,
+        "chrf": 42.2770240871864,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjA_vGEN_nB_adjC": {
+        "n": 1,
+        "chrf": 80.75500618135817,
+        "accuracy": 100.0
+      },
+      "9g.nB_adjA_vGEN_nC_adjC": {
+        "n": 5,
+        "chrf": 34.896208325417774,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nA_adjA": {
+        "n": 2,
+        "chrf": 58.17123523707414,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nA_adjC": {
+        "n": 9,
+        "chrf": 50.67778052899017,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nB_adjA": {
+        "n": 2,
+        "chrf": 54.72874445313195,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nB_adjC": {
+        "n": 4,
+        "chrf": 14.275563449706562,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nC_adjA": {
+        "n": 1,
+        "chrf": 70.63650989884387,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nC_adjC": {
+        "n": 7,
+        "chrf": 52.3204632242159,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjA_vGEN_nB_adjC": {
+        "n": 2,
+        "chrf": 31.852657690450837,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjA_vGEN_nC_adjC": {
+        "n": 1,
+        "chrf": 37.742806159881304,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nA_adjA": {
+        "n": 1,
+        "chrf": 51.35913958442971,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nA_adjC": {
+        "n": 10,
+        "chrf": 37.6560763928227,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nB_adjA": {
+        "n": 3,
+        "chrf": 49.069279976307364,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nB_adjC": {
+        "n": 10,
+        "chrf": 37.98139180090043,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nC_adjC": {
+        "n": 8,
+        "chrf": 50.26910604252672,
+        "accuracy": 0.0
+      }
+    },
+    "by_partition": {
+      "1": {
+        "n": 100,
+        "chrf": 90.2182428735586,
+        "accuracy": 77.0
+      },
+      "2f": {
+        "n": 100,
+        "chrf": 79.98382349004058,
+        "accuracy": 68.0
+      },
+      "2m": {
+        "n": 100,
+        "chrf": 90.54612767466608,
+        "accuracy": 80.0
+      },
+      "3": {
+        "n": 100,
+        "chrf": 34.620598030930076,
+        "accuracy": 3.0
+      },
+      "4": {
+        "n": 100,
+        "chrf": 56.679391030437344,
+        "accuracy": 4.0
+      },
+      "5f": {
+        "n": 100,
+        "chrf": 58.85081982674804,
+        "accuracy": 3.0
+      },
+      "5m": {
+        "n": 100,
+        "chrf": 61.819797213292375,
+        "accuracy": 1.0
+      },
+      "6": {
+        "n": 100,
+        "chrf": 60.7806448991227,
+        "accuracy": 15.0
+      },
+      "7f": {
+        "n": 100,
+        "chrf": 66.76009289874591,
+        "accuracy": 20.0
+      },
+      "7m": {
+        "n": 100,
+        "chrf": 59.53065406351062,
+        "accuracy": 14.0
+      },
+      "8a": {
+        "n": 100,
+        "chrf": 39.94359321071492,
+        "accuracy": 0.0
+      },
+      "8g": {
+        "n": 100,
+        "chrf": 46.9969816625759,
+        "accuracy": 2.0
+      },
+      "9a": {
+        "n": 100,
+        "chrf": 42.12440759092089,
+        "accuracy": 0.0
+      },
+      "9g": {
+        "n": 100,
+        "chrf": 43.90538094813114,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "CoT_full_eng_art_test_dictionary_only": {
+    "n": 1400,
+    "chrf": 42.48120502641914,
+    "exact_match": 0.0,
+    "accuracy": 0.0,
+    "by_phenomenon": {
+      "1.nA": {
+        "n": 8,
+        "chrf": 34.9236179295739,
+        "accuracy": 0.0
+      },
+      "1.nB": {
+        "n": 44,
+        "chrf": 40.109575102898255,
+        "accuracy": 0.0
+      },
+      "1.nC": {
+        "n": 48,
+        "chrf": 36.71122376603118,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 40.90450972894561,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjA.adjOB": {
+        "n": 4,
+        "chrf": 49.2311799035718,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjA.adjOC": {
+        "n": 4,
+        "chrf": 64.36248642048828,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjB.adjOB": {
+        "n": 6,
+        "chrf": 49.08646052002018,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 45.67373191599198,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjC.adjOA": {
+        "n": 4,
+        "chrf": 57.69847250282339,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjC.adjOB": {
+        "n": 6,
+        "chrf": 52.58495557598421,
+        "accuracy": 0.0
+      },
+      "2f.nA.adjC.adjOC": {
+        "n": 6,
+        "chrf": 48.982876645367,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjA.adjOA": {
+        "n": 6,
+        "chrf": 34.29289226837938,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjB.adjOB": {
+        "n": 10,
+        "chrf": 39.701547453133244,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjB.adjOC": {
+        "n": 16,
+        "chrf": 49.53006733991999,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 55.11409118660848,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjC.adjOB": {
+        "n": 16,
+        "chrf": 49.22482015802941,
+        "accuracy": 0.0
+      },
+      "2f.nC.adjC.adjOC": {
+        "n": 14,
+        "chrf": 49.391291001629675,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 48.68542290158169,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 54.807863021888664,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 50.207180677051,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 41.36630082897758,
+        "accuracy": 0.0
+      },
+      "2m.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 49.41878016261806,
+        "accuracy": 0.0
+      },
+      "2m.nB.adjA.adjOA": {
+        "n": 4,
+        "chrf": 43.16153714777357,
+        "accuracy": 0.0
+      },
+      "2m.nB.adjA.adjOB": {
+        "n": 6,
+        "chrf": 53.344209355168665,
+        "accuracy": 0.0
+      },
+      "2m.nB.adjC.adjOA": {
+        "n": 8,
+        "chrf": 51.08154643139146,
+        "accuracy": 0.0
+      },
+      "2m.nB.adjC.adjOB": {
+        "n": 12,
+        "chrf": 49.36675021519848,
+        "accuracy": 0.0
+      },
+      "2m.nB.adjC.adjOC": {
+        "n": 6,
+        "chrf": 55.28140905823495,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjA.adjOA": {
+        "n": 8,
+        "chrf": 47.436503674060866,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjA.adjOB": {
+        "n": 10,
+        "chrf": 57.8510719049797,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjA.adjOC": {
+        "n": 10,
+        "chrf": 62.52065107721319,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjC.adjOA": {
+        "n": 10,
+        "chrf": 48.68727729713951,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjC.adjOB": {
+        "n": 8,
+        "chrf": 52.062657103083176,
+        "accuracy": 0.0
+      },
+      "2m.nC.adjC.adjOC": {
+        "n": 8,
+        "chrf": 57.81316312824217,
+        "accuracy": 0.0
+      },
+      "3.vA.eA": {
+        "n": 32,
+        "chrf": 37.028292241213386,
+        "accuracy": 0.0
+      },
+      "3.vA.eC": {
+        "n": 4,
+        "chrf": 39.13813796054862,
+        "accuracy": 0.0
+      },
+      "3.vC.eA": {
+        "n": 32,
+        "chrf": 39.87114405066716,
+        "accuracy": 0.0
+      },
+      "3.vC.eC": {
+        "n": 32,
+        "chrf": 39.64717872639156,
+        "accuracy": 0.0
+      },
+      "4.vA.eA.nA": {
+        "n": 2,
+        "chrf": 56.025113272391195,
+        "accuracy": 0.0
+      },
+      "4.vA.eA.nB": {
+        "n": 10,
+        "chrf": 34.607075865008696,
+        "accuracy": 0.0
+      },
+      "4.vA.eA.nC": {
+        "n": 10,
+        "chrf": 43.427120084362436,
+        "accuracy": 0.0
+      },
+      "4.vA.eC.nB": {
+        "n": 14,
+        "chrf": 36.15418736536908,
+        "accuracy": 0.0
+      },
+      "4.vA.eC.nC": {
+        "n": 10,
+        "chrf": 38.46563291577438,
+        "accuracy": 0.0
+      },
+      "4.vC.eA.nA": {
+        "n": 2,
+        "chrf": 45.478497779407775,
+        "accuracy": 0.0
+      },
+      "4.vC.eA.nB": {
+        "n": 14,
+        "chrf": 47.700089065646154,
+        "accuracy": 0.0
+      },
+      "4.vC.eA.nC": {
+        "n": 12,
+        "chrf": 39.630470303582015,
+        "accuracy": 0.0
+      },
+      "4.vC.eC.nA": {
+        "n": 2,
+        "chrf": 48.97175079846849,
+        "accuracy": 0.0
+      },
+      "4.vC.eC.nB": {
+        "n": 12,
+        "chrf": 39.140039714487095,
+        "accuracy": 0.0
+      },
+      "4.vC.eC.nC": {
+        "n": 12,
+        "chrf": 45.77101132938597,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 48.5313437736211,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 48.81601218941174,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 48.7113705655096,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 34.836858675472435,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 39.56129037270263,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 40.134473760934206,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 32.30128681489176,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 53.088187148138424,
+        "accuracy": 0.0
+      },
+      "5f.vA.eA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 35.09777870249214,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 36.74385981281116,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 47.99766928512099,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 51.34608087342713,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 50.37016556438712,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 49.09809372911482,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 37.465086447776415,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 32.622232839337975,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 44.93107206105856,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 54.04015783315383,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 48.25190162395205,
+        "accuracy": 0.0
+      },
+      "5f.vA.eC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 39.59133731778674,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 61.09410319811235,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 34.4315236567678,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 36.43870517155125,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 42.29786676678387,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 44.27481192037124,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 34.194061011269035,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 41.40863184983966,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 45.47043280833083,
+        "accuracy": 0.0
+      },
+      "5f.vC.eA.f.nC.adjC.adjOC": {
+        "n": 4,
+        "chrf": 52.007990893195384,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 51.18416759418413,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 53.95178679776451,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 22.320666211672645,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 51.8728419769997,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 42.219684897431065,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 51.13974844611781,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 51.99844171207626,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 49.23545020645353,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjC.adjOB": {
+        "n": 6,
+        "chrf": 40.33921425549115,
+        "accuracy": 0.0
+      },
+      "5f.vC.eC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 42.592599900283034,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 50.13141498236597,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 50.46831260239461,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nB.adjC.adjOB": {
+        "n": 8,
+        "chrf": 51.59952573334034,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 31.75859770712607,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 54.97519137858558,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOA": {
+        "n": 6,
+        "chrf": 46.3185199791997,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 39.906927396488506,
+        "accuracy": 0.0
+      },
+      "5m.vA.eA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 35.748096623387,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 47.29314035386241,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjA.adjOB": {
+        "n": 4,
+        "chrf": 48.237257958118775,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjC.adjOA": {
+        "n": 4,
+        "chrf": 45.554972582613274,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 34.0103162688204,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 37.2457610622314,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 47.50796137178559,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjA.adjOC": {
+        "n": 8,
+        "chrf": 52.644270688293894,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 45.7406043967313,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 37.71212116983847,
+        "accuracy": 0.0
+      },
+      "5m.vA.eC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 37.735871170304144,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 47.588786908137976,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 36.497946734041165,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 42.11759345138332,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 50.08820875353847,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 39.99296682766311,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 41.85165643507342,
+        "accuracy": 0.0
+      },
+      "5m.vC.eA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 51.94410381835341,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 48.076638645846906,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 30.50700475201119,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 47.69934503191928,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 38.19868743705443,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 41.81976237133544,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 39.56615912436092,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 49.30856461053665,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjA.adjOC": {
+        "n": 4,
+        "chrf": 55.327216805088874,
+        "accuracy": 0.0
+      },
+      "5m.vC.eC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 51.31968301913615,
+        "accuracy": 0.0
+      },
+      "6f.vA.eA.peA.nC": {
+        "n": 4,
+        "chrf": 33.04338553413422,
+        "accuracy": 0.0
+      },
+      "6f.vA.eA.peC.nA": {
+        "n": 2,
+        "chrf": 23.344980448848506,
+        "accuracy": 0.0
+      },
+      "6f.vA.eA.peC.nC": {
+        "n": 2,
+        "chrf": 23.128391612998616,
+        "accuracy": 0.0
+      },
+      "6f.vA.eC.peA.nA": {
+        "n": 2,
+        "chrf": 34.88120462996955,
+        "accuracy": 0.0
+      },
+      "6f.vA.eC.peA.nC": {
+        "n": 4,
+        "chrf": 32.74567392882982,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peA.nA": {
+        "n": 2,
+        "chrf": 19.322295541183756,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peA.nC": {
+        "n": 2,
+        "chrf": 29.904476608871864,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peC.nA": {
+        "n": 2,
+        "chrf": 34.88008288205569,
+        "accuracy": 0.0
+      },
+      "6f.vC.eA.peC.nC": {
+        "n": 2,
+        "chrf": 31.799237129586963,
+        "accuracy": 0.0
+      },
+      "6f.vC.eC.peA.nC": {
+        "n": 4,
+        "chrf": 37.009672723822476,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peA.nB": {
+        "n": 8,
+        "chrf": 34.257456150273384,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peA.nC": {
+        "n": 8,
+        "chrf": 27.53399378946565,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peC.nA": {
+        "n": 2,
+        "chrf": 24.761485698805444,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peC.nB": {
+        "n": 6,
+        "chrf": 40.78034224630964,
+        "accuracy": 0.0
+      },
+      "6m.vA.eA.peC.nC": {
+        "n": 6,
+        "chrf": 27.42627885898016,
+        "accuracy": 0.0
+      },
+      "6m.vA.eC.peA.nA": {
+        "n": 2,
+        "chrf": 36.542030014303904,
+        "accuracy": 0.0
+      },
+      "6m.vA.eC.peA.nB": {
+        "n": 10,
+        "chrf": 33.7796522522042,
+        "accuracy": 0.0
+      },
+      "6m.vA.eC.peA.nC": {
+        "n": 4,
+        "chrf": 27.861145033540726,
+        "accuracy": 0.0
+      },
+      "6m.vC.eA.peA.nA": {
+        "n": 2,
+        "chrf": 29.934379100782976,
+        "accuracy": 0.0
+      },
+      "6m.vC.eA.peA.nC": {
+        "n": 6,
+        "chrf": 26.433134673149137,
+        "accuracy": 0.0
+      },
+      "6m.vC.eA.peC.nB": {
+        "n": 4,
+        "chrf": 21.22385033735401,
+        "accuracy": 0.0
+      },
+      "6m.vC.eA.peC.nC": {
+        "n": 6,
+        "chrf": 34.45300534825982,
+        "accuracy": 0.0
+      },
+      "6m.vC.eC.peA.nB": {
+        "n": 6,
+        "chrf": 36.991256405408876,
+        "accuracy": 0.0
+      },
+      "6m.vC.eC.peA.nC": {
+        "n": 4,
+        "chrf": 41.11559893864085,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 23.98133639651775,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 43.06271083981039,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 33.17255150017443,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjC.adjOA": {
+        "n": 2,
+        "chrf": 38.876447086356954,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 42.58996003939512,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 33.654575101107966,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 30.45239434373352,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nC.adjC.adjOA": {
+        "n": 2,
+        "chrf": 30.530218703792187,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peA.f.nC.adjC.adjOB": {
+        "n": 4,
+        "chrf": 27.554408196103466,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 43.460720014596006,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 31.124212083226247,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 33.16732844081272,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 27.404576208860302,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 38.3525379201627,
+        "accuracy": 0.0
+      },
+      "7f.vA.eA.peC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 30.566272639973256,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 31.895867005859564,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 46.1858376527007,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nA.adjB.adjOC": {
+        "n": 2,
+        "chrf": 37.11667691030486,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 28.22445250602013,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nC.adjB.adjOB": {
+        "n": 6,
+        "chrf": 36.95292561982566,
+        "accuracy": 0.0
+      },
+      "7f.vA.eC.peA.f.nC.adjC.adjOB": {
+        "n": 6,
+        "chrf": 45.41151469291085,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 43.927119688574464,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 30.424712876300227,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 25.74408345636554,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 40.282361704730945,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 35.679497755739135,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 22.342249796210478,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 19.889134131373044,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 30.848910533884805,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nA.adjA.adjOC": {
+        "n": 2,
+        "chrf": 47.066000169723424,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjB.adjOB": {
+        "n": 2,
+        "chrf": 40.579599131009736,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjB.adjOC": {
+        "n": 2,
+        "chrf": 48.22388871535598,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 33.994590067353926,
+        "accuracy": 0.0
+      },
+      "7f.vC.eA.peC.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 37.935209312080545,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nA.adjA.adjOB": {
+        "n": 2,
+        "chrf": 33.749930143013074,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nA.adjB.adjOB": {
+        "n": 2,
+        "chrf": 42.66258164843275,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 37.334792508558564,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjB.adjOB": {
+        "n": 4,
+        "chrf": 20.31782590266671,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjB.adjOC": {
+        "n": 4,
+        "chrf": 38.577628082235925,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 42.554755600311125,
+        "accuracy": 0.0
+      },
+      "7f.vC.eC.peA.f.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 36.0296962264332,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nA.adjC.adjOB": {
+        "n": 2,
+        "chrf": 45.091756912542586,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 28.36215431887234,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjA.adjOB": {
+        "n": 4,
+        "chrf": 22.263656132604773,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 45.9148221789243,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 19.25990640796899,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 36.09658195269667,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 35.53592956767645,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjA.adjOC": {
+        "n": 10,
+        "chrf": 40.920896598044976,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 29.141749995597383,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 27.754320578655943,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nA.adjC.adjOC": {
+        "n": 2,
+        "chrf": 48.44656568494135,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 48.48590530295501,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 28.7649550007377,
+        "accuracy": 0.0
+      },
+      "7m.vA.eA.peC.m.nC.adjA.adjOC": {
+        "n": 2,
+        "chrf": 45.391759411099954,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 33.98291249487368,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjA.adjOA": {
+        "n": 2,
+        "chrf": 35.37875048720926,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjA.adjOB": {
+        "n": 6,
+        "chrf": 38.27375307251542,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOA": {
+        "n": 2,
+        "chrf": 25.124280456303545,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOB": {
+        "n": 4,
+        "chrf": 49.21949757196279,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 19.436363010774578,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 27.705011437478827,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOB": {
+        "n": 4,
+        "chrf": 46.95987646150759,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjA.adjOC": {
+        "n": 8,
+        "chrf": 38.65738272509195,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjC.adjOA": {
+        "n": 4,
+        "chrf": 44.318618562110096,
+        "accuracy": 0.0
+      },
+      "7m.vA.eC.peA.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 48.25876457181458,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peA.m.nB.adjC.adjOC": {
+        "n": 2,
+        "chrf": 37.93639109894009,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peA.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 23.624589930156333,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nB.adjA.adjOB": {
+        "n": 2,
+        "chrf": 48.35812297882369,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 49.12689835328507,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nC.adjA.adjOB": {
+        "n": 2,
+        "chrf": 37.5495481624801,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nC.adjC.adjOB": {
+        "n": 2,
+        "chrf": 33.82587202969596,
+        "accuracy": 0.0
+      },
+      "7m.vC.eA.peC.m.nC.adjC.adjOC": {
+        "n": 2,
+        "chrf": 45.66027358192328,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nA.adjA.adjOA": {
+        "n": 2,
+        "chrf": 20.864842742458386,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nB.adjC.adjOB": {
+        "n": 2,
+        "chrf": 40.77734045883667,
+        "accuracy": 0.0
+      },
+      "7m.vC.eC.peA.m.nC.adjA.adjOA": {
+        "n": 2,
+        "chrf": 39.22719580722314,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nA": {
+        "n": 13,
+        "chrf": 36.685698243183545,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nB": {
+        "n": 7,
+        "chrf": 49.62787154843782,
+        "accuracy": 0.0
+      },
+      "8a.nA_vA_nC": {
+        "n": 9,
+        "chrf": 45.30121928548029,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nA": {
+        "n": 8,
+        "chrf": 37.44984079891556,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nB": {
+        "n": 7,
+        "chrf": 44.14634397131051,
+        "accuracy": 0.0
+      },
+      "8a.nA_vC_nC": {
+        "n": 4,
+        "chrf": 52.464932518736916,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nA": {
+        "n": 2,
+        "chrf": 43.40553966761168,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nB": {
+        "n": 2,
+        "chrf": 58.01200291235163,
+        "accuracy": 0.0
+      },
+      "8a.nB_vA_nC": {
+        "n": 3,
+        "chrf": 45.88668592110413,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nA": {
+        "n": 3,
+        "chrf": 26.022769830217012,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nB": {
+        "n": 1,
+        "chrf": 34.494544700110545,
+        "accuracy": 0.0
+      },
+      "8a.nB_vC_nC": {
+        "n": 2,
+        "chrf": 54.306967080770264,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nA": {
+        "n": 8,
+        "chrf": 43.58128290544594,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nB": {
+        "n": 4,
+        "chrf": 49.82135676176911,
+        "accuracy": 0.0
+      },
+      "8a.nC_vA_nC": {
+        "n": 6,
+        "chrf": 51.72763331786305,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nA": {
+        "n": 8,
+        "chrf": 43.27659561270495,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nB": {
+        "n": 3,
+        "chrf": 51.621590320245154,
+        "accuracy": 0.0
+      },
+      "8a.nC_vC_nC": {
+        "n": 10,
+        "chrf": 53.75718545164626,
+        "accuracy": 0.0
+      },
+      "8g.nA_vGEN_nA": {
+        "n": 13,
+        "chrf": 36.361879303538565,
+        "accuracy": 0.0
+      },
+      "8g.nA_vGEN_nB": {
+        "n": 12,
+        "chrf": 47.608863780701846,
+        "accuracy": 0.0
+      },
+      "8g.nA_vGEN_nC": {
+        "n": 14,
+        "chrf": 50.06856827067444,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nA": {
+        "n": 10,
+        "chrf": 46.0815384140731,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nB": {
+        "n": 3,
+        "chrf": 47.69383730654707,
+        "accuracy": 0.0
+      },
+      "8g.nB_vGEN_nC": {
+        "n": 13,
+        "chrf": 47.212980211837596,
+        "accuracy": 0.0
+      },
+      "8g.nC_vGEN_nA": {
+        "n": 19,
+        "chrf": 47.82600895737457,
+        "accuracy": 0.0
+      },
+      "8g.nC_vGEN_nB": {
+        "n": 6,
+        "chrf": 54.70944524372391,
+        "accuracy": 0.0
+      },
+      "8g.nC_vGEN_nC": {
+        "n": 10,
+        "chrf": 53.08092009339294,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 41.20382241812425,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vA_nB_adjC": {
+        "n": 1,
+        "chrf": 38.060080900833675,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjA_vC_nC_adjC": {
+        "n": 1,
+        "chrf": 59.58742304021363,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nA_adjC": {
+        "n": 4,
+        "chrf": 30.627587946645885,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nB_adjC": {
+        "n": 6,
+        "chrf": 43.433954636550084,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vA_nC_adjC": {
+        "n": 6,
+        "chrf": 44.66914075961109,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nA_adjA": {
+        "n": 1,
+        "chrf": 40.41988579208159,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nA_adjC": {
+        "n": 3,
+        "chrf": 49.24099254179798,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nB_adjC": {
+        "n": 5,
+        "chrf": 40.180754858356366,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nC_adjA": {
+        "n": 1,
+        "chrf": 58.485412123293834,
+        "accuracy": 0.0
+      },
+      "9a.nA_adjC_vC_nC_adjC": {
+        "n": 2,
+        "chrf": 36.66661875635535,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 46.46261324408367,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vC_nA_adjC": {
+        "n": 2,
+        "chrf": 45.2475955545814,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjA_vC_nC_adjC": {
+        "n": 1,
+        "chrf": 4.115489619796539,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nA_adjA": {
+        "n": 1,
+        "chrf": 32.59996192675396,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nA_adjC": {
+        "n": 4,
+        "chrf": 46.715634217049654,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nB_adjC": {
+        "n": 3,
+        "chrf": 41.68414153200037,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nC_adjA": {
+        "n": 1,
+        "chrf": 50.00482668686996,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vA_nC_adjC": {
+        "n": 2,
+        "chrf": 41.16812352525589,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nA_adjA": {
+        "n": 2,
+        "chrf": 23.12844571576333,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nA_adjC": {
+        "n": 6,
+        "chrf": 42.86760875160021,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nB_adjC": {
+        "n": 2,
+        "chrf": 47.77392324843083,
+        "accuracy": 0.0
+      },
+      "9a.nB_adjC_vC_nC_adjC": {
+        "n": 7,
+        "chrf": 52.897400494652715,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vA_nA_adjC": {
+        "n": 1,
+        "chrf": 0.7002603362172366,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vA_nB_adjC": {
+        "n": 1,
+        "chrf": 3.3609087408710145,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjA_vC_nB_adjC": {
+        "n": 1,
+        "chrf": 55.05678764003118,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nA_adjA": {
+        "n": 1,
+        "chrf": 40.74059078297029,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nA_adjC": {
+        "n": 6,
+        "chrf": 42.24121664606377,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nB_adjC": {
+        "n": 4,
+        "chrf": 56.25011509429842,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vA_nC_adjC": {
+        "n": 7,
+        "chrf": 36.89649834018662,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nA_adjA": {
+        "n": 1,
+        "chrf": 42.8464586026769,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nA_adjC": {
+        "n": 3,
+        "chrf": 53.69882859375832,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nB_adjC": {
+        "n": 7,
+        "chrf": 47.834691146749435,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nC_adjA": {
+        "n": 1,
+        "chrf": 45.4540177539289,
+        "accuracy": 0.0
+      },
+      "9a.nC_adjC_vC_nC_adjC": {
+        "n": 4,
+        "chrf": 41.6605048034901,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nA_adjC": {
+        "n": 1,
+        "chrf": 50.087052913301974,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nB_adjC": {
+        "n": 3,
+        "chrf": 35.48393605147032,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjA_vGEN_nC_adjC": {
+        "n": 3,
+        "chrf": 46.23680988566543,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nA_adjC": {
+        "n": 10,
+        "chrf": 45.05760328965647,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nB_adjA": {
+        "n": 2,
+        "chrf": 62.51806590718351,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nB_adjC": {
+        "n": 6,
+        "chrf": 45.72126715577275,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nC_adjA": {
+        "n": 2,
+        "chrf": 50.1567939934646,
+        "accuracy": 0.0
+      },
+      "9g.nA_adjC_vGEN_nC_adjC": {
+        "n": 6,
+        "chrf": 46.11805989347054,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjA_vGEN_nA_adjC": {
+        "n": 1,
+        "chrf": 53.92059153523824,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjA_vGEN_nB_adjC": {
+        "n": 1,
+        "chrf": 37.87487996246967,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjA_vGEN_nC_adjC": {
+        "n": 5,
+        "chrf": 46.09264396271654,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nA_adjA": {
+        "n": 2,
+        "chrf": 42.088500584633636,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nA_adjC": {
+        "n": 9,
+        "chrf": 40.75784143226873,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nB_adjA": {
+        "n": 2,
+        "chrf": 47.51971168846123,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nB_adjC": {
+        "n": 4,
+        "chrf": 51.87446060470065,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nC_adjA": {
+        "n": 1,
+        "chrf": 50.716949006613,
+        "accuracy": 0.0
+      },
+      "9g.nB_adjC_vGEN_nC_adjC": {
+        "n": 7,
+        "chrf": 42.0538623528691,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjA_vGEN_nB_adjC": {
+        "n": 2,
+        "chrf": 43.59446181839178,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjA_vGEN_nC_adjC": {
+        "n": 1,
+        "chrf": 66.9850709416564,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nA_adjA": {
+        "n": 1,
+        "chrf": 43.6623531276475,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nA_adjC": {
+        "n": 10,
+        "chrf": 52.051915435317746,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nB_adjA": {
+        "n": 3,
+        "chrf": 43.555928739038364,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nB_adjC": {
+        "n": 10,
+        "chrf": 40.300431314065776,
+        "accuracy": 0.0
+      },
+      "9g.nC_adjC_vGEN_nC_adjC": {
+        "n": 8,
+        "chrf": 50.43124044984351,
+        "accuracy": 0.0
+      }
+    },
+    "by_partition": {
+      "1": {
+        "n": 100,
+        "chrf": 38.06348988733611,
+        "accuracy": 0.0
+      },
+      "2f": {
+        "n": 100,
+        "chrf": 48.57036261923686,
+        "accuracy": 0.0
+      },
+      "2m": {
+        "n": 100,
+        "chrf": 52.63512922325677,
+        "accuracy": 0.0
+      },
+      "3": {
+        "n": 100,
+        "chrf": 38.86044232426902,
+        "accuracy": 0.0
+      },
+      "4": {
+        "n": 100,
+        "chrf": 41.344071385556646,
+        "accuracy": 0.0
+      },
+      "5f": {
+        "n": 100,
+        "chrf": 43.9536849599,
+        "accuracy": 0.0
+      },
+      "5m": {
+        "n": 100,
+        "chrf": 45.66203945408113,
+        "accuracy": 0.0
+      },
+      "6": {
+        "n": 100,
+        "chrf": 31.77626660552703,
+        "accuracy": 0.0
+      },
+      "7f": {
+        "n": 100,
+        "chrf": 35.24829814031849,
+        "accuracy": 0.0
+      },
+      "7m": {
+        "n": 100,
+        "chrf": 37.386796300854584,
+        "accuracy": 0.0
+      },
+      "8a": {
+        "n": 100,
+        "chrf": 45.0912582768742,
+        "accuracy": 0.0
+      },
+      "8g": {
+        "n": 100,
+        "chrf": 47.303964335045166,
+        "accuracy": 0.0
+      },
+      "9a": {
+        "n": 100,
+        "chrf": 42.8553063838398,
+        "accuracy": 0.0
+      },
+      "9g": {
+        "n": 100,
+        "chrf": 45.98576047377214,
+        "accuracy": 0.0
+      }
+    }
+  }
+}

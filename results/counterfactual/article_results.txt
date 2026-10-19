@@ -1,0 +1,18 @@
+instruct8b ORIGINAL prompts ("original"=rule order) n=300 edited=5% no_article=8% no_noun=1% original=86%
+   rule "precedes": no_article=4% original=96%
+   rule "comes after": edited=10% no_article=12% no_noun=1% original=77%
+instruct8b FLIPPED prompts n=300 edited=63% no_article=7% no_noun=0% original=30%
+   rule "precedes": edited=35% no_article=4% no_noun=1% original=60%
+   rule "comes after": edited=91% no_article=9%
+sft8b_swells ORIGINAL prompts ("original"=rule order) n=300 edited=8% no_article=4% no_noun=1% original=87%
+   rule "precedes": edited=15% no_article=5% original=79%
+   rule "comes after": edited=1% no_article=3% no_noun=1% original=94%
+sft8b_swells FLIPPED prompts n=300 edited=57% no_article=5% no_noun=0% original=38%
+   rule "precedes": edited=69% no_article=5% no_noun=1% original=25%
+   rule "comes after": edited=45% no_article=5% original=51%
+grpo8b_cot ORIGINAL prompts ("original"=rule order) n=300 edited=7% no_article=4% no_noun=0% original=89%
+   rule "precedes": original=100%
+   rule "comes after": edited=13% no_article=9% no_noun=1% original=77%
+grpo8b_cot FLIPPED prompts n=300 edited=60% no_article=6% no_noun=1% original=33%
+   rule "precedes": edited=32% no_article=2% no_noun=1% original=65%
+   rule "comes after": edited=87% no_article=11% no_noun=1% original=1%

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+runs/
+eval_results/
+*.safetensors
+*.bin
+.env

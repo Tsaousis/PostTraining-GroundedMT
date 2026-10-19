@@ -1,0 +1,29 @@
+shared languages: 13: arapaho chokwe chuvash dinka dogri gitksan guarani ilokano kabuverdianu kachin kalamang kimbundu latgalian
+model	group	dir	n_langs	book+dict	dict	tag%
+qwen3-4b-base	all	ek	13	7.4	7.6	68.5
+qwen3-4b-base	all	ke	13	18.4	17.9	91.1
+qwen3-4b-base	trained	ek	2	4.2	4.0	58.2
+qwen3-4b-base	trained	ke	2	20.6	15.9	88.2
+qwen3-4b-base	unseen	ek	10	7.8	8.0	69.1
+qwen3-4b-base	unseen	ke	10	17.4	17.5	91.2
+swells-sft4b	all	ek	13	14.2	16.0	97.6
+swells-sft4b	all	ke	13	25.1	24.9	95.9
+swells-sft4b	trained	ek	2	14.4	16.4	98.0
+swells-sft4b	trained	ke	2	29.4	28.4	94.8
+swells-sft4b	unseen	ek	10	13.0	15.0	97.4
+swells-sft4b	unseen	ke	10	24.1	24.3	96.0
+
+per-language book+dict (ek/ke):
+arapaho qwen3-4b-base=4.1/8.9 swells-sft4b=18.6/15.5
+chokwe qwen3-4b-base=1.7/12.0 swells-sft4b=10.5/20.1
+chuvash qwen3-4b-base=1.5/8.0 swells-sft4b=12.2/22.6
+dinka qwen3-4b-base=2.1/16.2 swells-sft4b=12.5/17.5
+dogri qwen3-4b-base=16.8/30.8 swells-sft4b=3.4/34.9
+gitksan qwen3-4b-base=5.4/11.7 swells-sft4b=10.2/16.6
+guarani qwen3-4b-base=3.9/13.9 swells-sft4b=15.5/26.7
+ilokano qwen3-4b-base=4.9/35.2 swells-sft4b=17.0/38.4
+kabuverdianu qwen3-4b-base=20.0/48.0 swells-sft4b=18.5/38.2
+kachin qwen3-4b-base=3.7/4.2 swells-sft4b=12.8/19.1
+kalamang qwen3-4b-base=9.8/24.4 swells-sft4b=26.2/26.3
+kimbundu qwen3-4b-base=3.5/6.0 swells-sft4b=11.7/20.5
+latgalian qwen3-4b-base=18.3/20.0 swells-sft4b=15.5/29.4

@@ -1,0 +1,8 @@
+ek book_dict trained n=300 grpo-base=+1.62 CI95=[+0.58,+2.65] p=0.000
+ek book_dict unseen n=1367 grpo-base=+0.56 CI95=[-0.38,+1.55] p=0.135
+ek dict trained n=300 grpo-base=+0.65 CI95=[-1.06,+2.15] p=0.219
+ek dict unseen n=1367 grpo-base=+0.78 CI95=[-0.28,+1.80] p=0.070
+ke book_dict trained n=300 grpo-base=+0.65 CI95=[-0.04,+1.45] p=0.040
+ke book_dict unseen n=1367 grpo-base=+2.10 CI95=[+0.98,+3.28] p=0.000
+ke dict trained n=300 grpo-base=+0.74 CI95=[-0.01,+1.50] p=0.028
+ke dict unseen n=1367 grpo-base=+0.69 CI95=[-0.58,+1.66] p=0.129

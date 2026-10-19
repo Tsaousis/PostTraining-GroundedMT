@@ -1,0 +1,8617 @@
+{
+ "summary": {
+  "n_groups": 200,
+  "mean_chrf": 0.7309721047906004,
+  "rollout_exact_rate": 0.094375,
+  "mean_word_exact": 0.17683110119047618,
+  "groups_with_any_exact": 0.115,
+  "groups_all_exact": 0.07,
+  "mean_chrf_spread_in_group": 0.050231033044557595,
+  "mean_wordexact_spread_in_group": 0.08244642857142857,
+  "argmax_changed_chrf_vs_chrf+exact": 0.01,
+  "argmax_changed_chrf_vs_chrf+wordexact": 0.1,
+  "groups_correct_rollout_tied_with_wrong_under_chrf": 0.025
+ },
+ "groups": [
+  {
+   "gold": "razpoqiw rligcipoêà rab rzêcilibbapôga rpoêz",
+   "preds": [
+    "rzêlibcilibbapôga rpoêz azpoqiw rzê ligcipoêà rab",
+    "rzêlib cilibbapôga rpoêz azpoqiw rbliqig ligcipoêà rab",
+    "rzêlibcilibbapôga rpoêz azpoqiw rzêligcipoêà rab",
+    "rzêlibcilibbapôga rpoêz azpoqiw rzêligcipoêà rab",
+    "rzêlibcilibbapôga rpoêz azpoqiw rzêligcipoêà rab",
+    "rzêlibcilibbapôga rpoêz azpoqiw rzêligcipoêà rab",
+    "rzêlibcilibbapôga rpoêz azpoqiw rzêligcipoêà rab",
+    "rzêlib cilibbapôga rpoêz azpoqiw rzê ligcipoêà rab"
+   ],
+   "chrf": [
+    0.7645524758855045,
+    0.7489996075710152,
+    0.7645524758855045,
+    0.7645524758855045,
+    0.7645524758855045,
+    0.7645524758855045,
+    0.7645524758855045,
+    0.7645524758855045
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ifkétifitéfl ifeçyyeçsegétk ifeçy itifitétèm éf eçyyeç",
+   "preds": [
+    "eçitéféritifitétèm eçyyeç if kétifitéfl ifeç egéfeçsegétk if ifkétifitéfl ifeçy",
+    "éçitéféritifitétèm eçyyeç if kétifitéfl ifeç egéfeçsegétk if ifkétifitéfl ifeçy",
+    "éitifitétèm eçyyeç ifkétifitéfl ifeç egéfeçsegétk ifeçy",
+    "éitifitétèm eçyyeç ifkétifitéfl ifeç egéfeçsegétk ifeçy",
+    "eçitéféritifitétèm eçyyeç ifkétifitéfl ifeç egéfeçsegétk ifeçy",
+    "eçitéféritifitétèm eçyyeç if eç éritif kétifitéfl ifeç egéfeçsegétk ifeçy",
+    "eçitéféritifitétèm eçyyeç if kétifitéfl ifeç egéfeçsegétk if ifkétifitéfl ifeçy",
+    "eçitéféritifitétèm eçyyeç if ifkétifitéfl ifeç egéfeçsegétk ifeçy"
+   ],
+   "chrf": [
+    0.6893581040884582,
+    0.6893581040884582,
+    0.7694678109045224,
+    0.7694678109045224,
+    0.7471881855242816,
+    0.7232609903396979,
+    0.6893581040884582,
+    0.7410586553346599
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "oivupadhéfadupxhad huk",
+   "preds": [
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk",
+    "oivupadhéfadupxhad huk"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "dçàzsèþdbèc ð èzu'rq yprðèþèpyzðàn dèþèz",
+   "preds": [
+    "d rðèþèpyzèðàn dèþèz d èzu ð sèþàzsèþdbèc",
+    "d rðèþèpyzðàn dèþèz d èzu èþ sèþàzsèþdbèc",
+    "dyzèc rðèþèpyzðàn dèþèz dèþ sèþàzsèþdbèc èzu dèþèz",
+    "d rðèþèpyzðàn dèþèz d èzu uð sèþàzsèþdbèc",
+    "d rðèþèpyzðàn dèþèz d èzu èþsèþàzsèþdbèc",
+    "d rðèþèpyzðàn dèþèz d èzu ð sèþàzsèþdbèc",
+    "d rðèþèpyzðàn dèþèz d èzu èþsèþàzsèþdbèc",
+    "d rðèþèpyzðàn dèþèz d èzu ð sèþàzsèþdbèc"
+   ],
+   "chrf": [
+    0.5567743996118912,
+    0.6300346935888512,
+    0.6023633848660905,
+    0.6346901898183245,
+    0.6300346935888512,
+    0.6385001445131925,
+    0.6300346935888512,
+    0.6385001445131925
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ihècyetècgaf zeah",
+   "preds": [
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah",
+    "zècyetècgaf zeah"
+   ],
+   "chrf": [
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323,
+    0.8623786658208323
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "okvàgopopvwwoçiçiñoç wv",
+   "preds": [
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv",
+    "okvàgðvwwoçiçiñoç wv"
+   ],
+   "chrf": [
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135,
+    0.6769866612781135
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "cmàévf cmàmuf cud",
+   "preds": [
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud",
+    "cmàévf cud màmuf cud"
+   ],
+   "chrf": [
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428,
+    0.7530958809748428
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ]
+  },
+  {
+   "gold": "enivigiwàmyx x zà'uvh enàmiwuvks enivzzivçuvkat enivz",
+   "preds": [
+    "en àmiwuvks enuvkat uvxivçuvkat enivz ig iwiviwàmyx zà",
+    "en àmiwuvks en uvxivçuvkat enivz iv ujativiwiviwàmyx zà",
+    "en àmiwuvks en uvxivçuvkat enivz iv iwiviwàmyx zà",
+    "en àmiwuvks enuvkat uvxivçuvkat enivz ivujiwivàmyx zà",
+    "en àmiwuvks en uvxivçuvkat enivz iv ujativiwiviwàmyx zà",
+    "en àmiwuvks enuvkat uvxivçuvkat enivz ig iwiviwàmyx zà",
+    "en àmiwuvks enuvkat uvxivçuvkat enivz iv w iviviwàmyx zà",
+    "en àmiwuvks enuvkat uvxivçuvkat enivz ig iwiviwàmyx zà"
+   ],
+   "chrf": [
+    0.6003490991001,
+    0.5833905439778824,
+    0.5990433587241945,
+    0.5454706471935317,
+    0.5833905439778824,
+    0.6003490991001,
+    0.5833905439778824,
+    0.6003490991001
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "kajàâmviâ m êfû'xôj kœiêzèçâah olxmitxèçof kiêf",
+   "preds": [
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmàâmviâ êfû",
+    "k olxmitxèçof œiêzèçâah kxèçof êfû kàâmviâ êf",
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmàiàâmviâ êfû",
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmâiàâmviâ êfû",
+    "kîxmitxèçof k œiêzèçâah kiêf ol k iàâmviâ êfû",
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmàâmviâ êfû",
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmàâmviâ êfû",
+    "k œiêzèçâah ki xmitxèçof kxèçof œûmàâmviâ êfû"
+   ],
+   "chrf": [
+    0.5235355392011684,
+    0.5235355392011684,
+    0.518273664470564,
+    0.518273664470564,
+    0.5515114260020316,
+    0.5235355392011684,
+    0.5235355392011684,
+    0.5235355392011684
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "aufàgaàgwetl or ufànànuf'unof aufunwi aufàn",
+   "preds": [
+    "a utfunwi aufàn utàgoriàgaàgwetl ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg",
+    "auf ufunwi aufàn utàgoriàgaàgwetl ufanànuf ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg",
+    "ut ufunwi aufàn utàgoriàgaàgwetl ànàg"
+   ],
+   "chrf": [
+    0.46006675720437795,
+    0.47952409897771003,
+    0.47952409897771003,
+    0.578916043181566,
+    0.47952409897771003,
+    0.47952409897771003,
+    0.47952409897771003,
+    0.47952409897771003
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "télhinnzyunpybypy ténzytébépyke téltà bépyrlrbékeupy'mà",
+   "preds": [
+    "bépyrlrrbékeupy lmà ténzy hinnzyunpybypy té ténzytébépyke téltà",
+    "bépyrlr rbékeupy lmà ténzy hinnzyunpybypy téltàté nzytébépyke téltà",
+    "bépyrlrbékeupy lmà ténzyhé hinnzyunpybypy té ténzytébépyke téltà",
+    "bépyrlr rbékeupy lmà ténzy hinnzyunpybypy téltàté nzytébépyke téltà",
+    "bépyrlrrbékeupy lmà té hinnzyunpybypy téltàné nzytébépyke téltà",
+    "bépyrlrbékeupy lmà ténzy hinnzyunpybypy té ténzytébépyke téltà",
+    "bépyrlrrbékeupy lmà téltà hinnzyunpybypy ténzytébépyke téltà",
+    "bépyrlrrbékeupy lmà ténzy hinnzyunpybypy ténzytébépyke téltà"
+   ],
+   "chrf": [
+    0.778074149045548,
+    0.7753759998268563,
+    0.8089072872772496,
+    0.7753759998268563,
+    0.7710723403155272,
+    0.8153218469445757,
+    0.8115066074702767,
+    0.8049828243829951
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.16666666666666666,
+    0.0
+   ]
+  },
+  {
+   "gold": "the wells",
+   "preds": [
+    "the wells",
+    "the wells",
+    "the wells",
+    "the wells",
+    "the wells",
+    "the wells",
+    "the wells",
+    "the wells"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "dinæàwgizwâ awnø",
+   "preds": [
+    "an næàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø",
+    "dinæàwgizwâ awnø"
+   ],
+   "chrf": [
+    0.836913086913087,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "éxènkaxenckèten éxènkudwax gdm",
+   "preds": [
+    "g mkaxenckèten g mkudwax gdm",
+    "g mkaxenckèten g mkudwax gdm",
+    "g mkaxenckèten g mkudwax gdm",
+    "g mkaxenckèten gdm mkudwax gdm",
+    "g mkaxenckèten g mkudwax gdm",
+    "g mkaxenckèten gdm mkudwax gdm",
+    "g mkaxenckèten g mkudwax gdm",
+    "g mkaxenckèten g mkudwax gdm"
+   ],
+   "chrf": [
+    0.6005866588308436,
+    0.6005866588308436,
+    0.6005866588308436,
+    0.5910674230338736,
+    0.6005866588308436,
+    0.5910674230338736,
+    0.6005866588308436,
+    0.6005866588308436
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.2,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "zodôrixûzo zoeðôðôdôedôça zoeðô",
+   "preds": [
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô",
+    "zodôrixûzo zoeðô çâxedôça zoeðô"
+   ],
+   "chrf": [
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888,
+    0.755191722935888
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ]
+  },
+  {
+   "gold": "ejyzocinà ecilyscqy elyi",
+   "preds": [
+    "ejyzocinà elyecilyscqy elyi",
+    "ejyzocinà el ecilyscqy elyi",
+    "e jyzocinà el ecilyscqy elyi",
+    "ejyzocinà el ecilyscqy elyi",
+    "ejyzocinà el ecilyscqy elyi",
+    "ejyzocinà el ecilyscqy elyi",
+    "ejyzocinà el ecilyscqy elyi",
+    "ejyzocinà eecilyscqy elyi"
+   ],
+   "chrf": [
+    0.8800937594295972,
+    0.8889193014449316,
+    0.8889193014449316,
+    0.8889193014449316,
+    0.8889193014449316,
+    0.8889193014449316,
+    0.8889193014449316,
+    0.8979289394361717
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.6666666666666666,
+    0.25,
+    0.0,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.6666666666666666
+   ]
+  },
+  {
+   "gold": "àhxèownsbx t idè'owàm àhxownop àhxàhàhnohl àhxid",
+   "preds": [
+    "àh xownop àhàhnohl àhxid jbxèownsbx idè",
+    "àh xownop àhàhnohl àhxid jbxèownsbx idè",
+    "àh xownop àhàhnohl àhxid t idè ohèownsbx",
+    "àh xownop àhàhnohl àhxid jbxèownsbx idè",
+    "àh xownop àhàh nohl àhxid xidè ohèownsbx àhidè",
+    "àh xownop àhàhnohl àhxid jbxèownsbx idè",
+    "àh xownop àhàhnohl àhxyç àh ohèownsbx idè",
+    "àh xownop àhàhàhnohl àhxyç jbxèownsbx idè"
+   ],
+   "chrf": [
+    0.6150141652644052,
+    0.6150141652644052,
+    0.6140203006519855,
+    0.6150141652644052,
+    0.6063595749869929,
+    0.6150141652644052,
+    0.5631828727984487,
+    0.5779402443491211
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "fvfvwcm tu riv'kbe fvtuhtuè fnçtuhje flri",
+   "preds": [
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv",
+    "f fvtuhtuè flri nçtuhje flri gvfvwcm riv"
+   ],
+   "chrf": [
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497,
+    0.5857054571596497
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "fjbeqosehr feheqyè fbeqeh rbod femeqeh àtbèrybeqeh fru",
+   "preds": [
+    "f bèrybeqeh fr emeqeh fru lehr ixjbeqosehr fbeqeh rn",
+    "è bèrybeqeh femeqeh emeqeh fbeqeh uj fixjbeqosehr",
+    "f bèrybeqeh fr emeqeh fru leheq ixjbeqosehr fbeqeh rn",
+    "f bèrybeqeh fr emeqeh fru leheq ixjbeqosehr fbeqeh rn",
+    "f bèrybeqeh fr uemeqeh fbeqeh è ixjbeqosehr fbeqeh",
+    "f bèrybeqeh fr emeqeh fru è fbeqeh ixjbeqosehr f rn",
+    "f bèrybeqeh fr emeqeh fru è fbeqeh ixjbeqosehr",
+    "f bèrybeqeh fr emeqeh fru è fbeqeh ixjbeqosehr"
+   ],
+   "chrf": [
+    0.5684506535904186,
+    0.525056848435105,
+    0.5912521072779182,
+    0.5912521072779182,
+    0.5662864158784012,
+    0.5699011039958378,
+    0.5547433758251777,
+    0.5547433758251777
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "hyôdeswdfôlâ hywdô",
+   "preds": [
+    "hyôdelâeswdfôlâ hywdô",
+    "hyôdelâeswdfôlâ hywdô",
+    "hyôdelâ eswdfôlâ hywdô",
+    "hyôdelâeswdfôlâ hywdô",
+    "hyôdelâeswdfôlâ hywdô",
+    "hyôdelâeswdfôlâ hywdô",
+    "hyôdelâ eswdfôlâ hywdô",
+    "hyôdelâeswdfôlâ hywdô"
+   ],
+   "chrf": [
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913,
+    0.8366149469732913
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.0,
+    0.5,
+    0.5,
+    0.5,
+    0.0,
+    0.5
+   ]
+  },
+  {
+   "gold": "ñðôcêðôxyfedoî ñðôcgeðœðôøê sgeço sêøfessfesfeøxôb sðôøê",
+   "preds": [
+    "sðôøê sêøfedofesfeøxôb sðôøê sñðôcçocêðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê sêøfecdofesfeøxôb sðôøê sñðôcçocêðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê fecdofesfeøxôb sðôøê sçocêðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê sêøfedofesfeøxôb sðôøê s ñðôcçocêðôxyfedoî sgeçoçðôcgeðœðôøê sgeço",
+    "sðôøê sêøfecdofesfeøxôb sðôøê sñðôcçocêðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê sêøfedofesfeøxôb sðôøê sñðôcêcóðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê fecdofesfeøxôb sðôøê sçocêðôxyfedoî sgeðôcgeðœðôøê sgeço",
+    "sðôøê sêøfecdofesfeøxôb sðôøê sñðôcçocêðôxyfedoî sgeðôcgeðœðôøê sgeço"
+   ],
+   "chrf": [
+    0.7271326358040083,
+    0.7243462372687237,
+    0.6954020013158592,
+    0.7188372140309306,
+    0.7243462372687237,
+    0.7101866607286685,
+    0.6954020013158592,
+    0.7243462372687237
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ubuwojàékyfogàcyf ubyfogygukujç ubuwoj",
+   "preds": [
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj",
+    "ub ojàékyfogàcyf ub yfogygukujç ubuwoj"
+   ],
+   "chrf": [
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867,
+    0.9051295323533867
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "hwémupàkérhçui hçuwé",
+   "preds": [
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé",
+    "hwémupàkérhçui hçuwé"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "vqecqusememeé vqerà sèrme",
+   "preds": [
+    "sèqerà sèmecqusememeé sèrme",
+    "sèqerà sèmecqusememeé sèrme",
+    "sèqerà sèmecqusememeé sèrme",
+    "sèqerà sèmecqusememeé sèrme",
+    "sèqerà sèrme mecqusememeé sèrme",
+    "sèqerà sèrme mecqusememeé sèrme",
+    "sèqerà sèmecqusememeé sèrme",
+    "sèqerà sèmecqusememeé sèrme"
+   ],
+   "chrf": [
+    0.6565203280557137,
+    0.6565203280557137,
+    0.6565203280557137,
+    0.6565203280557137,
+    0.6893986065702465,
+    0.6893986065702465,
+    0.6565203280557137,
+    0.6565203280557137
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.0,
+    0.0,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "bkbkàcgé kèt'am àmsym bàcèjàtojsu bàmàj",
+   "preds": [
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "b àcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj kètèjkbkàcgé àmam",
+    "bàcèjàtojsu bàmàj b kèt èjkbkàcgé àmam"
+   ],
+   "chrf": [
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6191491457417821,
+    0.6251044808105931
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "sxznèyké dèoykéda sxq owikéxkéomlwi'v",
+   "preds": [
+    "owikéxkéomlwi xv xznèyké s dèoykéda sxq",
+    "owikéxkéomlwi xv xznèyké sxdèoykéda sxq",
+    "owikéxkéomlwi xv xznèyké s dèoykéda sxq",
+    "owikéxkéomlwi xv s xznèyké sxq dèoykéda sxq",
+    "owikéxkéomlwi xv s xznèyké sxq dèoykéda sxq",
+    "owikéxkéomlwi xv xznèyké s dèoykéda sxq",
+    "owikéxkéomlwi xv xznèyké dèoykéda sxq",
+    "owikéxkéomlwi xv s xznèyké sxq dèoykéda sxq"
+   ],
+   "chrf": [
+    0.7491763290663621,
+    0.7495030384358244,
+    0.7491763290663621,
+    0.7616970531943426,
+    0.7616970531943426,
+    0.7491763290663621,
+    0.8321030076925231,
+    0.7616970531943426
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "mdeqahwèmcéj mizàqaqés mcéde èwqaqécéqéwràiqa dew",
+   "preds": [
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mdeqahwèmcéj mcéde",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé",
+    "èwqaqécéqéwràiqa dew izàqaqés mcéde deqahwèmcéj mcédedecé"
+   ],
+   "chrf": [
+    0.8281491256668048,
+    0.8281491256668048,
+    0.8384759550352608,
+    0.8281491256668048,
+    0.8281491256668048,
+    0.8281491256668048,
+    0.8281491256668048,
+    0.8281491256668048
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "yhêmêæîwê yçêcô",
+   "preds": [
+    "yhêmêæîwê yçêcô",
+    "y hêmêæîwê yçêcô",
+    "y hêmêæîwê yçêcô",
+    "y hêmêæîwê yçêcô",
+    "y hêmêæîwê yçêcô",
+    "yhêmêæîwê yçêcô",
+    "yhêmêæîwê yçêcô",
+    "yhêmêæîwê yçêcô"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "þbuvéickuvuvx þéuvuvxej þbuv axéujxyseçlb buvuvb",
+   "preds": [
+    "axéujy sej buvuvb axéuvéickuvuvx éuv é éuvuvxej þbuv",
+    "axéujyseçlb buvuvb éuv uvéickuvuvx þéuvuvxej þbuv",
+    "axéujxyseçlb buvuvb uvéickuvuvx þéuvuvxej þbuv",
+    "axéujxyseçlb buvuvb uvéickuvuvx éuv é éuvuvxej þbuv",
+    "axéujxyseçlb buvuvb uvéickuvuvx þéuvuvxej þbuv",
+    "axéujxyseçlb buvuvb uvéickuvuvx þéuvuvxej þbuv",
+    "axéujyseçlb buvuvb éuv uvéickuvuvx þéuvuvxej þbuv",
+    "axéujyseçlb buvuvb buv uvéickuvuvx þéuvuvxej þbuv"
+   ],
+   "chrf": [
+    0.59652746817666,
+    0.8035044861547981,
+    0.9188897474865256,
+    0.819912655357339,
+    0.9188897474865256,
+    0.9188897474865256,
+    0.8035044861547981,
+    0.8151365879031789
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "unàinoçèjunézyq unigubinysl unézà èjçinysçààézyreéz ézààéz",
+   "preds": [
+    "èjçinysçézubnézyr unigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézninézyr unigénéigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézunézinézyr unigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézìnézyr un igubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézubnézyr unigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézubnézyr unigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézìnézyr unigubinysl unàinoçèjunézyq unézà",
+    "èjçinysçézìnézyr unigubinysl unàinoçèjunézyq unézà"
+   ],
+   "chrf": [
+    0.6748593983902199,
+    0.6511631973513451,
+    0.6763682245729725,
+    0.6775396201066051,
+    0.6748593983902199,
+    0.6748593983902199,
+    0.6775396201066051,
+    0.6775396201066051
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.0,
+    0.2,
+    0.0,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "réwaçàzzwaqnèjnéu utétéu",
+   "preds": [
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu",
+    "réwaçàxèwaqnèjnéu utétéu"
+   ],
+   "chrf": [
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571,
+    0.7719208814746571
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "eæyteytvgyz ôn æêsêsæ'ômd eæêsêsône eæêsêsytæytœ eæês",
+   "preds": [
+    "e æêsêsytæytœ eæêsêsône eæês oyteytvgyz æêsêsæ",
+    "eæêsêsytæytœ eæês æêsêsône eæês e ayteytvgyz æêsêsæ",
+    "eæêsêsytæytœ eæês æêsêsône eæ e ôn ayteytvgyz æêsêsæ",
+    "e æêsêsytæytœ eæêsêsône eæ obn ayteytvgyz æêsêsæ",
+    "e æêsêsytæytœ eæêsêsône eæês ôn æêsês æ ayteytvgyz êsyt",
+    "e æêsêsytæytœ eæêsêsône eæ obn ayteytvgyz æêsêsæ",
+    "eæêsêsytæytœ eæês æêsêsône eæês e ayteytvgyz æêsêsæ",
+    "eæêsêsytæytœ eæês æêsêsône eæês e oyteytvgyz æêsêsæ"
+   ],
+   "chrf": [
+    0.7295570463962445,
+    0.7158606246911186,
+    0.6997641998222618,
+    0.6846205140600512,
+    0.7545060672271096,
+    0.6846205140600512,
+    0.7158606246911186,
+    0.7158606246911186
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "étvzlzmi éfhégèzé étv",
+   "preds": [
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv",
+    "é fhégèzé étv vzlzmi étv"
+   ],
+   "chrf": [
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321,
+    0.8021216400808321
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "zézéymèmh zàpymijo ztymàp atik àqtoaèptc zaiq",
+   "preds": [
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al",
+    "ztoaèptc zaiq zéoèpézéymèmh ztymàp al"
+   ],
+   "chrf": [
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304,
+    0.5520335175892304
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "tulfeféqta rèféina tujéq çefésjézsjétutaté'nà",
+   "preds": [
+    "çeféssjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çefés sjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çeféssjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çeféssjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çeféssjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çefés sjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çeféssjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq",
+    "çefés sjézsjétutaté jénà tujéxéqçeféina tujélfeféqta tujéq"
+   ],
+   "chrf": [
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845,
+    0.6692507738779845
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "oøæyzîep oøèqçélêx oøî hélæoæèzcét îæ",
+   "preds": [
+    "h élæoæèzcét îæ oøøæélélêx søèqçélêx oøøæøæyzîep oøî",
+    "h élæoæèzcét îæ oøøæélél êxélêx oøæyzîep oøî",
+    "h élæoæèzcét îæ o søèqçélêx oøæyzîep oøî",
+    "h élæoæèzcét îæ oøøæélélêx søèqçélêx oøøæøæyzîep oøî",
+    "h élæoæèzcét îæ o søèqçélêx oøæyzîep oøî",
+    "h élæoæèzcét îæ oøøæélélêx søèqçélêx oøøæøæyzîep oøî",
+    "h élæoæèzcét îæ oøøæélélêx øélæèzèl øæyzîep oøî",
+    "h élæoæèzcét îæ o søèqçélêx oøæyzîep oøî"
+   ],
+   "chrf": [
+    0.7534524502099612,
+    0.6908606589330825,
+    0.8292115398934772,
+    0.7534524502099612,
+    0.8292115398934772,
+    0.7534524502099612,
+    0.6093755853437248,
+    0.8292115398934772
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "the gray enamels that she chose",
+   "preds": [
+    "the gray enamels that they chose",
+    "the gray enamel that he chose",
+    "the gray enamel that they chose",
+    "the gray enamels that they chose",
+    "the gray enamels that they chose",
+    "the gray enamels that they choose",
+    "the gray enamels that they chose",
+    "the gray enamels that they chose"
+   ],
+   "chrf": [
+    0.7723311339021176,
+    0.7097679445443339,
+    0.6317431360909621,
+    0.7723311339021176,
+    0.7723311339021176,
+    0.7373905297056357,
+    0.7723311339021176,
+    0.7723311339021176
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.8333333333333334,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.8333333333333334,
+    0.8333333333333334,
+    0.6666666666666666,
+    0.8333333333333334,
+    0.8333333333333334
+   ]
+  },
+  {
+   "gold": "œñuvêhñuvêk jñuabêø œasè bêsèsèaçnua bêà'q",
+   "preds": [
+    "bêsèsèaçnua aq œjñuabêø œñuvêhñuvêk œasè",
+    "bêsèsèaçnua aq œjñuabêø œñuvêhñuvêk œasè",
+    "hbêsèsèaçnua q œjñuabêø œñuvêhñuvêk œasè",
+    "hbêsèsèaçnua q jñuabêø œñuvêk ñuvêhñuvêk",
+    "hbêsèsèaçnua aq œjñuabêø œñuvêhñuvêk œasè",
+    "hbêsèsèaçnua q œjñuabêø œñuvêhñuvêk œasè",
+    "hbêsèsèaçnua q jñuabêø œñuvêk ñuvêhñuvêk œsèbê",
+    "bêsèsèaçnua aq œjñuabêø œñuvêhñuvêk œasè"
+   ],
+   "chrf": [
+    0.6809907619049314,
+    0.6809907619049314,
+    0.6809907619049314,
+    0.6347389077505452,
+    0.6771653007810683,
+    0.6809907619049314,
+    0.6616457833981557,
+    0.6809907619049314
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "gézyæàbœm m éhà'èq gézéhmûçmæ gézéh",
+   "preds": [
+    "g ézéhmûçmæ gézéh éhà ézæézæàbœm",
+    "g ézéhmûçmæ gézéh éhà xæézæàbœm éhà",
+    "g ézéhmûçmæ gézéh éhà gàmæézæàbœm éhà",
+    "g ézéhmûçmæ gézéh éhà gàmæézæàbœm éhà",
+    "g ézéhmûçmæ gézéh éhà xæézæézàbœm ézøv",
+    "g ézéhmûçmæ gézéh éhà xæézæézàbœm éhà",
+    "g ézéhmûçmæ gézéh éhà æézæàbœm éhà",
+    "g ézéhmûçmæ gézéh éhà gàmæézæàbœm éhà"
+   ],
+   "chrf": [
+    0.5824109659750115,
+    0.5916453770476705,
+    0.5941788025649049,
+    0.5941788025649049,
+    0.5448646495295569,
+    0.5602308819334519,
+    0.5958081553913194,
+    0.5941788025649049
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "he was beautifying the small paths",
+   "preds": [
+    "the small paths that the beautify onàk",
+    "the small paths that the onàk beautified",
+    "the small paths that were beautified",
+    "the small paths that the people beautified",
+    "the small paths that the onàk beautified",
+    "the small paths that the onàk beautified",
+    "the small paths that were beautified",
+    "the small paths that the beautifyers beautified"
+   ],
+   "chrf": [
+    0.6131234310188065,
+    0.5733422767466484,
+    0.5801127240646828,
+    0.5597360182067259,
+    0.5733422767466484,
+    0.5733422767466484,
+    0.5801127240646828,
+    0.6100366075558151
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "mycpivèvècnhc tè vèpi'ñdi mycmyñcñoxbuhpi mycvètèkètèw mycvè",
+   "preds": [
+    "op my cvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi",
+    "op my cvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi",
+    "op mycvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi",
+    "op mycvètèkètèw mycvè tuñcñoxbuhpi mypuðwpivèvècnhc vèpi",
+    "op mycvètuñcñoxbuhpi mycvètèkètèw mycvè wpivèvècnhc vèpi",
+    "op mycvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi",
+    "op mycvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi",
+    "op mycvètèkètèw mycvè tuñcñoxbuhpi mypuð wpivèvècnhc vèpi"
+   ],
+   "chrf": [
+    0.6410858754596521,
+    0.6410858754596521,
+    0.6410858754596521,
+    0.6410858754596521,
+    0.6736195854089354,
+    0.6410858754596521,
+    0.6410858754596521,
+    0.6410858754596521
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "émolœèêêqœa êwàyg êèg",
+   "preds": [
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa ê wàyg êèg",
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa êè wàyg êèg",
+    "ê olœèêêqœa ê wàyg êèg"
+   ],
+   "chrf": [
+    0.7133793429652563,
+    0.7133793429652563,
+    0.7133793429652563,
+    0.8883411159202077,
+    0.7133793429652563,
+    0.7133793429652563,
+    0.7133793429652563,
+    0.8883411159202077
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "îkgéçagàlc uçoh",
+   "preds": [
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh",
+    "géçagàlc uçoh"
+   ],
+   "chrf": [
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211,
+    0.8524279532575211
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "suafixirsuxèt sy rààr'osi suosyxixisysu qosyrfiotk surà",
+   "preds": [
+    "su osyrfiotk su osyxixisysu surà sy xirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà su xirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà sy xirfixirsuxèt rààr",
+    "suyosyrfiotk suosyxixisysu surà egèsyxirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà egèsyxirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà egèsyxirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà sy egèsyxirfixirsuxèt rààr",
+    "su osyrfiotk su osyxixisysu surà su egèsyxirfixirsuxèt rààr"
+   ],
+   "chrf": [
+    0.6442616530436466,
+    0.637444302258413,
+    0.6442616530436466,
+    0.6335418598323557,
+    0.6361880079403536,
+    0.6361880079403536,
+    0.6342246408909863,
+    0.6342246408909863
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ihàquðèsk ihðyquèqèsys ihàqid ésðtèputizàqu àqididàq",
+   "preds": [
+    "ésðtèqèputizàqu àq kès àq uðèsk ihàq ðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq idð uðèsk ihàq ðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq kès àq uðèsk ih àq ðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq kès àq uðèsk ih ðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq éskàqid àq uðèsk ihðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq kès àq uðèsk ih àq ðyquèqèsys ihàqid ihidð",
+    "ésðtèqèputizàqu àq éqàqididàq uðèsk ihkèsiðyquèqèsys ihàqid ihàqid",
+    "ésðtèqèputizàqu àq idð uðèsk ihàq ðyquèqèsys ihàqid ihidð"
+   ],
+   "chrf": [
+    0.721197694336896,
+    0.7308816704771303,
+    0.721197694336896,
+    0.7620368566796106,
+    0.7943700318265106,
+    0.721197694336896,
+    0.7670830987546815,
+    0.7308816704771303
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "éqejéqégejéhbàeh éqbtuqégàf éqejz",
+   "preds": [
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz",
+    "éqbtuqégàf équcégejéhbàeh éqejz"
+   ],
+   "chrf": [
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878,
+    0.740294503636878
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "éxâbæœøêm ñoêâkûoôàx éxâkf yvqêøâkøqmékê âkffâk",
+   "preds": [
+    "yvqêøâkøqmékê âkffâk éxâkøqûoôàx éxâbæœøêm éxâkffâk",
+    "yvqêøâkøqmékê éxâkffâk éx oêâkûoôàx éxâbæœøêm éxâkffâk",
+    "yvqêøâkøqmékê âkffâk éxâkøqûoôàx éxâbæœøêm éxâkffâk",
+    "yvqêøâkøqmékê âkffâk éxâbæœøêm éx oêâkûoôàx éxâbæœøêm",
+    "yvqêøâkøqmékê âkffâk éxâbæœøêm éx oêâkûoôàx éxâbæœøêm",
+    "yvqêøâkøqmékê âkffâk éxâkøqûoôàx éxâbæœøêm éxâkffâk",
+    "yvqêøâkøqmékê éxâkffâk éx oêâkûoôàx éxâbæœøêm éxâkffâk",
+    "yvqêøâkøqmékê âkffâk éxâkøqûoôàx éxâbæœøêm éxâkffâk"
+   ],
+   "chrf": [
+    0.7333476920511598,
+    0.749302444006966,
+    0.7333476920511598,
+    0.7793699866711981,
+    0.7793699866711981,
+    0.7333476920511598,
+    0.749302444006966,
+    0.7333476920511598
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "oçcylyþàcoçbiç xyç'ot cpé oçcxyçsol oçcs",
+   "preds": [
+    "oç cxyçsol oçcs oç àcyþàcoçbiç cot",
+    "oçcxyçsol oçcs àcyþàcoçbiç cot",
+    "oç cxyçsol oçcs oç àcyþàcoçbiç cot",
+    "oç cxyçsol oçcs oç àcyþàcoçbiç cot",
+    "oç cxyçsol oçcs oç àcyþàcoçbiç cot",
+    "oçcxyçsol oçcs àcyþàcoçbiç cot oçcs",
+    "oç cxyçsol oçcs oç àcyþàcoçbiç cot",
+    "oçcxyçsol oçcs àcyþàcoçbiç cot oçcs"
+   ],
+   "chrf": [
+    0.57416949466566,
+    0.5665866086840984,
+    0.57416949466566,
+    0.57416949466566,
+    0.57416949466566,
+    0.5722152442074798,
+    0.57416949466566,
+    0.5722152442074798
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.2
+   ]
+  },
+  {
+   "gold": "ulnièviîlat ulnofîgèv îtofoj",
+   "preds": [
+    "ît ojîgièviîlat îto ulnofîgèv îtofoj",
+    "ît ojîgièviîlat îto ulnofîgèv îtofoj",
+    "îto ulnofîgèv îto ojîgièviîlat îtofoj",
+    "îto ulnofîgèv îtojîg ojîgièviîlat îtofoj",
+    "îto ulnofîgèv îtojîg ojîgièviîlat îtofoj",
+    "îto ulnofîgèv îtojî ojîgièviîlat îtofoj",
+    "ît ojîgièviîlat îtofoj ulnofîgèv îtofoj",
+    "ît ojîgièviîlat îto ulnofîgèv îtofoj"
+   ],
+   "chrf": [
+    0.7226448883957848,
+    0.7226448883957848,
+    0.694864586234308,
+    0.678653161159078,
+    0.678653161159078,
+    0.6839713749492989,
+    0.7055978920071106,
+    0.7226448883957848
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.0
+   ]
+  },
+  {
+   "gold": "wjuçvøedøçh rvøæ nœbdøvørkdo ç vøæævø",
+   "preds": [
+    "eju døvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ",
+    "evuçdøvøbdøvørkdo vøæævø juçvøedøçh rvøæ"
+   ],
+   "chrf": [
+    0.6843225978477777,
+    0.6849145658919514,
+    0.6849145658919514,
+    0.6849145658919514,
+    0.6849145658919514,
+    0.6849145658919514,
+    0.6849145658919514,
+    0.6849145658919514
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "unkehunkdèpg unjèmèmjup unjèm",
+   "preds": [
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm",
+    "un kehunkdèpg unjèm bdjup unjèm"
+   ],
+   "chrf": [
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278,
+    0.8105260989681278
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "cmagekéméz ngev",
+   "preds": [
+    "magekéméz ngev",
+    "nmagekéméz ngev",
+    "magekéméz ngev",
+    "nmagekéméz ngev",
+    "magekéméz ngev",
+    "magekéméz ngev",
+    "magekéméz ngev",
+    "magekéméz ngev"
+   ],
+   "chrf": [
+    0.9275504182616072,
+    0.9110491360491362,
+    0.9275504182616072,
+    0.9110491360491362,
+    0.9275504182616072,
+    0.9275504182616072,
+    0.9275504182616072,
+    0.9275504182616072
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "jàforébmhà he hàqéqéhà'ozi jàoréqéfb jàhàqé",
+   "preds": [
+    "jàorém oréqéfb jàhàqéqéhà jàrefforébmhà jàhàqé",
+    "jàoréqéfb jàhàqéf he hàreforébmhà jàqéf",
+    "jà oréqéfb jàhàqé jàzefhe reforébmhà heqé",
+    "jàorém oréqéfb jàhàqéqéhà jàreforébmhà jàhàqé",
+    "jàorém oréqéfb jàhàqéqéhà jàreforébmhà jàhàqé",
+    "jàorém oréqéfb jàhàqéqéhà jàreforébmhà jàhàqé",
+    "jàorém oréqéfb jàhàqéqéhà jàreforébmhà jàhàqé",
+    "jà oréqéfb jàhàqéf jàzefhe reforébmhà heqé"
+   ],
+   "chrf": [
+    0.6395461348327447,
+    0.5811003955988754,
+    0.588780728731279,
+    0.6429790852230294,
+    0.6429790852230294,
+    0.6429790852230294,
+    0.6429790852230294,
+    0.585540472044664
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.0,
+    0.0,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.0
+   ]
+  },
+  {
+   "gold": "vhrageèky geawéhasé geai",
+   "preds": [
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai",
+    "gehrageèky geai awéhasé geai"
+   ],
+   "chrf": [
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831,
+    0.8299775160375831
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "godjburxh goxbuképy gojbux hjwi goqxbua goqdqha gohè",
+   "preds": [
+    "go qxbua gohè qdqha go gotdjburxh gojbux",
+    "go qxbua gohè qdqha go go tdjburxh gojbux",
+    "go qxbua gohè qdqha go tdjburxh gojbux",
+    "go qxbua gohè qdqha go go tdjburxh gojbux",
+    "go qxbua gohè qdqha go hmi goxbuttdjburxh gojbux",
+    "go qxbua gohè qdqha go go tdjburxh gojbux",
+    "go qxbua gohè qdqha go go tdjburxh gojbux",
+    "go qxbua gohè qdqha go go tdjburxh gojbux"
+   ],
+   "chrf": [
+    0.5408219979105915,
+    0.5408219979105915,
+    0.5344210169571725,
+    0.5408219979105915,
+    0.592586397455939,
+    0.5408219979105915,
+    0.5408219979105915,
+    0.5408219979105915
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ashaam amuq",
+   "preds": [
+    "a shaam amuq",
+    "a shaam amuq",
+    "ashaam amuq",
+    "a shaam amuq",
+    "a shaam amuq",
+    "a shaam amuq",
+    "a shaam amuq",
+    "a shaam amuq"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "tzàdfbbf oifdjuqef txejy ljufpuxepujudwef jyju",
+   "preds": [
+    "lqefpuxepujudwef jyju hxe zàdfbbf txejyfdjuqef txejy",
+    "lqexepujudwef f jyju tjuf tf zàdfbbf txe jyfdjuqef txejy",
+    "lqexepujudwef jyju hxe jyfdjuqef txejy zàdfbbf txejy",
+    "tjyju f puxepujudwef jyju xejyjyxe f zàdfbbf txejy jyfdjuqef txejy",
+    "lqefpuxepujudwef jyju zàdfbbf t jyfdjuqef txejy",
+    "lqefpuxepujudwef jyju zàdfbbf t jyfdjuqef txejy",
+    "lqefpuxepujudwef jyju hxe zàdfbbf txejyfdjuqef txejy",
+    "ljufpuxepujudwef tjyju zàdfbbf t jyfdjuqef txejy"
+   ],
+   "chrf": [
+    0.7112385920687614,
+    0.6110369694073837,
+    0.6401737095740526,
+    0.7176739821939805,
+    0.7291506140992664,
+    0.7291506140992664,
+    0.7112385920687614,
+    0.7328385143412587
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "hpesàèuij j féè'gax hpsàlcodjsàkae hdvhdjçn hpfé",
+   "preds": [
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè",
+    "h sàpcodjsàkae hdvhdjçn hpfé hèjsàpsàèuij féè"
+   ],
+   "chrf": [
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812,
+    0.6247604488796812
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "génêcœjèfegè ølœnèôgè øjénèlœ",
+   "preds": [
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ",
+    "ølœnècœgè nêfènêcœjèfegè øjénèlœ"
+   ],
+   "chrf": [
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587,
+    0.6676554905303587
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "béséhhxsegy béséhhsébeluguru béséh",
+   "preds": [
+    "béséhhxsegy bésé lusesébeluguru béséh",
+    "béséhhxsegy bésé lusesébeluguru béséh",
+    "bé séhhxsegy bésé lusesébeluguru béséh",
+    "béséhhxsegy bésé lusesébeluguru béséh",
+    "béséhhxsegy bélusesébeluguru béséh",
+    "béséhhxsegy bélusesébeluguru béséh",
+    "béséhhxsegy bélusesébeluguru béséh",
+    "béséhhxsegy bésé lusesébeluguru béséh"
+   ],
+   "chrf": [
+    0.8323035728241486,
+    0.8323035728241486,
+    0.8323035728241486,
+    0.8323035728241486,
+    0.7807554580044848,
+    0.7807554580044848,
+    0.7807554580044848,
+    0.8323035728241486
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.25,
+    0.0,
+    0.25,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.25
+   ]
+  },
+  {
+   "gold": "aiñvypèiñaàzh f iñyçyçiñ'yzk aiñipfyçb aiñyç",
+   "preds": [
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ",
+    "a iñipfyçb aiñyç iñ èiñypèiñaàzh iñyçyçiñ"
+   ],
+   "chrf": [
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358,
+    0.648067068300358
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ôcæofllæèmqæ y lof'ge ôcælytyu ôcæl",
+   "preds": [
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæl lof xofllæèmqæ lof",
+    "ôcælytyu ôcæ  lof xofllæèmqæ lof"
+   ],
+   "chrf": [
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6017547544025508,
+    0.6060647942372355
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "wlàicàsfyçàtfehob wicàtfecàde wçàlà",
+   "preds": [
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà",
+    "w wicàtfecàde w làicàsfyçàtfehob wçàlà"
+   ],
+   "chrf": [
+    0.879178797707646,
+    0.879178797707646,
+    0.879178797707646,
+    0.879178797707646,
+    0.879178797707646,
+    0.8849232833659975,
+    0.879178797707646,
+    0.879178797707646
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "jîêjêdøpi y haê'sâ jîjêkn jêksdj jîha",
+   "preds": [
+    "jêkn jêksdj jîha ôêy kêjêdøpi haê",
+    "jêjêkn jêksdj jîha ôêjê kêjêdøpi haê",
+    "jêjêkn jêksdj jîha ôêjê kêjêdøpi haê",
+    "jêkn jêksdj jîha ôêy kêjêdøpi haê",
+    "jîjêkn jêksdj jîha ôêjê kêjêdøpi haê",
+    "jêjêkn jîjêksdj jîha ôêjêkêjêdøpi haê",
+    "jêkn jêksdj jîha ôêjêjêdøpi haê jêyjjêjêdøpi sô",
+    "jêjêkn jêksdj jîha ôêjê kêjêdøpi haê"
+   ],
+   "chrf": [
+    0.5904715862283175,
+    0.5837273814181754,
+    0.5837273814181754,
+    0.5904715862283175,
+    0.6469790008589478,
+    0.5609920059259502,
+    0.5566656418950036,
+    0.5837273814181754
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ruztqba rtqbatqzxàèxé ruç fèbafrfqwvà uc",
+   "preds": [
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ruç tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ru tqbatqzxàèxé ruç",
+    "fèbafrfqwvà uc uztqba ru tqbatqzxàèxé ruççu"
+   ],
+   "chrf": [
+    0.8151249372950334,
+    0.8151249372950334,
+    0.8151249372950334,
+    0.8151249372950334,
+    0.8151249372950334,
+    0.8151249372950334,
+    0.8199684366252203,
+    0.810338983974317
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "madèpaymèpol mazg nèparomaropodel zggz",
+   "preds": [
+    "nèparomaropodel zggz mamadèpaymèpol mazg",
+    "nèparomaropodel zggz madèpaymèpol mazg",
+    "nèparomaropodel zggz madèpaymèpol mazg",
+    "nèparomaropodel zggz madèpaymèpol mazg",
+    "nèparomaropodel zggz mamadèpaymèpol mazg",
+    "nèparomaropodel zggz madèpaymèpol mazg",
+    "nèparomaropodel zggz madèpaymèpol mazg",
+    "nèparomaropodel zggz mamadèpaymèpol mazg"
+   ],
+   "chrf": [
+    0.9089096251767659,
+    0.9200888749928123,
+    0.9200888749928123,
+    0.9200888749928123,
+    0.9089096251767659,
+    0.9200888749928123,
+    0.9200888749928123,
+    0.9089096251767659
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "I would watch",
+   "preds": [
+    "i was watching",
+    "i was watching",
+    "i was watching",
+    "i was watching",
+    "i am watching",
+    "i was watching",
+    "i am watching",
+    "i was watching"
+   ],
+   "chrf": [
+    0.3040225389753011,
+    0.3040225389753011,
+    0.3040225389753011,
+    0.3040225389753011,
+    0.2786075036075036,
+    0.3040225389753011,
+    0.2786075036075036,
+    0.3040225389753011
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "fânêôvfàèb avnêldàdàèlo aldà",
+   "preds": [
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà",
+    "avnêldàdàèlo aldà dàèôvfàèb aldà"
+   ],
+   "chrf": [
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877,
+    0.734282615935877
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "irfywirywehedx ywep'é fuwèr irfjjyweper irfj",
+   "preds": [
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé",
+    "irfjjyweper irfj irywepidywirywehedx fé",
+    "ir fjjyweper irfj irywepidywirywehedx fé"
+   ],
+   "chrf": [
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991,
+    0.6341365706006991
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "idpiwxiwq idile",
+   "preds": [
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile",
+    "idpiwxiwq idile"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "ñyvananados ñyvaðþqjna ñyvana ñyqjdhvazhvañynàj ñyðjq",
+   "preds": [
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq þqjna ñyvananados ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana",
+    "ñyqjhvazhvañynàj ñyðjq ñyvananados ñyþqjna ñyvana"
+   ],
+   "chrf": [
+    0.7651961473605379,
+    0.7651961473605379,
+    0.7651961473605379,
+    0.7651961473605379,
+    0.7805099191590572,
+    0.7651961473605379,
+    0.7651961473605379,
+    0.7651961473605379
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ðxkyhurp ðawn",
+   "preds": [
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn",
+    "ðxkyhurp ðawn"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "he will beautify",
+   "preds": [
+    "he will beautify",
+    "he will beautify",
+    "he will beautify",
+    "he will beautify",
+    "he will beautify",
+    "he will beautify",
+    "he will beautify",
+    "he will beautify"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "imehèmimehçugv iméààéuscèmeh iméà",
+   "preds": [
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà",
+    "im ehèmimehçugv iméà cçéuscèmeh iméà",
+    "imehèmimehçugv iméà cçéuscèmeh iméà"
+   ],
+   "chrf": [
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778,
+    0.867058562599778
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.2,
+    0.25
+   ]
+  },
+  {
+   "gold": "mêjàéppjàlgàjà éç'è jàæso mêégàkæhôt mêjàp",
+   "preds": [
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mêégàkæhôt mêjàp éçképpjàlgàjà éç'jàè",
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mê égàkæhôt mêjàp éç képpjàlgàjà jàè",
+    "mêégàkæhôt mêjàp éç képpjàlgàjà jàè"
+   ],
+   "chrf": [
+    0.6150932607725821,
+    0.6150932607725821,
+    0.6150932607725821,
+    0.6776201902644865,
+    0.6150932607725821,
+    0.6150932607725821,
+    0.6150932607725821,
+    0.6150932607725821
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "wèsahoqwèðk wèwekhby wènykwe qnyg rnybyéwujbywewu wèàbyhoqwè wèqà",
+   "preds": [
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà wè oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà wè oqhoqwèðk wènykwe qbu",
+    "wèàbyéwujbywewu wè àbyhoqwè wèqà oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà qè oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà qè oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà oqhoqwèðk wènykwe qbu",
+    "wè àbyéwujbywewu wè àbyhoqwè wèqà wè oqhoqwèðk wènykwe qbu"
+   ],
+   "chrf": [
+    0.6584088288072651,
+    0.6584088288072651,
+    0.6543895231867412,
+    0.6543895231867412,
+    0.652529445595581,
+    0.652529445595581,
+    0.6543895231867412,
+    0.6584088288072651
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "lolcps lhqlckyn loag kpopcynamk oagago",
+   "preds": [
+    "yzckpopcynamk oagago k lcps lhqlckyn loag",
+    "yzck popcynamk oagago k lcps lhqlckyn loag",
+    "yzckpopcynamk oagago k lcps lhqlckyn loag",
+    "yzck popcynamk oagago k lcps lohqlckyn loag",
+    "yzckpopcynamk oagago k lcps lhqlckyn loag",
+    "yzckpopcynamk oagago yzlcps kag lhqlckyn loag",
+    "yzckpopcynamk oagago k lcps lhqlckyn loag",
+    "yzck popcynamk oagago k lcps lhqlckyn loag"
+   ],
+   "chrf": [
+    0.8430734891131487,
+    0.8430734891131487,
+    0.8430734891131487,
+    0.7666573803365313,
+    0.8430734891131487,
+    0.7485955112166636,
+    0.8430734891131487,
+    0.8430734891131487
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "inôdœtærlûne irxfôrxfô inôd þàkæœlûkærxnefônô nôddnô",
+   "preds": [
+    "nôddnô þàkæœlûkæxfûkærxnefônô nôfôr inô rxfôrxfô inôd nô dœtærlûne inôd",
+    "þàkæœlûkærxnefônô nôddnô iþàdœtærlûne inôrxfôrxfô inôddnô",
+    "nôþàkæœlûkærfônô nôddnô nô dœtærlûne inô rxfôrxfô inôd lûkærxnefônô nô nôddnô",
+    "nôddnô þàkæœlûkærxnefônô nôlûkædœtærlûne inô rxfôrxfô inôd",
+    "nôddnô þàkæœlûkærxnefônô nôlûkæxvœ iþàrxfôrxfô inôdô dœtærlûne inôddnô",
+    "þàkæœlûkærxnefônô nôdô nôd fôx nôd rxfôrxfô inôddnô i dœtærlûne inôd",
+    "nôddnô þàkæœlûkærxnefônô nôlûkænefôxê nôd nôfôrxfô (inô) dœtærlûne inôddnô",
+    "nôddnô þàkæœlûkærxnefônô nôlûkædœtærlûne œd i rxfôrxfô inôd"
+   ],
+   "chrf": [
+    0.7929777726400259,
+    0.8241823377826454,
+    0.8019746448180188,
+    0.7983866401669166,
+    0.7898860351821009,
+    0.8029141089518093,
+    0.6740580170230207,
+    0.791368314003273
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "èçzéuhus doupéisèl èçuhr upéuhékibàup rk",
+   "preds": [
+    "zðuhkupékéuhékibàup èçrk upr zéuhus èçrkupéisèl èçuhr",
+    "zðuhkupékèçéuhékibàup èçrk upr zéuhus èçrkupéisèl èçuhr",
+    "zðuhkupékèçéuhékibàup rk rkupéisèl èçzéuhus èçuhrrk",
+    "zðuhkupékéuhékibàup èçrk uhzéuhus èçrkupéisèl èçuhr",
+    "zðuhkupékéuhékibàup èçrk zéuhus èçuhr rkupéisèl èçuhr",
+    "zðuhkupékéuhékibàup èçrk zéuhus èçrkupéisèl èçuhr",
+    "zðuhkupékéuhékibàup èçrk zéuhus èçuhr rkupéisèl èçuhr",
+    "zðuhkupékéuhékibàup èçrk zéuhus èçuhr rkupéisèl èçuhr"
+   ],
+   "chrf": [
+    0.6230126930831572,
+    0.6162291522237742,
+    0.6737257476907779,
+    0.6173766866701565,
+    0.6139775542485962,
+    0.6242897995736284,
+    0.6139775542485962,
+    0.6139775542485962
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "êrhøkéfà êmlspà êmzsl",
+   "preds": [
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl",
+    "êmlsøhêbhøkéfà êmzsl"
+   ],
+   "chrf": [
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969,
+    0.576600099103969
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "xœhœbévœhxàœbœh ogc",
+   "preds": [
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc",
+    "xœhœbévœhxàœbœh ogc"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "lclcèdéqs f éwc'èqud lunèmcaaèdlcunuh bèqèmcéd lèméw",
+   "preds": [
+    "lèméwècèmcèdéq bèqèmcéd lèméwèunèmcaaèdlcunuh àplèduh clunclcèdéqs éwc",
+    "lèméwèmcèqsaèmunv lèméwèunèmcaaèdlcunuh lèméw bèqèmcéd èmèqud unclcèdéqs éwc",
+    "lèméwèmcèqsaèmunv lèméwèunèmcaaèdlcunuh lèméw bèqèmcéd èmèqud clunclcèdéqs éwc",
+    "lèméwèmcèqsaèmunv lèméwèunèmcaaèdlcunuh lèméw bèqèmcéd cfunclcèdéqs éwc",
+    "lèméwècèmcèdéq èmèunèmcaaèdlcunuh lèméw lècfunclcèdéqs éwc",
+    "lèméwèmcèqsaèmunv lèméwèunèmcaaèdlcunuh lèméw bèqèmcéd éwc clunclcèdéqs èmik",
+    "lèméwèmcèqsaèmunv lèméwèunèmcaaèdlcunuh lèméw bèqèmcéd cfunclcèdéqs éwc",
+    "lèméwèmcaaèdlcunuh lèméwéwècèmcèd laèd unclcèdéqs éwc"
+   ],
+   "chrf": [
+    0.6360722245308255,
+    0.5843911712748001,
+    0.5863170070166811,
+    0.5769618098357278,
+    0.5230916495356178,
+    0.5710776047542113,
+    0.5769618098357278,
+    0.48990984943138344
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "zfqèmûpuçèlmû pu lrrl'dî zçûlàdîbuà vèdlmûcfr zlr",
+   "preds": [
+    "lçûlàdîbuà zl vèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl zbukôàmûlqèmûpuçèlmû zdkôbu",
+    "lçûlàdîbuà zl vèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl zbukôàmûlqèmûpuçèlmû zdkôbu",
+    "lçûlàdîbuà zlr vèdlmûcfr zlr mûlqèmûpuçèlmû lrrl zbukô",
+    "lçûéàdîbuà zvèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl zbukôàmûlqèmûpuçèlmû zàpumûlqèmûpuçèlmû ltè",
+    "lçûéàdîbuà zvèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl zàpumûlqèmûpuçèlmû ltè",
+    "lçûéàdîbuà zvèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl çûbuldî",
+    "lçûlàdîbuà zl vèdlmûcfr zlr çûmûlqèmûpuçèlmû lrrl zbukôàmûlqèmûpuçèlmû zdkôbu",
+    "lçûlàdîbuà zl vèdlmûcfr zlr rà lqèmûpuçèlmû lrrl zdpumû"
+   ],
+   "chrf": [
+    0.5904518904053444,
+    0.5904518904053444,
+    0.6244728832567707,
+    0.5095933804564141,
+    0.5538931629780238,
+    0.5781318873497266,
+    0.5904518904053444,
+    0.6357185607682952
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "the small gusts",
+   "preds": [
+    "the small gusts",
+    "the small gusts",
+    "the small gusts",
+    "the small gusts",
+    "the small gusts",
+    "the small gusts",
+    "the small gusts",
+    "the small gusts"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "éqnéqnèfufz éqoèféhuq éqièfo piyb éqyhnèfo èbièfmmnuqz éqpm",
+   "preds": [
+    "éq ièfmmnuqz éq yhnèfo éqpm éq yhnéqnèfufz éqièfo pèx",
+    "éq ièfmmnuqz éq yhnèfo éqpm éq yhnéqnèfufz éqièfo sp",
+    "éq ièfmmnuqz éq éq yhnèfo éqpm éq oèfyhnéqnèfufz éqièfo",
+    "éq ièfmmnuqz éq éqyhnèfo éqpm éq yhnéqnèfufz éqièfo sp",
+    "éq ièfmmnuqz éq yhnèfo éqpm éq yhnéqnèfufz éqièfo pèx",
+    "éq ièfmmnuqz éq yhnèfo éqpm éqyhnéqnèfufz éqièfo sp",
+    "éq ièfmmnuqz éq éq yhnèfo éqpm éq yhnéqnèfufz éqièfo spéq",
+    "éq ièfmmnuqz éq yhnèfo éqpm éq yhnéqnèfufz éqièfo sp"
+   ],
+   "chrf": [
+    0.590745639132626,
+    0.5725927663143342,
+    0.6153805223058562,
+    0.581081393655879,
+    0.590745639132626,
+    0.5725927663143342,
+    0.576428309837096,
+    0.5725927663143342
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "tejébà fiwaz oaxcazaziwypyxiw azc",
+   "preds": [
+    "f azc axcazaziwypyxiw fi ejébà fiwaz",
+    "fazc axcazaziwypyxiw azc fejébà fiwaz",
+    "azc fcoaxcazaziwypyxiw ejébà fiwaz",
+    "f azc axcazaziwypyxiw fi ejébà fiwaz",
+    "f azc fezcazaziwypyxiw fiw ejébà fiwaz",
+    "f azc axcazaziwypyxiw fi ejébà fiwaz",
+    "f azc fe axcazaziwypyxiw fiw ejébà fiwaz",
+    "f azc axcazaziwypyxiw fi ejébà fiwaz"
+   ],
+   "chrf": [
+    0.7510140783893644,
+    0.8141181438781946,
+    0.7872533309324627,
+    0.7510140783893644,
+    0.668948355792023,
+    0.7510140783893644,
+    0.7351882944871542,
+    0.7510140783893644
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "vapivadandu vafyydafdaja vafy vadanjakofvarîi'ø",
+   "preds": [
+    "vafqîdanqâkofjakofvarîi fø vafy vapivadandu vafyydafdaja vafy",
+    "vafqîdan kofjakofvarîi fø vapivadandu vafyydafdaja vafy",
+    "vafqîdanqâkonûfko fø vapivadandu vafyydafdaja vafy",
+    "vaf fqîdanqâkonûfko fø vapivadandu vafyydafdaja vafy",
+    "vafqîdan kofjakofvarîi fø vapivadandu vafyydafdaja vafy",
+    "vafqîdanqâkonûfko fø vaf fqîmrâfdaja vafy vapivadandu vafy",
+    "vafqîdanqâkonûfko fø vapivadandu vafyydafdaja vafy",
+    "vafqîdanqâkofjakofvarîi fø vafy vapivadandu vafyydafdaja vafy"
+   ],
+   "chrf": [
+    0.7940782528161817,
+    0.7847062661406864,
+    0.6486344273096618,
+    0.645565766836781,
+    0.7847062661406864,
+    0.5551330334752624,
+    0.6486344273096618,
+    0.7940782528161817
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.16666666666666666,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.16666666666666666
+   ]
+  },
+  {
+   "gold": "vkonmmkoqgôko ø kommko'æy vkommøv vkom",
+   "preds": [
+    "v kommøv vkom ko pînmmkoqgôko øm kommko",
+    "v kommøv vkom kommko ø pînmmkoqgôko vkommko",
+    "v kommøv vkom kommko ø v pînmmkoqgôko",
+    "v kommøv vkom ko æy kommkoqgôko øm",
+    "vkommøv zjàv kommøv (f) v pînmmkoqgôko kommko vkom",
+    "v kommøv vkom ko pînmmkoqgôko kommko øm",
+    "v kommøv vkom ko pînmmkoqgôko vkommko øm",
+    "v kommøv vkom ko vpinmmkoqgôko vkommko"
+   ],
+   "chrf": [
+    0.6628779043243006,
+    0.6450469734961395,
+    0.6442279461040994,
+    0.6301278127069463,
+    0.539845338019658,
+    0.6460867576773363,
+    0.6571891314671282,
+    0.6460867576773363
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ésododèwétè yc èododè",
+   "preds": [
+    "iésocésododèwétè èododè",
+    "iésycododèwétè èododè",
+    "iésocésododèwétè èododè",
+    "iésocésododèwétè èododè",
+    "iésycocésododèwétè èododè",
+    "iésocésododèwétè èododè",
+    "iésycododèwétè èododè",
+    "iésycododèwétè èododè"
+   ],
+   "chrf": [
+    0.6971101290745836,
+    0.6369181483463529,
+    0.6971101290745836,
+    0.6971101290745836,
+    0.6984973087579739,
+    0.6971101290745836,
+    0.6369181483463529,
+    0.6369181483463529
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "huvavehuvetdas do vadèdèva'lçè huvadèvetwga huvadè",
+   "preds": [
+    "huvadèvetwga huvadè huvehuvetdas vadèdèva",
+    "huvadèvetwga huv hu guvehuvetdas vadèdèva",
+    "huvadèvetwga huv hu guvehuvetdas vadèdèva",
+    "huvadèvetwga huvadè huvehuvetdas vadèdèva",
+    "huvadèvetwga huv hu guvehuvetdas vadèdèva",
+    "huvadèvetwga huvadè huvehuvetdas vadèdèva",
+    "huvadèvetwga huvadè huvehuvetdas vadèdèva",
+    "huvadèvetwga huvadè huvehuvetdas vadèdèva"
+   ],
+   "chrf": [
+    0.7072489403655606,
+    0.6227591358540375,
+    0.6227591358540375,
+    0.7072489403655606,
+    0.6227591358540375,
+    0.7072489403655606,
+    0.7072489403655606,
+    0.7072489403655606
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "eçéseçgérh ygcérj eçésp",
+   "preds": [
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp",
+    "eçgérh eç ygcérj eçésp"
+   ],
+   "chrf": [
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993,
+    0.675590116747993
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "yhqihyçvypq yhàzixyç yhdl",
+   "preds": [
+    "yh qihyçvypq yh àzixyç yhdl",
+    "yh qihyçvypq yh àzixyç yhdl",
+    "yhqihyçvypq yhàzixyç yhdl",
+    "yh qihyçvypq yh àzixyç yhdl",
+    "yhqihyçvypq yhàzixyç yhdl",
+    "yh qihyçvypq yh àzixyç yhdl",
+    "yh qihyçvypq yh àzixyç yhdl",
+    "yh qihyçvypq yh àzixyç yhdl"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "àriàrœiskèkz àræxêsœce àriu",
+   "preds": [
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu",
+    "àræxêsœce àriu ûdœiskèkz àriu"
+   ],
+   "chrf": [
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973,
+    0.7624329449326973
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "tsudþè furfè kufukuñuçée d rfèfèr",
+   "preds": [
+    "gokufukuñuçée rfè fèkudþè furfè rfèfèr",
+    "gokudpkufukuñuçée rfè fèkudþè furfè",
+    "gokufukuñuçée rfè fèkudþè furfè rfèfèr",
+    "gokudpkufukuñuçée rfè fèkudþè furfè",
+    "gokudpkufukuñuçée rfè fèkudþè furfè",
+    "gokudpkufukuñuçée rfè fèkudþè furfè",
+    "gokudpkufukuñuçée rfè fèkudþè furfè rfèfèr",
+    "gokudpkufukuñuçée rfè fèkudþè furfè rfèfèr"
+   ],
+   "chrf": [
+    0.6875274459426194,
+    0.6661474082408199,
+    0.6875274459426194,
+    0.6661474082408199,
+    0.6661474082408199,
+    0.6661474082408199,
+    0.673715485514639,
+    0.673715485514639
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "àqéjàxéqhhéq émàméqàxaqgéq àqèb éqcècaqàxuéq baq",
+   "preds": [
+    "éq cècaqàxuéq èbbè éju éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq àbbè éj éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb",
+    "éq cècaqàxuéq baq éjàxéqhhéq àq béqàxaqgéq àqèb"
+   ],
+   "chrf": [
+    0.6861417592518398,
+    0.7820003467736781,
+    0.7820003467736781,
+    0.7820003467736781,
+    0.6932161610054406,
+    0.7820003467736781,
+    0.7820003467736781,
+    0.7820003467736781
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "the big nails",
+   "preds": [
+    "the big nails",
+    "the big nails",
+    "the big nails",
+    "the big nails",
+    "the big nails",
+    "the big nails",
+    "the big nails",
+    "the big nails"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "çurmérmé çuxàzirxàqqgàxàj çuxàq kàzixànezikàçixàzi xàqqxà",
+   "preds": [
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aéxàzirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq",
+    "agàkàzixànezikàçixàzi xàqqxà aézirxàqqgàxàj çuxàrmérmé çuxàq"
+   ],
+   "chrf": [
+    0.8454384200733106,
+    0.8684456776523198,
+    0.8454384200733106,
+    0.8454384200733106,
+    0.8454384200733106,
+    0.8454384200733106,
+    0.8454384200733106,
+    0.8454384200733106
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ecqgocesàxg àjojb",
+   "preds": [
+    "àjbgocesàxg àjojb",
+    "àjbgocesàxg àjojb",
+    "àjbgocesàxg àjojb",
+    "àjbgocesàxg àjojb",
+    "àj bgocesàxg àjojb",
+    "àjbgocesàxg àjojb",
+    "àjbgocesàxg àjojb",
+    "àjbgocesàxg àjojb"
+   ],
+   "chrf": [
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305,
+    0.7741196303696305
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.0,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "teètèçédx tçaçébého tnçéça enwu tetnenzsguvuè tzènça tegà",
+   "preds": [
+    "t zènça tegà fénenzsguvuè tegà tçaçé ràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tegà tçaçé ràètèçédx tnçéça ey",
+    "t zènça tégà fénenzsguvuè tegà tçaçé ràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tgàè zèràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tegà tçaçéèràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tegà tçaçéèràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tgàè zèràètèçédx tnçéça ey",
+    "t zènça tegà fénenzsguvuè tegà tçaçéè ràètèçédx tnçéça ey"
+   ],
+   "chrf": [
+    0.5960586803790865,
+    0.5960586803790865,
+    0.5571129813585007,
+    0.545176510563414,
+    0.593601328186076,
+    0.593601328186076,
+    0.545176510563414,
+    0.593601328186076
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "the black birds that he admired",
+   "preds": [
+    "the black birds that he admires",
+    "the black birds that he admires",
+    "the black birds that he admired",
+    "the black birds that he admired",
+    "the black birds that i admire",
+    "the black birds that he admired",
+    "the black birds that he admired",
+    "the black birds that he admired"
+   ],
+   "chrf": [
+    0.957219990154773,
+    0.957219990154773,
+    1.0,
+    1.0,
+    0.77248956047045,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    0.8333333333333334,
+    0.8333333333333334,
+    1.0,
+    1.0,
+    0.6666666666666666,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "xçécortéqifçt oqéq'è çofl xçifofoct xéqyyoqeb xçy",
+   "preds": [
+    "xçifofoct xçéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xçéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xçéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xçéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xéqyyoqeb xçy xoqéqortéqifçt çè",
+    "xçifofoct xçéqyyoqeb xçy xoqéqortéqifçt çè"
+   ],
+   "chrf": [
+    0.6214494532177535,
+    0.6727680235545941,
+    0.6214494532177535,
+    0.6727680235545941,
+    0.6214494532177535,
+    0.6214494532177535,
+    0.6727680235545941,
+    0.6214494532177535
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "fréol fhol fèéwffwololhsth fagéè",
+   "preds": [
+    "fèéxwololhsth fagéè fyvxuvilhx fagéè f réol fhol",
+    "fèéxwololhsth fagéè fhyvxwololhsth fagéè f réol fhol",
+    "fèé xwololhsth fagéè f hyvxuvilhx fagéè f fréol fhol",
+    "fèé xwololhsth fagéè f wagog f réol fhol",
+    "fèéxwololhsth fagéè fèé fum réol fhol",
+    "fèé fwuvxwololhsth fagéè f fréol fhol",
+    "fèé xwololhsth fagéè f wagog f réol fhol",
+    "fèéxwololhsth fagéè fhyv f réol fhol"
+   ],
+   "chrf": [
+    0.6567227005111005,
+    0.6444654373326503,
+    0.6532806540457418,
+    0.7053873224636381,
+    0.6676685236017164,
+    0.7220024935037638,
+    0.7053873224636381,
+    0.7042408627075024
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "aéatéezuræn azqûturør aéè gûzèèéænqé éèèé",
+   "preds": [
+    "gûtéèèéænqé éèèé aàtéezuræn zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn a zqûturør aéè",
+    "gûtéèèéænqé éèèé àtéezuræn a zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn a zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn a zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn a zqûturør aéè",
+    "gûzèèéænqé éèèé àtéezuræn a zqûturør aéè"
+   ],
+   "chrf": [
+    0.6775676340201195,
+    0.7464848010246272,
+    0.8475450772407055,
+    0.7731678968824215,
+    0.8475450772407055,
+    0.8475450772407055,
+    0.8475450772407055,
+    0.8475450772407055
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "evdnépàxàxtdéx àxèxtèxépy àxépo àxtnéxtdèsmiép'él",
+   "preds": [
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépo",
+    "àxtnéxtdèsmiép épél èxtèxépy àx dnépàxàxtdéx àxépoque"
+   ],
+   "chrf": [
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7570742100067729,
+    0.7503718062116568
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "vugjægêjîbvu jæséséjæ",
+   "preds": [
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ",
+    "yêvugjægêjîbvu jæséséjæ"
+   ],
+   "chrf": [
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188,
+    0.9774642549299188
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "yømrøxømrøx yeç œshæàéeyar çh",
+   "preds": [
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç",
+    "œshæéeàéeyar çh yømrøxømrøx yeç"
+   ],
+   "chrf": [
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036,
+    0.7703833510578036
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "inokytudsçudytjsud ycok",
+   "preds": [
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok",
+    "inokytudsçudytjsud ycok"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "otioféðéjoð otigglñud otig",
+   "preds": [
+    "oioféðéjoð otigglñud otig",
+    "otigglñud otioféðéjoð otig",
+    "oioféðéjoð otigglñud otig",
+    "otigglñud otigoféðéjoð otig",
+    "otiigglñud otig ioféðéjoð otig",
+    "otigglñud otioféðéjoð otig",
+    "otigglñud otioféðéjoð otig",
+    "otigglñud otioféðéjoð otig"
+   ],
+   "chrf": [
+    0.9219485810689974,
+    0.9741228070175438,
+    0.9219485810689974,
+    0.8854690151829719,
+    0.8672985338532122,
+    0.9741228070175438,
+    0.9741228070175438,
+    0.9741228070175438
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.6666666666666666,
+    0.3333333333333333,
+    0.6666666666666666,
+    0.3333333333333333,
+    0.0,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "uakccîkøæîk ç cak'îvîj uîvpavîvpékaxçi uêqaxçavék uîkc",
+   "preds": [
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk uucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk uucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk ucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk ucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk uucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk ucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk ucak",
+    "uîvpavîvpékaxçi uêqaxçavék uîkc êlakçavakccîkøæîk ucak"
+   ],
+   "chrf": [
+    0.7573420470847396,
+    0.7573420470847396,
+    0.7605761657743877,
+    0.7605761657743877,
+    0.7573420470847396,
+    0.7605761657743877,
+    0.7605761657743877,
+    0.7605761657743877
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "çèbçkèbkeyocxs çèbèlimujimèw çèbèl",
+   "preds": [
+    "çqkèbkeyocxs çèbèlimujimèw çèbèl",
+    "çqkèbkeyocxs çèbèlimujimèw çèbèl",
+    "çqkèbkeyocxs çèbèlimujimèw çèbèl",
+    "çèbèlimujimèw çqkèbkeyocxs çèbèl",
+    "çqkèbkeyocxs çèbèlimujimèw çèbèl",
+    "ç èbèlimujimèw çèbèl qkèbkeyocxs çèbèl",
+    "çqkèbkeyocxs çèbèlimujimèw çèbèl",
+    "çèbèlimujimèw çqkèbkeyocxs çèbèl"
+   ],
+   "chrf": [
+    0.881136705053715,
+    0.881136705053715,
+    0.881136705053715,
+    0.8206722459046871,
+    0.881136705053715,
+    0.8838922756775109,
+    0.881136705053715,
+    0.8206722459046871
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.3333333333333333,
+    0.6666666666666666,
+    0.2,
+    0.6666666666666666,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "aszaszyukc à isz'çur énçàilwçyp asulilàwèd asanis",
+   "preds": [
+    "as isàilwçyp asanil ulilàwèd asan isz eilanzàwzaszyukc çe asanis",
+    "as isàilwçyp asanis ulilàwèd asan isz eilanzàwzaszyukc isz",
+    "as isàilwçyp asanis ulilàwèd asan isz eilanzàwzaszyukc anp",
+    "as isàilwçyp asanis ulilàwèd asan isz eilanzàwzaszyukc isz",
+    "as isàilwçyp asanis ulilàwèd asan isz eilanzàwzaszyukc çe",
+    "as èulilàwèd asanisàilwçyp asanis eilanzàwzaszyukc isz",
+    "as isàilwçyp asanil ulilàwèd asan isz eilanzàwzaszyukc anp asanisisan",
+    "as isàilwçyp asanis ulilàwèd asan isz eilanzàwzaszyukc çe"
+   ],
+   "chrf": [
+    0.5750789355059958,
+    0.6081209729163704,
+    0.6043672092905082,
+    0.6081209729163704,
+    0.6108627522771899,
+    0.5901461071564096,
+    0.558868230700594,
+    0.6108627522771899
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "èzœafafozomûoz èzøeîxg èzceø ozcèq ôcgèzèzamomg èzceîqb èzozaf",
+   "preds": [
+    "èzafgèzèzamomg ceîqb èzozaf èzqîqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqîqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqîqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqîqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqœafafozomûoz èzceø ozê",
+    "èzafgèzèzamomg ceîqb èzozaf èzqœafafozomûoz èzceø ozê"
+   ],
+   "chrf": [
+    0.6234999882035202,
+    0.6252148562844513,
+    0.6234999882035202,
+    0.6234999882035202,
+    0.6252148562844513,
+    0.6234999882035202,
+    0.6252148562844513,
+    0.6252148562844513
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "kgéztvèhgév è qomu'mad kgévmuxuro kmuvmaxuk kgéqo",
+   "preds": [
+    "kgévmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "kgévmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "kgévmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "kgévmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "vmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "vmuxuro kgkmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "vmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu",
+    "vmuxuro kg kmuvmaxuk kgéqo k wmuèvgétvèhgév qomu"
+   ],
+   "chrf": [
+    0.6448720437870383,
+    0.6448720437870383,
+    0.6448720437870383,
+    0.6448720437870383,
+    0.5887312218786187,
+    0.5887312218786187,
+    0.5887312218786187,
+    0.5887312218786187
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "êmrêzlébûn âbèûmpr êmezéb îéçaemtl al'ûb",
+   "preds": [
+    "ezéçezéçaemtl ezûb rêzlébûn êmezè èûmpr êmezéb",
+    "ezéçezéçaemtl ezûb rêzlébûn êmezè èûmpr êmezéb",
+    "ezeçezéçaemtl ezûb ezprêzlébûn êmezè rêzlébûn êmèûmêm èûmpr êmezéb",
+    "ezûb éçezéçaemtl ezûb ezprêzlébûn ême èûmpr êmezéb",
+    "ezeçezéçaemtl ezûb ezprêzlébûn êmezè rêzlébûn êmèûmêm èûmpr êmezéb",
+    "eéçezéçaemtl ezûb rêzlébûn êmezè èûmpr êmezéb",
+    "ezeçezéçaemtl ezûb rêzlébûn êmezè èûmpr êmezéb",
+    "ezûb éçezéçaemtl ezûb ezêzlébûn êmèûmpr êmezêzlébûn êmezéb"
+   ],
+   "chrf": [
+    0.5574500012106146,
+    0.5574500012106146,
+    0.5135857958156934,
+    0.5524665911851494,
+    0.5135857958156934,
+    0.5606616237085876,
+    0.5574500012106146,
+    0.5007418967177074
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "jsesegèveg qàziyw qsazià",
+   "preds": [
+    "qàzirjsesegèveg qsazià",
+    "qàzirjsesegèveg qsazià",
+    "qàzirjsesegévq qsazià",
+    "qàzirjsesegèveg qsazià",
+    "qàzirjsesegèveg qsazià",
+    "qàzijrjsesegèveg qsazià",
+    "qàzirjsesegèveg qsazià",
+    "qàzirjsesegèveg qsazià"
+   ],
+   "chrf": [
+    0.6834978471869132,
+    0.6834978471869132,
+    0.4420726431051661,
+    0.6834978471869132,
+    0.6834978471869132,
+    0.6765962365807567,
+    0.6834978471869132,
+    0.6834978471869132
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "àsxunwjgun îfysîçew îfâbîçys",
+   "preds": [
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys",
+    "îfysîçxunwjgun îfâbîçys"
+   ],
+   "chrf": [
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266,
+    0.6937839242420266
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "yletetehdé ygàkhkgàqe ygàte",
+   "preds": [
+    "y letetehdé ygà khkgàqe ygàte",
+    "y letetehdé ygàqe khkgàqe ygàte",
+    "y letetehdé ygàqe khkgàqe ygàte",
+    "y letetehdé ygàqe khkgàqe ygàte",
+    "y letetehdé ygàqe khkgàqe ygàte",
+    "y letetehdé ygà khkgàqe ygàte",
+    "y letetehdé ygà khkgàqe ygàte",
+    "y letetehdé ygà khkgàqe ygàte"
+   ],
+   "chrf": [
+    1.0,
+    0.867040869628233,
+    0.867040869628233,
+    0.867040869628233,
+    0.867040869628233,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "oôxônônrâqèw oôxôn",
+   "preds": [
+    "oôxônônrâqèw oôxôn",
+    "oôxônônrâqèw oôxôn",
+    "oôxônônrâqèw oôxôn",
+    "o ôxônônrâqèw oôxôn",
+    "o ôxônônrâqèw oôxôn",
+    "oôxônônrâqèw oôxôn",
+    "oôxônônrâqèw oôxôn",
+    "oôxônônrâqèw oôxôn"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "the certified tires",
+   "preds": [
+    "the certified tires",
+    "the certified tires",
+    "the certified tires",
+    "the certified tires",
+    "the certified tires",
+    "the certified tires",
+    "the certified tires",
+    "the certified tires"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "vehkyfvevefvefkynzé veukyh",
+   "preds": [
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh",
+    "vehkyfvevefçafvefkynzé veukyh"
+   ],
+   "chrf": [
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121,
+    0.8965728459970121
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "iwawotewonte itékavétéþ itéwa",
+   "preds": [
+    "iwawotewonte itéw tékavétéþ itéwa",
+    "iwawotewonte itéwétékavétéþ itéwa",
+    "iwawotewonte itéw tékavétéþ itéwa",
+    "iwawotewonte itéwatékavétéþ itéwa",
+    "iwawotewonte itéw tékavétéþ itéwa",
+    "iwawotewonte itéwatékavétéþ itéwa",
+    "iwawotewonte itéwawotéþ itéwa",
+    "iwawotewonte itéwawatékavétéþ itéwa"
+   ],
+   "chrf": [
+    0.9329699708169076,
+    0.9255937103462614,
+    0.9329699708169076,
+    0.9255937103462614,
+    0.9329699708169076,
+    0.9255937103462614,
+    0.7346662556445165,
+    0.9111907847287506
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.6666666666666666,
+    0.25,
+    0.6666666666666666,
+    0.25,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666
+   ]
+  },
+  {
+   "gold": "edrkejabyjuej edpémab edxép uxiq edçsabejsaqaqab eduç",
+   "preds": [
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edpésejukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz",
+    "edçsabejsaqaqab eduç edukejabyjuej edxép uoz"
+   ],
+   "chrf": [
+    0.6684551926550626,
+    0.6684551926550626,
+    0.6684551926550626,
+    0.6684551926550626,
+    0.6684551926550626,
+    0.6824463969151308,
+    0.6684551926550626,
+    0.6684551926550626
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "anèbyjuœ yf tn'èé aodyfêwodubêr mèœnêg aœt",
+   "preds": [
+    "a mèyf odyfêwodubêr aœt odêwnèbyjuœ tn",
+    "a mèyf odyfêwodubêr aœt ody wnèé tn êwnèbyjuœ",
+    "a mèyf odyfêwodubêr aœt tn êwnèbyjuœ tn",
+    "a mèyf odyfêwodubêr aœt yf tn êwnèbyjuœ aœ t mèœnêg aœt",
+    "a mèyfod odyfêwodubêr aœt odub êwnèbyjuœ tn",
+    "a mèyf odyfêwodubêr aœt od ub êwnèbyjuœ è tn",
+    "a mèyf odyfêwodubêr aœt od êwnèbyjuœ tn",
+    "a mèyf odyfêwodubêr aœt od ub êwnèbyjuœ è tn"
+   ],
+   "chrf": [
+    0.4905376137202021,
+    0.4992619846884899,
+    0.49987655374144835,
+    0.6197231506467942,
+    0.47933350892909715,
+    0.486614602553739,
+    0.4905376137202021,
+    0.486614602553739
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "paméxaxyxaq pamtxaéja pamé xabatpatkuran ét",
+   "preds": [
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pamtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pamtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé",
+    "txabatpatkuran ét éxaxyxaq pam mtxaéja pamé"
+   ],
+   "chrf": [
+    0.8078121720933318,
+    0.8561625485933582,
+    0.8078121720933318,
+    0.8561625485933582,
+    0.8078121720933318,
+    0.8078121720933318,
+    0.8078121720933318,
+    0.8078121720933318
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "redoéytodorevdà g zoh'damè redozogqgto redozo",
+   "preds": [
+    "red dozogqgto redozo zoh todoytodorevdà",
+    "red dozogqgto redozo g zoh todoytodorevdà",
+    "red dozogqgto redozo zoh todoytodorevdà",
+    "red dozogqgto redozo zoh todoytodorevdà",
+    "red dozogqgto redozo zoh todoytodorevdà",
+    "red dozogqgto redozo g zoh todoytodorevdà",
+    "red dozogqgto redozo g zoh todoytodorevdà",
+    "red dozogqgto redozo zoh todoytodorevdà"
+   ],
+   "chrf": [
+    0.5969156485417625,
+    0.6158496147298214,
+    0.5969156485417625,
+    0.5969156485417625,
+    0.5969156485417625,
+    0.6158496147298214,
+    0.6158496147298214,
+    0.5969156485417625
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "I observed the red ants",
+   "preds": [
+    "the red ants observed the red ant emyn'oþ",
+    "the red ants observed the ant <emyn'oþ",
+    "the red ants observed the ant",
+    "the red ants observed the ant o'myn'oþ",
+    "the red ants observed the ant",
+    "the red ants observed the ant",
+    "the red ants observed the ant",
+    "the red ants observed the ant"
+   ],
+   "chrf": [
+    0.7937086867612898,
+    0.7807816692546818,
+    0.8520595622501119,
+    0.7807816692546818,
+    0.8520595622501119,
+    0.8520595622501119,
+    0.8520595622501119,
+    0.8520595622501119
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "qawprjnymàr qaxyçpk qapt rfakpkrlaifa'qy",
+   "preds": [
+    "rfakpkrlaifa pqy qaqy qaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qamàxy qoqaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qagaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qaxyçpk qapt wprjnymàr qapttp",
+    "rfakpkrlaifa pqy qaqy qamàxqaxyçpk qapt wprjnymàr qapttp"
+   ],
+   "chrf": [
+    0.7420605099588766,
+    0.710764035947891,
+    0.7310903326956919,
+    0.7420605099588766,
+    0.7420605099588766,
+    0.7420605099588766,
+    0.7420605099588766,
+    0.722184260844388
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "foxsèofucé cew'va oqbe fomiwswlé fomi",
+   "preds": [
+    "fomiwswlé fomi fcewèosèofucé ova",
+    "fomiwswlé fomi fèosèofucé ova",
+    "fomiwswlé fomi fcewèosèofucé ova",
+    "f omiwswlé fomi fcewèosèofucé ova",
+    "fomiwswlé fomi fcewèosèofucé ova",
+    "fomiwswlé fomi fèosèofucé ova",
+    "f omiwswlé fomi fcewèosèofucé ova",
+    "fomiwswlé fomi fcewèosèofucé ova"
+   ],
+   "chrf": [
+    0.5630368964409884,
+    0.5421580417922562,
+    0.5630368964409884,
+    0.5630368964409884,
+    0.5630368964409884,
+    0.5421580417922562,
+    0.5630368964409884,
+    0.5630368964409884
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "àçuwèèuçàç àçuwpàtuçugb àçuwè",
+   "preds": [
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àç uwèèuçàçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè",
+    "àçuwèèuçàç àç uwpàtuçugb àçuwè"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    0.9838642017011217,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.25,
+    0.25,
+    0.25,
+    0.0,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ]
+  },
+  {
+   "gold": "uajtnrajtñ enoc àftràfococnmàjn'àb",
+   "preds": [
+    "àftràfococnmàjn nàb ajtnrajtñ enoc",
+    "àftràfococnmàjn nàb eajtnrajtñ enoc",
+    "àftràfococnmàjn nàb e ajtnrajtñ enoc",
+    "àftràfococnmàjn nàb ehajtnrajtñ enoc",
+    "àftràfococnmàjn nàb eajtnrajtñ enoc",
+    "àftràfococnmàjn nàb e ajtnrajtñ enoc",
+    "àftràfococnmàjn nàb e ajtnrajtñ enoc",
+    "àftràfococnmàjn nàb eajt ajtnrajtñ enoc"
+   ],
+   "chrf": [
+    0.7967244941880175,
+    0.7913401354238396,
+    0.7913401354238396,
+    0.7860292693046635,
+    0.7913401354238396,
+    0.7913401354238396,
+    0.7913401354238396,
+    0.7756216409255009
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "fwacépwarosécé dlàlàd",
+   "preds": [
+    "fwacépdpwarosécé dlàlàd réwacés",
+    "fwacé pdpwarosécé dlàlàd wacé'u",
+    "fwacépdpwarosécé dlàlàd réwacés",
+    "réfwarosécé dlàlàd réwacés",
+    "fwacé pdpwarosécé dlàlàd réwacés",
+    "fwacépdpwarosécé dlàlàd réwacés",
+    "fwacépdpwarosécé dlàlàd réwacés",
+    "fwacépdpwarosécé dlàlàd réwacés"
+   ],
+   "chrf": [
+    0.812249293520761,
+    0.8207047305797901,
+    0.812249293520761,
+    0.734865474423269,
+    0.812249293520761,
+    0.812249293520761,
+    0.812249293520761,
+    0.812249293520761
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.0,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.0,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "âqéfèkéhérœu âñiqéiñzî âñø",
+   "preds": [
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø",
+    "âqéfèkéhérœu âiqéiñzî âñø"
+   ],
+   "chrf": [
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192,
+    0.8375638832839192
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.6666666666666666
+   ]
+  },
+  {
+   "gold": "ibàfàlqw ibaq",
+   "preds": [
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq",
+    "ibàfàlqw ibaq"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "oâîzæb oîç",
+   "preds": [
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç",
+    "oâîzæb oîç"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "àihaéhvl inemewyj inwén çéhméþxa a wénénw",
+   "preds": [
+    "wéhwéhméþxa a wénénw emewyj inénmaéhvl inwén",
+    "wénéméhméþxa wénénw emewyj inénmaéhvl inwén",
+    "wénéméhméþxa wénénw emewyj àénmaéhvl inwén",
+    "wénéméhméþxa wénénw emewyj inénmaéhvl inwén",
+    "wéhméþxa a wénénw emewyj inénmaéhvl inwén",
+    "wéhwéhméþxa a wénénw emewyj inénmaéhvl inwén",
+    "wénéméhméþxa wénénw emewyj àénmaéhvl inwén",
+    "wéhméþxa a wénénw emewyj inénmaéhvl inwén"
+   ],
+   "chrf": [
+    0.6862749264366534,
+    0.6011493556107594,
+    0.5546554221319138,
+    0.6011493556107594,
+    0.6938242949509553,
+    0.6862749264366534,
+    0.5546554221319138,
+    0.6938242949509553
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "zuxmaçu gwté hukmaqkxlehèiw ték",
+   "preds": [
+    "hukmaqkxlehèiw wték huile g tékmaçu gwté",
+    "hukmaqkxlehèiw gték tékmaçu gwté",
+    "hukmaqkxlehèiw gték tékmaçu gwté",
+    "hukmaqkxlehèiw wték g tékmaçu gwté",
+    "hukmaqkxlehèiw wték hukma tékmaçu gwté",
+    "hukmaqkxlehèiw wték ma tékmaçu gwté",
+    "hukmaqkxlehèiw wték huile g tékmaçu gwté",
+    "hukmaqkxlehèiw wték hukma tékmaçu gwté"
+   ],
+   "chrf": [
+    0.6852022952313888,
+    0.6918696402899145,
+    0.6918696402899145,
+    0.705528651239616,
+    0.690283765637145,
+    0.7001692870550985,
+    0.6852022952313888,
+    0.690283765637145
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "évuwkohâeveg èhkb",
+   "preds": [
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb",
+    "èhuwkohâeveg èhkb"
+   ],
+   "chrf": [
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087,
+    0.849413086913087
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "dahecvyébaçàhe ha vec'vyho davyéçàvyéçà dahedachamovyhar daheve",
+   "preds": [
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he",
+    "da vyéçàvyéçà da dachamovyhar daheve da ucvyébaçàhe he"
+   ],
+   "chrf": [
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023,
+    0.6848287711230023
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "jipvèxès maqoçnipaqoçuq jnèç voçipvaqèxèpèsn'èg",
+   "preds": [
+    "voçipvaqèxèpèsn nèg jaqipvèxès jn aqoçnipaqoçuq jn",
+    "voçipvaqèxèpèsn nèg j aqoçnipaqoçuq jn èipvèxès jn jaqoçnipaqoçuq jn",
+    "voçipvaqèxèpèsn nèg j aqoçnipaqoçuq jn j ipvèxès jnèç jn j aqoçnipaqoçuq jnèç",
+    "voçipvaqèxèpèsn nèg jaqipvèxès jn aqoçnipaqoçuq jn",
+    "voçipvaqèxèpèsn nèg jaq ipvèxès jn aqoçnipaqoçuq jnèç jnèç jèçv",
+    "voçipvaqèxèpèsn nèg jaqipvèxès jn aqoçnipaqoçuq jn",
+    "voçipvaqèxèpèsn nèg jaqipvèxès jn aqoçnipaqoçuq jn",
+    "voçipvaqèxèpèsn nèg jaqipvèxès jn aqoçnipaqoçuq jn"
+   ],
+   "chrf": [
+    0.72260586681147,
+    0.6966839216499798,
+    0.7153123033240982,
+    0.72260586681147,
+    0.7393112988629595,
+    0.72260586681147,
+    0.72260586681147,
+    0.72260586681147
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "çxøñnêcny çxøââôkødø çxøâ",
+   "preds": [
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ",
+    "çxøââôkødø çxøâ çxøñnêcny çxøâ"
+   ],
+   "chrf": [
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571,
+    0.9533634776045571
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "çénødyjéàaêœc ènø",
+   "preds": [
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø",
+    "çénødyàajéàaêœc ènø"
+   ],
+   "chrf": [
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523,
+    0.7726643109283523
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "ojeuènaxacveax ac ealale'hyd ojeojheodqile ojodèjaxhocð ojeal",
+   "preds": [
+    "oj odèjaxhocð oj azheodqile ojeal oj eènaxacveax eal ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale oj eènaxacveax ojac ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale oj eènaxacveax oj hèp",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale oj eènaxacveax ojac ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale oj eènaxacveax ojac ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odac axeènaxacveax ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale eènaxacveax ojac ealale",
+    "oj odèjaxhocð oj azheodqile oj oj odèjaxhocð oj ealale oj eènaxacveax ojac ealale"
+   ],
+   "chrf": [
+    0.6297261206479213,
+    0.6701327245684996,
+    0.6400543650799478,
+    0.6701327245684996,
+    0.6701327245684996,
+    0.6080164591101797,
+    0.6631590412853222,
+    0.6701327245684996
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "wêâæfêrén roæy",
+   "preds": [
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy",
+    "roâæfêrén roæy"
+   ],
+   "chrf": [
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292,
+    0.8042411292411292
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "çxèrérypévysé sé rury'ei gèeséfcréfq çfru",
+   "preds": [
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "ç eséfcréfq çfru guxyfvréfrérypévysé rury",
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "ç eséfcréfq çfru guefc rury réfrérypévysé çfru",
+    "çeséfcréfq çfru guefc rury réfrérypévysé çfru"
+   ],
+   "chrf": [
+    0.5725891701344755,
+    0.6217186581157169,
+    0.5725891701344755,
+    0.5725891701344755,
+    0.5725891701344755,
+    0.5725891701344755,
+    0.5725891701344755,
+    0.5725891701344755
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "décèroèhàd dacèhz dàéc dubèrddubdubacyw àç",
+   "preds": [
+    "dubèrèhubdubacyw àç dacèhz dàéc écèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàécécèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàécécèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàécèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàécèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàécécèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàéc écèroèhàd dàéc",
+    "dubèrèhubdubacyw àç dacèhz dàéc écèroèhàd dàéc"
+   ],
+   "chrf": [
+    0.7128542598904626,
+    0.7128542598904626,
+    0.7128542598904626,
+    0.7207744091122756,
+    0.7207744091122756,
+    0.7128542598904626,
+    0.7128542598904626,
+    0.7128542598904626
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "øçhénryçua hym'yx aénj øçôxhymàhyqyqym øçaôx",
+   "preds": [
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhym àhénryçua ayx ôxh øç ôxhymôxhym ôxhym",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx",
+    "øç ôxhymàxhymàhyqyqym øçaôx øçhymàhénryçua ayx"
+   ],
+   "chrf": [
+    0.6668563951428951,
+    0.6668563951428951,
+    0.6668563951428951,
+    0.6668563951428951,
+    0.4007501262517459,
+    0.6668563951428951,
+    0.6668563951428951,
+    0.6668563951428951
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "teqoxiàpos texewpokxipoch teqoxe",
+   "preds": [
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe",
+    "te xewpokxipoch teqoxe qoxiàpos teqoxe"
+   ],
+   "chrf": [
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373,
+    0.9273648450566373
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "hfàqàhqàsàrt qày'l fàno hfàccyh hfàc",
+   "preds": [
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqà fàl",
+    "hfàccyh hfàc qàyquqàhqàsàrt hqày fàl",
+    "h fàccyh hfàc qàyquqàhqàsàrt hqày fàl"
+   ],
+   "chrf": [
+    0.5667977401894717,
+    0.5667977401894717,
+    0.5667977401894717,
+    0.5667977401894717,
+    0.5667977401894717,
+    0.5706155642649412,
+    0.5667977401894717,
+    0.5667977401894717
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "aznéçazpéfid azifolàfiféwéwpifid aziféw àwpéfazazpazpéçbaw éwp",
+   "preds": [
+    "àwpéfolpazpéçbaw éwp azolàfiféwéwéwpifid az aznéçazpéfid aziféw",
+    "àwpéfolpazpéçbaw éwp azolàfiféwéwpiféw azaznéçazpéçazpéfid aziféw",
+    "àwpéfolpazpéçbaw éwp azolàfiféwéwpiféw azaznéçaznéçazpéçazpéfid aziféw",
+    "àwpéfolpazpôlpazpéçbaw éwp azolàfiféwéwpiféw azaznéçaznéçazpéçazpéfid aziféw",
+    "àwpéfolpazpéçbaw éwp azolàfiféwéwpéwpifid az aznéçazpéçazpéfid aziféw",
+    "àwpéf olpazpéçbaw ifof é olàfiféwéwpifid aznéçazpéfid aziféw",
+    "àwpéfolpazpéçbaw ifof if olàfiféwéwpifid azéféw aznéçazpéçazpéfid aziféw",
+    "àwpéfolpazpéçbaw éwp azolàfiféwéwéwpifid az aznéçazpéfid aziféw"
+   ],
+   "chrf": [
+    0.7770139852746948,
+    0.7234800662449906,
+    0.7108753992509713,
+    0.696319375122931,
+    0.7688112097602615,
+    0.7216889177543375,
+    0.7405079564182506,
+    0.7770139852746948
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "xsybqgeàç xsgéçq cgw",
+   "preds": [
+    "cwybqgeàç cgw xsgéçq cgw",
+    "c wybqgeàç cgw xsgéçq cgw",
+    "c wybqgeàç cgw xsgéçq cgw",
+    "cwybqgeàç cgw xsgéçq cgw",
+    "c wybqgeàç cgw xsgéçq cgw",
+    "c wybqgeàç cgw xsgéçq cgw",
+    "cwybqgeàç cgw xsgéçq cgw",
+    "c wybqgeàç cgw xsgéçq cgw"
+   ],
+   "chrf": [
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891,
+    0.6681537474105891
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.2,
+    0.2,
+    0.0,
+    0.2,
+    0.2,
+    0.0,
+    0.2
+   ]
+  },
+  {
+   "gold": "the winter seasons",
+   "preds": [
+    "the winters of the seasons",
+    "the winters of the seasons",
+    "the winter seasons",
+    "the winters of the seasons",
+    "the winters of the seasons",
+    "the winters of the seasons",
+    "the winter seasons",
+    "the winters of the seasons"
+   ],
+   "chrf": [
+    0.7905017294824426,
+    0.7905017294824426,
+    1.0,
+    0.7905017294824426,
+    0.7905017294824426,
+    0.7905017294824426,
+    1.0,
+    0.7905017294824426
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    1.0,
+    0.2,
+    0.2,
+    0.2,
+    1.0,
+    0.2
+   ]
+  },
+  {
+   "gold": "marêœitsôzûrê gê rênènèrê'iî marênènèœgêsô marênè",
+   "preds": [
+    "mar êrênènèœgêsô marênè rênènèrê nazûrêøœitsôzûrê ina",
+    "mar rênènèœgêsô mar rêøœitsôzûrê rênènèrê mazût naœgê nèœ",
+    "mar rênènèœgêsô mar rêøitsôzûrê rênè rênènèrê maœgê'",
+    "mar rênènèœgêsô mar rênènèrê nazûrêøœitsôzûrê maitæ",
+    "mar rênènèœgêsô mar ê rênènèrê nazûrêøœitsôzûrê maitæ",
+    "marê rênènèœgêsô marênè rênè nèœitsôzûrê rênè rênènèrê",
+    "mar rênènèœgêsô mar rêrênèøœitsôzûrê rênè rênèœ",
+    "mar rênènèœgêsô marênè rênè nèœitsôzûrê rênènèrê"
+   ],
+   "chrf": [
+    0.6790313704262733,
+    0.6255645433362411,
+    0.63598386913162,
+    0.6024901138932366,
+    0.6427298294030066,
+    0.6717214160135392,
+    0.5848830224268777,
+    0.6759251593344979
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "évtféjéjtðiqt évysexan évhsy thç évanéjéjfex évtéj",
+   "preds": [
+    "év anéjéjfex évtéj évfys dféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évfand dféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évfanddféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évfanddféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évfand dféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évhsy dféjéjtðiqt évhsy tej",
+    "év anéjéjfex évtéj évfs dféjéjtðiqt évhsy téj ej",
+    "év anéjéjfex évtéj évyys dféjéjtðiqt évhsy tej"
+   ],
+   "chrf": [
+    0.649785598776434,
+    0.6466859253853349,
+    0.6466859253853349,
+    0.6466859253853349,
+    0.6466859253853349,
+    0.6496975250500847,
+    0.6428278955642318,
+    0.6576298303747806
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ufebyo éçjm élmmjkepj s jmmj",
+   "preds": [
+    "sm àélmmjkepj jz éçebyo éçjm",
+    "vélsàélmmjkepj jmmj éçebyo éçjm",
+    "sm àélmmjkepj jz éçebyo éçjm",
+    "sm àélmmjkepj jz éçebyo éçjm",
+    "sm àélmmjkepj jz éçebyo éçjm",
+    "sm àélmmjkepj jz ebyo éçjm",
+    "sm àélmmjkepj jz éçebyo éçjm",
+    "sm àélmmjkepj jz éçebyo éçjm"
+   ],
+   "chrf": [
+    0.5697744856211675,
+    0.6063451494164757,
+    0.5697744856211675,
+    0.5697744856211675,
+    0.5697744856211675,
+    0.5804280118244433,
+    0.5697744856211675,
+    0.5697744856211675
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ukonuvewbukops ukicsuvec ukrsic brz yrbomavec ukbñ",
+   "preds": [
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukrsic",
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukrsic",
+    "uk rbomavec ukb ukewbuvewbukops ukics ukrsic",
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukr bov",
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukrsic",
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukrsic onuksuwgsiv onukecuw",
+    "ukb rbomavec ukbñ ukomecewbuvewbukops ukrsic bov",
+    "uk rbomavec ukb uk ewbuvewbukops ukics ukrsic bov"
+   ],
+   "chrf": [
+    0.6324659192448396,
+    0.6324659192448396,
+    0.6324659192448396,
+    0.5800909044866166,
+    0.6324659192448396,
+    0.615123992956582,
+    0.5957898258596211,
+    0.651123515797509
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ékpékpoþwus èh osp'avam ékémuhavoþov ékovémpèdèhèd ékémos",
+   "preds": [
+    "ékémuhavoþov ékovoémpèdèhèd ékosp osp pékpoþwus osp",
+    "ékémuhavoþov ékovoþémpèdèhèd ékosp osp pékpoþwus osp",
+    "ékém émuhavoþov ékovoþémpèdèhèd ék osp pékpoþwus osp",
+    "ékémuhavoþov ékovoémpèdèhèd ékosp évpékpoþwus osp",
+    "ék émuhavoþov ék ovémpèdèhèd ék émsp osp épékpoþwus osp osp",
+    "ékém émuhavoþov ékovoþ ém ovémpèdèhèd ékosp osp épékpoþwus osp",
+    "ékém émuhavoþov ékovoþémpèdèhèd ékosp épékpoþwus osp",
+    "ékémuhavoþov ékovoþémpèdèhèd ékosp épékpoþwus osp"
+   ],
+   "chrf": [
+    0.6169042541004263,
+    0.6143737952391689,
+    0.6122720345288988,
+    0.626043484468771,
+    0.7031095684456606,
+    0.6393973884230251,
+    0.6130335544940942,
+    0.6227496536086481
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "the lice that she buried",
+   "preds": [
+    "the lice that he buried",
+    "the lice that he buried",
+    "the lice that he buried",
+    "the lice that he buried",
+    "the lice that he buried",
+    "the lice that were buried",
+    "the lice that he buried",
+    "the lice that he buried"
+   ],
+   "chrf": [
+    0.7974489231235304,
+    0.7974489231235304,
+    0.7974489231235304,
+    0.7974489231235304,
+    0.7974489231235304,
+    0.7224911196939356,
+    0.7974489231235304,
+    0.7974489231235304
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8
+   ]
+  },
+  {
+   "gold": "datojsasérètsa davaqrésé daméqva tméfè davaqdaniséna datdedetréméqva datde",
+   "preds": [
+    "davaqdaniséna gmésétréméqva datde wvatnisésatjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva nisé'k",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde wvatnisésatjsasérètsa daméqva tk",
+    "davaqdaniséna gmésétréméqva datde davaqjsasérètsa daméqva nisé'k"
+   ],
+   "chrf": [
+    0.5944827953509796,
+    0.6351104628940692,
+    0.6139773500203289,
+    0.6351104628940692,
+    0.6351104628940692,
+    0.6351104628940692,
+    0.5944827953509796,
+    0.6139773500203289
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "qnahyctvzc qxjgét qèjx zèda qeczgé àètbna qzw",
+   "preds": [
+    "q wpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "q wpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "qwpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "q wpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "qwpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "q wpitbna qzw eczgé qzw qxjpi czhyctvzc qèjx zho",
+    "qwpitbna qzw eczgé qzw qxjczhyctvzc qèjx zho",
+    "q wpitbna qzw eczgé qzhyctvzc qèjx zho"
+   ],
+   "chrf": [
+    0.43578290884531784,
+    0.43578290884531784,
+    0.43578290884531784,
+    0.43578290884531784,
+    0.43578290884531784,
+    0.43112638418315496,
+    0.43578290884531784,
+    0.42329609211624974
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ugaugayxø gan'dæ gôtôdê uéganzjêykô ugôé",
+   "preds": [
+    "ugôé éganzjêykô ugôé uganuugaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé uganuugaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé uganuugaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé uganjêgaugayxø gôdæ",
+    "ugôéé éganzjêykô ugôé uganjêgaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé uganuugaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé ugaujêgaugayxø gôdæ",
+    "ugôé éganzjêykô ugôé uganuugaugayxø gôdæ"
+   ],
+   "chrf": [
+    0.6291719946368902,
+    0.6291719946368902,
+    0.6291719946368902,
+    0.61816644179666,
+    0.6145395657167196,
+    0.6291719946368902,
+    0.608923451671317,
+    0.6291719946368902
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "obéûàoxôhê œ wôe'li oàkalhêû tîlœslj oàwô",
+   "preds": [
+    "o lœslj oàwô oàkalhêû àwô wôe jeûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe ûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe ûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe ûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe ûàéûàoxôhê",
+    "o lœslj oàwô tîàkalhêû o wôe jeûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe jeûàéûàoxôhê",
+    "o lœslj oàwô oàkalhêû àwô wôe ûàéûàoxôhê"
+   ],
+   "chrf": [
+    0.5488640442328773,
+    0.5554131216073374,
+    0.5554131216073374,
+    0.5554131216073374,
+    0.5554131216073374,
+    0.5407652715626032,
+    0.5488640442328773,
+    0.5554131216073374
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.0,
+    0.14285714285714285,
+    0.14285714285714285
+   ]
+  },
+  {
+   "gold": "orifeûfâwàfî riq'li fîfeè çâfefîli oriqrîfeqm ofîvi",
+   "preds": [
+    "fî oriqrîfeqm ofî fefîli ofî çâ tàrifeûfâwàfî fîli",
+    "ofîçâoriqrîfeqm çâfefîli ofîvi fî tàrifeûfâwàfî fîli",
+    "ofî çâoriqrîfeqm çâfefîli ofî of tàrifeûfâwàfî fîli",
+    "fî oriqrîfeqm of çâfefîli ofîvi fî tàrifeûfâwàfî fîli",
+    "fîoriqrîfeqm ofî çâfefîli ofî of tàrifeûfâwàfî fîli",
+    "fîoriqrîfeqm ofî çâfefîli ofî of tàrifeûfâwàfî fîli",
+    "fîoriqrîfeqm ofîçâfefîli ofîvi fîtàrifeûfâwàfî fîli",
+    "fîoriqrîfeqm ofî çâfefîli ofî of tàrifeûfâwàfî fîli"
+   ],
+   "chrf": [
+    0.5962131628003033,
+    0.6071613686863988,
+    0.5710851757184087,
+    0.6450233611859053,
+    0.6183146390569464,
+    0.6183146390569464,
+    0.6539485073882205,
+    0.6183146390569464
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.125,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "kekøjebâwøbîwø qîàbîjekâàbenø kejeè",
+   "preds": [
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè",
+    "ke àbîjekâàbenø ke køjebâwøbîwø kejeè"
+   ],
+   "chrf": [
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263,
+    0.8311895221482263
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "clutàjécnwy fri'rà éruli cruwygruwyg cwyjpè céç",
+   "preds": [
+    "c c ruwygruwyg céç cwyjpè céjétàjécnwy érà",
+    "c c ruwygruwyg céç cwyjpè céjétàjécnwy érà",
+    "c c ruwygruwyg céç cwyjpè céjétàjécnwy érà",
+    "c cwyjpè céç ruwygruwyg céç jétàjécnwy érà",
+    "c c ruwygruwyg céç cwyjpè céjétàjécnwy érà",
+    "c c ruwygruwyg céç cwyjpè céjétàjécnwy érà",
+    "cwyjpè céruwygruwyg céç lugjétàjécnwy érà",
+    "cwyjpè cé ruwygruwyg céç éjàjétàjécnwy érà"
+   ],
+   "chrf": [
+    0.5635331542157639,
+    0.5635331542157639,
+    0.5635331542157639,
+    0.5550500019840183,
+    0.5635331542157639,
+    0.5635331542157639,
+    0.5511770427653832,
+    0.5388802256625135
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.0,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "awénôtècéctûunèct awøôén",
+   "preds": [
+    "awénôtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén",
+    "awénôêrûtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén",
+    "awénôtècéctûunèct awøôén"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.8454969469921194,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "àjdixvèfâàhiq àfvt",
+   "preds": [
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt",
+    "àf dixvèfâàhiq àfvt"
+   ],
+   "chrf": [
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898,
+    0.8699121956474898
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "xisèxitsèkysisè xikbetsaj xisèd kxiksafm xa dk",
+   "preds": [
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "nkxixiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd",
+    "xikxiksafm dk xétsèkysisè xisèkbetsaj xisèd"
+   ],
+   "chrf": [
+    0.683476464894407,
+    0.683476464894407,
+    0.6578630625216897,
+    0.683476464894407,
+    0.683476464894407,
+    0.683476464894407,
+    0.683476464894407,
+    0.683476464894407
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "eqoçsàxolmé ehimè buleeueukçsà mèu",
+   "preds": [
+    "buleeueukçsà himè qoçsàxolmé ehimè",
+    "bulxoueukçsà mèu e qoçsàxolmé ehimè",
+    "buleeueukçsà himè qoçsàxolmé ehimè",
+    "buleeueukçsà mèu exoçsàxolmé ehimè",
+    "buleeueukçsà himè qoçsàxolmé ehimè",
+    "buleeueukçsà mèu qoçsàxolmé ehimè",
+    "buleeueukçsà himè mèu qoçsàxolmé ehimè",
+    "buleeueukçsà himè mèu qoçsàxolmé ehimè"
+   ],
+   "chrf": [
+    0.7838006405766881,
+    0.7652651637078778,
+    0.7838006405766881,
+    0.8432977468294487,
+    0.7838006405766881,
+    0.8793006100154936,
+    0.7840543193595606,
+    0.7840543193595606
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "cytîmêçyiqø iàøtîn ixœøà",
+   "preds": [
+    "iàødy mêçytîmêçyiqø ixœøà",
+    "iàødy mêçytîmêçyiqø ixœøà",
+    "iàødy mêçytîmêçyiqø ixœøà",
+    "iàømêçytîmêçyiqø ixœøà",
+    "iàødy mêçytîmêçyiqø ixœøà",
+    "iàømêçytîmêçyiqø ixœøà",
+    "iàømêçytîmêçyiqø ixœøà",
+    "iàødy mêçytîmêçyiqø ixœøà"
+   ],
+   "chrf": [
+    0.5863887970772682,
+    0.5863887970772682,
+    0.5863887970772682,
+    0.5983319769985973,
+    0.5863887970772682,
+    0.5983319769985973,
+    0.5983319769985973,
+    0.5863887970772682
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.0,
+    0.3333333333333333,
+    0.0,
+    0.0,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "þéeziprykiñ iñ ur'azv þéurhicez þéu",
+   "preds": [
+    "þéurhicez þéu ipéiprykiñ ur",
+    "þéurhicez þéu icéipéiprykiñ ur",
+    "þéurhicez þéu icéipéiprykiñ ur",
+    "þéurhicez þéu icéipéiprykiñ ur",
+    "þéurhicez þéu icéipéiprykiñ ur",
+    "þéurhicez þéu icéipéiprykiñ ur",
+    "þ éurhicez þéu iñ ur ipéiprykiñ éap",
+    "þéurhicez þéu icéipéiprykiñ ur"
+   ],
+   "chrf": [
+    0.5632204790729318,
+    0.5511417380782149,
+    0.5511417380782149,
+    0.5511417380782149,
+    0.5511417380782149,
+    0.5511417380782149,
+    0.5599045490747986,
+    0.5511417380782149
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "gàhlgejpé gebojojejebejr geboj gejpggejgejlèhc ebèw",
+   "preds": [
+    "gejpxejgejlèhc ebèw ga iaebejr ge gàhlgejpé geboj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé poj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé geboj",
+    "gejpxejgejlèhc ebèw g iaebejr ge gàhlgejpé geboj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé poj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé geboj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé geboj",
+    "gejpxejgejlèhc ebèw iaebejr ge gàhlgejpé geboj"
+   ],
+   "chrf": [
+    0.6432422049064958,
+    0.5458523256524443,
+    0.6455087536871055,
+    0.6461813703187815,
+    0.5458523256524443,
+    0.6455087536871055,
+    0.6455087536871055,
+    0.6455087536871055
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "egdwajajdurend wb'c dfà egfypsfyps egdaj",
+   "preds": [
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj daj açwajajdurend dc egdaj",
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj daj açwajajdurend dc",
+    "eg fypsfyps egdaj dajw açwajajdurend dc"
+   ],
+   "chrf": [
+    0.6487381727379072,
+    0.6487381727379072,
+    0.6531056146719298,
+    0.6487381727379072,
+    0.6487381727379072,
+    0.6487381727379072,
+    0.6487381727379072,
+    0.6495165796942163
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "we were burying the new songs",
+   "preds": [
+    "the songs that we buried",
+    "the songs that we buried",
+    "the songs that we buried",
+    "the songs that we buried",
+    "the songs that the new people finished",
+    "the songs that the we chose",
+    "the songs that we buried",
+    "the songs that we buried"
+   ],
+   "chrf": [
+    0.2634409821691521,
+    0.2634409821691521,
+    0.2634409821691521,
+    0.2634409821691521,
+    0.28948078365401914,
+    0.20700846375626195,
+    0.2634409821691521,
+    0.2634409821691521
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2857142857142857,
+    0.16666666666666666,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "èledelèledcodç èlwz hekcèlèlekèlekelodç wzzw",
+   "preds": [
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz",
+    "hekèlekelodç wzzw edelèledcodç èlwz"
+   ],
+   "chrf": [
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265,
+    0.7187520917134265
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ilñibulcðixul ilifujvc ildujif ixdéz ydcifélakulixn ilixt",
+   "preds": [
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "iltcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "iltcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif",
+    "il tcifélakulixn ilixt ilifujibulcðixul ildujif"
+   ],
+   "chrf": [
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208,
+    0.6665877592477208
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "nkmîj ûsqhayø ûsmâ ûsheymêfymûsoe ûskeh",
+   "preds": [
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ",
+    "ûsheymêfymûsoe ûskeh qhayø ûsm kmîj ûsmâ"
+   ],
+   "chrf": [
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137,
+    0.7983912467724137
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "he would beautify the lice",
+   "preds": [
+    "he beautifies the lice",
+    "the lice beautify",
+    "the lice beautify",
+    "the lice beautify",
+    "the lice beautify",
+    "they beautify the lice",
+    "the lice beautify",
+    "the lice beautify"
+   ],
+   "chrf": [
+    0.487331502210686,
+    0.5395400472471618,
+    0.5395400472471618,
+    0.5395400472471618,
+    0.5395400472471618,
+    0.6823431812088279,
+    0.5395400472471618,
+    0.5395400472471618
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.2,
+    0.2
+   ]
+  },
+  {
+   "gold": "kôçànvoqbôn kôéshbôkô kôçàn vosçàségfâvo çànnçà",
+   "preds": [
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kô vâkôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvôé kô kôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvôé kô kôçàkôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvôé kô kôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvâkôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvôkôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kôvôéshbôkô kôçàn",
+    "çàsçàségfâvo çànnçà kôévos nvoqbôn kô vâkôéshbôkô kôçàn"
+   ],
+   "chrf": [
+    0.7822302219014184,
+    0.7711926500330893,
+    0.7722483590687813,
+    0.7711926500330893,
+    0.7822302219014184,
+    0.7822302219014184,
+    0.7771987405648063,
+    0.7822302219014184
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "çeknfkçerink nààn",
+   "preds": [
+    "nààn qekçeknfkçerink",
+    "nààn qckçeknfkçerink",
+    "nààn quán çeknfkçerink",
+    "nààn qeknfkçerink nààn",
+    "nààn biçekknfkçerink nààn",
+    "nààn béçekknfkçerink nààn",
+    "nààn çekknfkçerink nààn",
+    "nààn qéçeknfkçerink"
+   ],
+   "chrf": [
+    0.7762192984547976,
+    0.7762192984547976,
+    0.7654727367830964,
+    0.8724266685164639,
+    0.8193643882286864,
+    0.8193643882286864,
+    0.8419090714516251,
+    0.7872864806575671
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "sþimtiêwj þie'û jmé syâjô ameîmy sjhà",
+   "preds": [
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû",
+    "sy meîmy sjhà yâjô sj âþimtiêwj jû"
+   ],
+   "chrf": [
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534,
+    0.4946236485626534
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "kgyroligysy kgyrojàgywyz coé cbàrccbàgywyfzo'v",
+   "preds": [
+    "cbàrlibàgywyfzo ov kgyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov kgyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov cgywysy gyrojàgywyz co gyroligysy coé",
+    "cbàrlibàgywyfzo ov kgyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov czgyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov kgyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov cz gyroligysy coé kgyrojàgywyz coé",
+    "cbàrlibàgywyfzo ov kgyroligysy coé kgyrojàgywyz coé"
+   ],
+   "chrf": [
+    0.7118547976758566,
+    0.7118547976758566,
+    0.6419147290116918,
+    0.7118547976758566,
+    0.6879813451387794,
+    0.7118547976758566,
+    0.6879813451387794,
+    0.7118547976758566
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "tvitvibkèjè vijé'mè qwo lwjéqyviga tqva",
+   "preds": [
+    "t wjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "tgab wjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "tgab wjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "twjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "tgab wjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "tgabwjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "t wjéqyviga tqva tvijéxvitvibkèjè qmè",
+    "t wjéqyviga tqva tvijéxvitvibkèjè qmè"
+   ],
+   "chrf": [
+    0.6455640150055715,
+    0.6338410960546376,
+    0.6338410960546376,
+    0.6455640150055715,
+    0.6338410960546376,
+    0.6338410960546376,
+    0.6455640150055715,
+    0.6455640150055715
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "I will watch the small faults",
+   "preds": [
+    "the small faults that we watch",
+    "the small faults we watch",
+    "the small faults that we watch",
+    "the small faults that we watch",
+    "the small faults that i watch",
+    "the small faults that we watch",
+    "the small faults that i watch",
+    "the small faults we watch"
+   ],
+   "chrf": [
+    0.6435667109447575,
+    0.6680090523396536,
+    0.6435667109447575,
+    0.6435667109447575,
+    0.6567486733962707,
+    0.6435667109447575,
+    0.6567486733962707,
+    0.6680090523396536
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "ârîtxyê âctcnçî ânrî ctxyââtsîbymzn nrîrîn",
+   "preds": [
+    "ctxyêtsîbymzn nrî rît ân rîtxyê ânrî ctcnçî ânrî",
+    "ctxyêtsîbymzn nrî rît ân rîtxyê ânrî ctcnçî ânrî",
+    "ctxyêtsîbymzn nrîrîn ctcnçî ârîtxyê ânrîrîn",
+    "ctxy êtsîbymzn nrît nctcnçî ârîtxyê ânrîrîn",
+    "ctxyêtsîbymzn nrîrîn ctcnçî ârîtxyê ânrîrîn",
+    "ctxyêtsîbymzn nrî rît ncctcnçî ârîtxyê ânrî",
+    "ctxyêtsîbymzn nrî rît ân rîtxyê ânrî ctcnçî ânrî",
+    "ctxy êtsîbymzn nrît nctcnçî ârîtxyê ânrîrîn"
+   ],
+   "chrf": [
+    0.7084216310607345,
+    0.7084216310607345,
+    0.6776775988144902,
+    0.6664522539909538,
+    0.6776775988144902,
+    0.6576067201454198,
+    0.7084216310607345,
+    0.6664522539909538
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "likàpuoylen on'te mpaq tàpampupamç tàpambemja limè",
+   "preds": [
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte",
+    "lim pambemja lim tàpampupamç limè lim pumpuoylen mte"
+   ],
+   "chrf": [
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758,
+    0.5546412794994758
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+   ]
+  },
+  {
+   "gold": "the rooms that we beautified",
+   "preds": [
+    "the rooms that we beautified",
+    "the rooms that we beautified",
+    "the women who beautified the rooms",
+    "the rooms that we beautified",
+    "the rooms that were beautified",
+    "the rooms that we beautified",
+    "the women (fem.) who beautified the rooms",
+    "the rooms that we beautified"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    0.6031358589652824,
+    1.0,
+    0.8997389241109556,
+    1.0,
+    0.5730559706195575,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    0.16666666666666666,
+    1.0,
+    0.8,
+    1.0,
+    0.2857142857142857,
+    1.0
+   ]
+  },
+  {
+   "gold": "xgœpqqgsedg œpik'æ gtn xgxtgàœpôs xœpedwtôêf xgq",
+   "preds": [
+    "x otgàœpôs xœpedwtôêf xgq xœpik wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xgq xœpik wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xg q wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xg q wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xgq xœpik wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xg q wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xgq xœpik wœpqqgsedg gæ",
+    "x otgàœpôs xœpedwtôêf xgq xœpik wœpqqgsedg gæ"
+   ],
+   "chrf": [
+    0.6582204627885702,
+    0.6582204627885702,
+    0.6296072001332207,
+    0.6296072001332207,
+    0.6582204627885702,
+    0.6296072001332207,
+    0.6582204627885702,
+    0.6582204627885702
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "qàlzgbgj qàlz",
+   "preds": [
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz",
+    "qàlzgbgj qàlz"
+   ],
+   "chrf": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "word_exact": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "gold": "bcawuqéquxkà ywu",
+   "preds": [
+    "b cawuquéquxkà àyyà",
+    "b cawuquéquxkà àyyà",
+    "b cawuqéquxkà àyyà",
+    "b cawuquéquxkà àyyà",
+    "b cawuquéquxkà àyyà",
+    "b cawuquéquxkà àyyà",
+    "b cawuqéquxkà ywu",
+    "b cawuqéquxkà àyyà"
+   ],
+   "chrf": [
+    0.5495349775404652,
+    0.5495349775404652,
+    0.7660430523008631,
+    0.5495349775404652,
+    0.5495349775404652,
+    0.5495349775404652,
+    1.0,
+    0.7660430523008631
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "pcçaçaezne mè çac'futi pçamètamèbta peça",
+   "preds": [
+    "pçamètamèbta peça eçaçaezne çac pfusifa",
+    "pçamètamèbta peça eçaçaezne çac pfusifa",
+    "pçamètamèbta peça eçaçaezne çac pfusifa",
+    "pçamètamèbta peça e vècçaçaezne çac pfusifa",
+    "pçamètamèbta peça eçaçaezne çac'futi eça",
+    "pçamètamèbta peça eçaçaezne çac'futi eça",
+    "pçamètamèbta peça eçaçaezne çac'fuy peça",
+    "pçamètamèbta peça eçaçaezne çac pfusifa"
+   ],
+   "chrf": [
+    0.6186810641045861,
+    0.6186810641045861,
+    0.6186810641045861,
+    0.641976241783091,
+    0.7254204989261916,
+    0.7254204989261916,
+    0.6701927732644051,
+    0.6186810641045861
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0
+   ]
+  },
+  {
+   "gold": "ntvuvèmguyzu zu dum'sebè ntsecvè ntyçzuvèà ntdu",
+   "preds": [
+    "nt tsecvè n yçzuvèà ntdu pmzuyvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuyvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuyètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuvètvèmguyzu dum",
+    "nt tsecvè n yçzuvèà ntdu pmzuvètvèmguyzu dum"
+   ],
+   "chrf": [
+    0.5615346968012438,
+    0.5615346968012438,
+    0.5603547429030213,
+    0.572797709522215,
+    0.572797709522215,
+    0.572797709522215,
+    0.572797709522215,
+    0.572797709522215
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "atonènèjywàvjy ajàueh ajoujà jyjog bàjouftowà bàjohjyejoujà ajynè",
+   "preds": [
+    "ajy jouftowà ajbàjohjyejoujà ajynènèjy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjohjyejoujà ajynènèjy stonènèjywàvjy ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà",
+    "ajy jouftowà aj bàjohjyejoujà ajynènèjy ajy stonènèjywà ajoujà"
+   ],
+   "chrf": [
+    0.6185544331539637,
+    0.626660501466516,
+    0.6855275937525122,
+    0.626660501466516,
+    0.626660501466516,
+    0.626660501466516,
+    0.626660501466516,
+    0.626660501466516
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "gnkyloç éjnkaxaç gkaf",
+   "preds": [
+    "g gnkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf",
+    "g gnkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf",
+    "g nkyloç g éjnkaxaç gkaf"
+   ],
+   "chrf": [
+    0.8162392219120139,
+    0.8259544654030196,
+    0.8259544654030196,
+    0.8259544654030196,
+    0.8259544654030196,
+    0.8162392219120139,
+    0.8259544654030196,
+    0.8259544654030196
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "xobcey xosasaorabcem xosa fxfcezgu cu osasao",
+   "preds": [
+    "oþfxfcezgu osa bcuorabcem xobcey xosa osasao",
+    "oþfxfcezgu osa bcuorabcem xobcey xosa osasao",
+    "o yfxfcezgu osa osasao bcuorabcem x obcey xosa",
+    "oþfxfcezgu osa bcuorabcem xobcey xosa osasao",
+    "oþfxfcezgu osasao bcuorabcem xobcey xosa",
+    "oþfxfcezgu osa bcuorabcem xobcey xosa osasao",
+    "oþfxfxfcezgu osasao bcuorabcem xobcey xosa",
+    "oþfxfcezgu osasao bcuorabcem xobcey xosa"
+   ],
+   "chrf": [
+    0.6757433495823589,
+    0.6757433495823589,
+    0.6757433495823589,
+    0.6757433495823589,
+    0.6655350251895892,
+    0.6757433495823589,
+    0.6625628342994022,
+    0.6655350251895892
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.0,
+    0.16666666666666666,
+    0.0,
+    0.16666666666666666,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "hàrbjshàrki witoépègàvjsb hàsxè",
+   "preds": [
+    "hà xèépègàvjsb hàsxè rbjshàrki hàsxè",
+    "hà xèépègàvjsb hàsxè rbjshàrki hàsxè",
+    "hàxèépègàvjsb hàrbjshàrki hàsxè",
+    "hà xèépègàvjsb hàsxè rbjshàrki hàsxè",
+    "hàxèépègàvjsb hà rbjshàrki hàsxè",
+    "hà xèépègàvjsb hàsxè rbjshàrki hàsxè",
+    "hà xèépègàvjsb hàsxè rbjshàrki hàsxè",
+    "hàxèépègàvjsb hàrbjshàrki hàsxè"
+   ],
+   "chrf": [
+    0.6759584978377927,
+    0.6759584978377927,
+    0.7089305011718805,
+    0.6759584978377927,
+    0.7089305011718805,
+    0.6759584978377927,
+    0.6759584978377927,
+    0.7089305011718805
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.2,
+    0.2,
+    0.3333333333333333,
+    0.2,
+    0.0,
+    0.2,
+    0.2,
+    0.3333333333333333
+   ]
+  },
+  {
+   "gold": "øzgœhazûôqôk gøk'af ôkœhþ eœhazôqôkôl øzôkd",
+   "preds": [
+    "øzœhazôqôkôl øzôkd œfgœhazûôqôk ôkaf",
+    "øzœhazôqôkôl øzôkd øzgøkœfgœfgœhazûôqôk ôkaf",
+    "øzœhazôqôkôl øzôkd øgœfœf øzôkøh ôkaf",
+    "øz œhazôqôkôl øzôkd øzgøk œfgœhazûôqôk økaf",
+    "øzœhazôqôkôl øzôk œfgœhazûôqôk ôkaf",
+    "øzœhazôqôkôl øzôkd gøk œfgœhazûôqôk ôkaf",
+    "øz œhazôqôkôl øzôkd œfgœhazûôqôk ôkaf",
+    "øzœhazôqôkôl øzôkd øgøk œfgœhazûôqôk ôkaf"
+   ],
+   "chrf": [
+    0.6076619428323942,
+    0.6204670344828683,
+    0.4369684642759695,
+    0.6219174020560199,
+    0.5917780233452492,
+    0.6285459940317276,
+    0.6076619428323942,
+    0.6250958969094769
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "zohçæiþhçæ zqañâñâék zoñâ",
+   "preds": [
+    "hçæiþhçæ zo qañâñâék zoñâ",
+    "hçæiþhçæ zo qañâñâék zoñâ",
+    "zqañâñâék zo hçæiþhçæ zoñâ",
+    "hçæiþhçæ zo qañâñâék zoñâ",
+    "zhçæiþhçæ zo qañâñâék zoñâ",
+    "hçæiþhçæ zo qañâñâék zoñâ",
+    "hçæiþhçæ zo qañâñâék zoñâ",
+    "hçæiþhçæ zo qañâñâék zoñâ"
+   ],
+   "chrf": [
+    0.7944511943446312,
+    0.7944511943446312,
+    0.8676482873851296,
+    0.7944511943446312,
+    0.7939893926736032,
+    0.7944511943446312,
+    0.7944511943446312,
+    0.7944511943446312
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "irébpmivyçivèç cèvs",
+   "preds": [
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs",
+    "spmivyçivèç cèvs"
+   ],
+   "chrf": [
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598,
+    0.7688233872447598
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "gold": "èltihyvév èxopopihà èlop uihxàtlèozyv lopopl",
+   "preds": [
+    "uihx tlàtlèozyv èih opih lop l tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èihx opih lop lop tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop l tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop l tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop lop tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop l tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop lop tihyvév è xopopihà èlop",
+    "uihx tlàtlèozyv èih opih lop l tihyvév è xopopihà èlop"
+   ],
+   "chrf": [
+    0.7160240934360993,
+    0.683506003280431,
+    0.7160240934360993,
+    0.7160240934360993,
+    0.6869891360523634,
+    0.7160240934360993,
+    0.6869891360523634,
+    0.7160240934360993
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "gold": "uçbyreþsévyç uvyþbéfe ureþvy çreq uçreþñi uçmè",
+   "preds": [
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyñçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvyþçreþñi uçmè uñibyreþsévyç ureþvy",
+    "uvçreþñi uçmè uñibyreþsévyç ureþvy"
+   ],
+   "chrf": [
+    0.5665837949578516,
+    0.5489781561218031,
+    0.5665837949578516,
+    0.5665837949578516,
+    0.5665837949578516,
+    0.5665837949578516,
+    0.5665837949578516,
+    0.541777092854289
+   ],
+   "exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "word_exact": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

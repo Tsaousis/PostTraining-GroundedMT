@@ -1,0 +1,13 @@
+model	group	dir	ctx	n	chrF_old	chrF_new	changed
+grpo4b-forced-full	trained	ek	book_dict	300	29.8	29.8	0
+grpo4b-forced-full	trained	ek	dict	300	29.5	29.5	0
+grpo4b-forced-full	trained	ek	none	300	24.2	24.2	0
+grpo4b-forced-full	trained	ke	book_dict	300	36.9	36.9	0
+grpo4b-forced-full	trained	ke	dict	300	36.4	36.4	0
+grpo4b-forced-full	trained	ke	none	300	36.7	36.7	0
+grpo4b-forced-full	unseen	ek	book_dict	1367	21.2	21.2	0
+grpo4b-forced-full	unseen	ek	dict	1367	21.1	21.1	0
+grpo4b-forced-full	unseen	ek	none	1367	19.9	19.9	0
+grpo4b-forced-full	unseen	ke	book_dict	1367	35.5	35.5	0
+grpo4b-forced-full	unseen	ke	dict	1367	35.5	35.5	0
+grpo4b-forced-full	unseen	ke	none	1367	35.6	35.6	0

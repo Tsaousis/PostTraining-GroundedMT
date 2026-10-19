@@ -1,0 +1,16 @@
+Direction	SWELLS partition / rule	Qwen3-8B instruct, native thinking OFF (%)	Qwen3-8B instruct, native thinking ON (%)	Qwen3-8B curriculum SFT, native thinking OFF (%)	GPT-4o-mini baseline, SWELLS paper CoT W+G (%)
+eng→art	1	66.0	84.0	78.0	66.0
+eng→art	2m	24.5	54.0	55.0	31.0
+eng→art	2f	8.5	34.5	43.0	3.0
+eng→art	3	37.0	54.0	63.0	20.0
+eng→art	4	11.0	24.0	43.0	8.0
+eng→art	5m	1.0	6.5	36.0	2.0
+eng→art	5f	1.0	8.5	40.0	0.0
+eng→art	6	0.0	0.0	40.0	0.0
+eng→art	7m	0.0	0.0	41.5	0.0
+eng→art	7f	0.0	0.0	34.5	0.0
+eng→art	8a	17.0	40.0	1.0	3.0
+eng→art	8g	0.0	1.0	0.0	0.0
+eng→art	9a	1.0	6.0	0.0	0.0
+eng→art	9g	0.0	0.0	0.0	0.0
+eng→art	AVERAGE	11.9	22.3	33.9	9.5

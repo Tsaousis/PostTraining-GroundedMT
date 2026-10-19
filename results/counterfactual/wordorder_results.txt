@@ -1,0 +1,18 @@
+instruct8b FLIPPED n=140 edited=77.9% original=4.3% other=17.9% | orders: SVO=67 OVS=48 unparsed=14 OSV=6 VSO=4 SOV=1
+  orig OVS -> edited SVO: edited=87.1% other=12.9% | orders: SVO=61 unparsed=5 VSO=4
+  orig SVO -> edited OVS: edited=68.6% original=8.6% other=22.9% | orders: OVS=48 unparsed=9 OSV=6 SVO=6 SOV=1
+sft8b_swells FLIPPED n=140 edited=20.7% original=42.1% other=37.1% | orders: OVS=86 OSV=25 unparsed=21 SOV=4 SVO=2 VSO=2
+  orig OVS -> edited SVO: original=81.4% other=18.6% | orders: OVS=57 unparsed=6 OSV=5 VSO=2
+  orig SVO -> edited OVS: edited=41.4% original=2.9% other=55.7% | orders: OVS=29 OSV=20 unparsed=15 SOV=4 SVO=2
+grpo8b_cot FLIPPED n=140 edited=67.1% original=1.4% other=31.4% | orders: SVO=58 OVS=38 OSV=26 VSO=13 unparsed=3 SOV=2
+  orig OVS -> edited SVO: edited=80.0% other=20.0% | orders: SVO=56 VSO=13 unparsed=1
+  orig SVO -> edited OVS: edited=54.3% original=2.9% other=42.9% | orders: OVS=38 OSV=26 unparsed=2 SVO=2 SOV=2
+instruct8b ORIGINAL n=140 edited=2.1% original=90.0% other=7.9% | orders: SVO=65 OVS=64 unparsed=9 SOV=1 VSO=1
+  orig OVS -> edited SVO: edited=4.3% original=91.4% other=4.3% | orders: OVS=64 unparsed=3 SVO=3
+  orig SVO -> edited OVS: original=88.6% other=11.4% | orders: SVO=62 unparsed=6 SOV=1 VSO=1
+sft8b_swells ORIGINAL n=140 edited=26.4% original=45.7% other=27.9% | orders: OVS=94 unparsed=21 OSV=12 SVO=7 SOV=6
+  orig OVS -> edited SVO: original=81.4% other=18.6% | orders: OVS=57 unparsed=8 OSV=3 SOV=2
+  orig SVO -> edited OVS: edited=52.9% original=10.0% other=37.1% | orders: OVS=37 unparsed=13 OSV=9 SVO=7 SOV=4
+grpo8b_cot ORIGINAL n=140 original=96.4% other=3.6% | orders: OVS=69 SVO=66 unparsed=3 SOV=2
+  orig OVS -> edited SVO: original=98.6% other=1.4% | orders: OVS=69 unparsed=1
+  orig SVO -> edited OVS: original=94.3% other=5.7% | orders: SVO=66 unparsed=2 SOV=2

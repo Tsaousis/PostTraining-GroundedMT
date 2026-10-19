@@ -1,0 +1,6 @@
+arm	prompts_seen	trained_ek	trained_ke	unseen_ek	unseen_ke
+# no-CoT chrF-GRPO from Qwen3-4B-Base, Hus book+dict, tag-aware clean() of rescore_hus.py, corpus chrF; unseen = 15 langs
+qwen3-4b-base	0	12.2	27.5	12.6	24.9
+grpo4b-base-sub2k	1998	31.8	36.1	23.5	34.9
+grpo4b-base-full	5982	32.9	37.4	24.3	36.3
+grpo4b-base-ep2	11964	33.2	36.2	20.8	34.4

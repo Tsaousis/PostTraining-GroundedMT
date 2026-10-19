@@ -1,0 +1,17 @@
+arm	langs	n	content-word F1	function-word F1	stem F1 (content)	sentence chrF
+4B base	unseen15	1367	18.1	24.5	21.8	25.1
+4B base	trained3	300	20.5	30.9	23.8	29.0
+4B SFT	unseen15	1367	19.6	35.4	23.3	30.2
+4B SFT	trained3	300	24.4	45.4	28.7	34.2
+4B GRPO-from-base	unseen15	1367	23.7	35.8	28.7	34.4
+4B GRPO-from-base	trained3	300	26.3	40.0	30.6	37.4
+4B GRPO-from-SFT	unseen15	1367	20.7	34.9	24.6	33.0
+4B GRPO-from-SFT	trained3	300	27.7	43.8	32.0	38.2
+4B forced-CoT s1	unseen15	1367	23.0	35.0	27.6	33.3
+4B forced-CoT s1	trained3	300	24.8	38.2	28.5	35.9
+8B untrained	unseen15	1367	24.3	35.3	29.5	30.8
+8B untrained	trained3	300	26.1	39.1	30.4	34.1
+8B SWELLS CoT-GRPO	unseen15	1367	25.4	38.7	30.7	32.7
+8B SWELLS CoT-GRPO	trained3	300	25.7	41.2	30.2	34.8
+Gemini 3.1 Pro	unseen15	1367	54.0	61.2	59.3	53.7
+Gemini 3.1 Pro	trained3	300	53.2	61.1	58.4	53.9

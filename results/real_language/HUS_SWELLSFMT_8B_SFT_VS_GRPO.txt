@@ -1,0 +1,40 @@
+shared languages: 18: arapaho chokwe chuvash dinka dogri gitksan guarani ilokano kabuverdianu kachin kalamang kimbundu latgalian minangkabau mizo natugu waray wolof
+model	group	dir	n_langs	book+dict	dict	tag%
+qwen3-8b	all	ek	18	20.9	20.6	90.7
+qwen3-8b	all	ke	18	32.4	32.2	94.6
+qwen3-8b	trained	ek	3	21.1	21.5	91.2
+qwen3-8b	trained	ke	3	34.9	34.7	96.2
+qwen3-8b	unseen	ek	14	20.3	19.7	90.6
+qwen3-8b	unseen	ke	14	32.1	31.9	94.2
+grpo8b-cot-final	all	ek	18	22.1	21.8	97.8
+grpo8b-cot-final	all	ke	18	33.9	33.0	99.8
+grpo8b-cot-final	trained	ek	3	22.8	22.2	98.0
+grpo8b-cot-final	trained	ke	3	35.6	35.5	100.0
+grpo8b-cot-final	unseen	ek	14	21.1	21.0	97.7
+grpo8b-cot-final	unseen	ke	14	33.6	32.7	99.7
+sft8b-swells	all	ek	18	19.0	19.4	98.6
+sft8b-swells	all	ke	18	29.4	29.5	97.2
+sft8b-swells	trained	ek	3	18.5	19.0	98.8
+sft8b-swells	trained	ke	3	31.6	32.5	97.8
+sft8b-swells	unseen	ek	14	18.4	18.9	98.5
+sft8b-swells	unseen	ke	14	29.1	29.1	97.1
+
+per-language book+dict (ek/ke):
+arapaho qwen3-8b=16.0/17.0 grpo8b-cot-final=15.0/17.9 sft8b-swells=19.4/15.3
+chokwe qwen3-8b=12.1/25.8 grpo8b-cot-final=10.3/27.2 sft8b-swells=12.2/21.6
+chuvash qwen3-8b=17.3/27.4 grpo8b-cot-final=17.8/28.8 sft8b-swells=14.8/25.2
+dinka qwen3-8b=9.5/20.2 grpo8b-cot-final=14.3/23.8 sft8b-swells=14.3/19.4
+dogri qwen3-8b=21.1/43.5 grpo8b-cot-final=22.3/43.8 sft8b-swells=14.3/40.2
+gitksan qwen3-8b=6.8/21.9 grpo8b-cot-final=6.4/21.9 sft8b-swells=10.0/16.8
+guarani qwen3-8b=18.5/31.2 grpo8b-cot-final=19.4/33.6 sft8b-swells=17.8/29.9
+ilokano qwen3-8b=28.0/48.9 grpo8b-cot-final=29.5/48.9 sft8b-swells=22.2/44.8
+kabuverdianu qwen3-8b=36.8/55.1 grpo8b-cot-final=37.4/56.2 sft8b-swells=33.0/48.5
+kachin qwen3-8b=12.9/15.8 grpo8b-cot-final=16.1/19.6 sft8b-swells=14.0/19.0
+kalamang qwen3-8b=30.1/30.1 grpo8b-cot-final=33.1/33.2 sft8b-swells=27.9/26.0
+kimbundu qwen3-8b=12.6/23.0 grpo8b-cot-final=16.4/24.9 sft8b-swells=12.8/19.7
+latgalian qwen3-8b=22.5/35.2 grpo8b-cot-final=23.3/38.4 sft8b-swells=19.1/31.4
+minangkabau qwen3-8b=38.5/46.0 grpo8b-cot-final=38.3/47.9 sft8b-swells=28.1/41.0
+mizo qwen3-8b=22.7/32.7 grpo8b-cot-final=22.4/33.0 sft8b-swells=20.5/30.1
+natugu qwen3-8b=13.0/22.9 grpo8b-cot-final=14.0/22.9 sft8b-swells=12.5/18.2
+waray qwen3-8b=41.7/59.3 grpo8b-cot-final=43.0/58.3 sft8b-swells=33.2/55.4
+wolof qwen3-8b=16.8/27.9 grpo8b-cot-final=18.3/30.3 sft8b-swells=15.7/26.0
